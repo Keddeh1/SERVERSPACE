@@ -1,0 +1,10 @@
+{
+  "schema": "keddeh.site-source.v1",
+  "site_project_id": "appgprj_6aa7e48116b881919cac82f2764ee9ca",
+  "source_commit": "ef5376bc8aed0c0404ac26997bb169a6089ed4de",
+  "archive_sha256": "c2242b913b842072702b8bf1b3832e1601e9ae01d59d9274f8f3722ee997aa29",
+  "tracked_file_count": 99,
+  "imported_at": "2026-10-07T01:17:13Z",
+  "evidence_status": "SOURCE_VERIFIED",
+  "public_source_scan": "TESTED_NO_HIGH_CONFIDENCE_SECRET_MATCHES"
+}

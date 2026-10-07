@@ -1,0 +1,173 @@
+{
+  "schema": "keddeh.web-estate.v1",
+  "kex_seed": "696253484E447C924D43B51B9A506F6029464447D321DDBE568B3243AE00CCA2",
+  "directive_parent_seed": "62AC56994B8E394C768CED924E40BEF6B78413EC4F493AF316D0579C66586FB4",
+  "created_at": "2026-10-07T01:17:13Z",
+  "repository": {
+    "full_name": "Keddeh1/SERVERSPACE",
+    "visibility": "public",
+    "branch": "web-estate/import-sources-20261007"
+  },
+  "evidence_status": "TESTED",
+  "source_policy": "Owner-controlled Sites/Git source only; public URLs are readback evidence and never import authority.",
+  "boundaries": {
+    "frontage_foundry": "Experience contract, information architecture, interaction and accessibility intent.",
+    "website_foundry": "Deployable routes, assets, responsive behaviour and build output.",
+    "publishing_foundry": "Version promotion and release record.",
+    "domain_foundry": "Address, TLS and route binding.",
+    "server_foundry": "Serving runtime and operational signals.",
+    "foundry_fabric": "Cross-system coordination without ownership collapse."
+  },
+  "sites": [
+    {
+      "id": "aboudy-keddeh",
+      "title": "Aboudy Keddeh — Systems Architect",
+      "site_project_id": "appgprj_6ab6a8a830d8819184bb86039a5ca309",
+      "site_version": 1,
+      "site_version_id": "appgprj_6ab6a8a830d8819184bb86039a5ca309~appgver_a76831f8ef5c81918296238b05d0238e",
+      "source_commit": "988804e539ae9b08f8741430643f7985d203d410",
+      "archive_sha256": "abb16bdf770f6b7bdbc7c2ce46191accdee5179771fb4e667a140c49983a1bb1",
+      "deployment_id": "appgdep_6ab6a8f12b848191bc07d4dc352f13af",
+      "deployment_status": "succeeded",
+      "delivery_url": "https://aboudy-keddeh-systems.aboudy65097.chatgpt.site",
+      "access": {
+        "mode": "custom",
+        "revision": 1,
+        "external_visitors": 0
+      },
+      "source_import_status": "IMPORTED",
+      "evidence_status": "SOURCE_VERIFIED",
+      "import_commit": "42d512eeca3c9c84deb8762ec4585f9378419378"
+    },
+    {
+      "id": "system-estate",
+      "title": "Keddeh Systems — System Estate",
+      "site_project_id": "appgprj_6aa7e48116b881919cac82f2764ee9ca",
+      "site_version": 1,
+      "site_version_id": "appgprj_6aa7e48116b881919cac82f2764ee9ca~appgver_d698f2daf4a081919cd7a4bc81deee9b",
+      "source_commit": "ef5376bc8aed0c0404ac26997bb169a6089ed4de",
+      "archive_sha256": "c2242b913b842072702b8bf1b3832e1601e9ae01d59d9274f8f3722ee997aa29",
+      "deployment_id": "appgdep_6aa7e9610e688191b4159557ecc9ef3b",
+      "deployment_status": "succeeded",
+      "delivery_url": "https://keddeh-systems-estate.aboudy65097.chatgpt.site",
+      "access": {
+        "mode": "custom",
+        "revision": 1,
+        "external_visitors": 0
+      },
+      "source_import_status": "IMPORTED",
+      "evidence_status": "SOURCE_VERIFIED",
+      "import_commit": "99cf85ae48d52603ea6fb47631dc291ea31f1396"
+    },
+    {
+      "id": "keddeh-com",
+      "title": "KEDDEH.COM",
+      "site_project_id": "appgprj_6aa52748b7788191afe0f7f86fc78833",
+      "site_version": 28,
+      "site_version_id": "appgprj_6aa52748b7788191afe0f7f86fc78833~appgver_22f4e362a4e4819185a0a7f5ed305d4b",
+      "source_commit": "6569868cd12122a7ffd5a736fcd266dafc6e9fb1",
+      "archive_sha256": "4df5756bf4ba8f6051dbce2a64d7df4c4a2d808c15870c72bc41a9b4cb69874f",
+      "deployment_id": "appgdep_6ac598597bb48191a6596ccafd8419ad",
+      "deployment_status": "succeeded",
+      "provider_url": "https://keddeh-market-frontage.aboudy65097.chatgpt.site",
+      "delivery_url": "https://www.keddeh.com",
+      "access": {
+        "mode": "public",
+        "revision": 2,
+        "external_visitors": 0
+      },
+      "source_import_status": "BLOCKED_PUBLIC_CREDENTIAL_REVIEW",
+      "evidence_status": "SOURCE_VERIFIED",
+      "blocked_paths": [
+        "source/KEDDEH-Storage.html",
+        "dist/server/apps.mjs"
+      ]
+    },
+    {
+      "id": "keddeh-runtime",
+      "title": "Keddeh Systems Runtime",
+      "site_project_id": "appgprj_6aa503aa595481919d947eef56f2556f",
+      "site_version": 19,
+      "site_version_id": "appgprj_6aa503aa595481919d947eef56f2556f~appgver_1c371ff0cf5c819199bb65fcad8b4813",
+      "source_commit": "a0e4a81f01f0c4f4e94cbc08857b37a274f88250",
+      "archive_sha256": "2829682f208282afed277f788642fedd0c31b3a70e92cf295b0ac6b0db5f55f0",
+      "deployment_id": "appgdep_6ac598247e9481918059f1469a01eb36",
+      "deployment_status": "succeeded",
+      "delivery_url": "https://keddeh-systems-runtime.aboudy65097.chatgpt.site",
+      "access": {
+        "mode": "public",
+        "revision": 2,
+        "external_visitors": 0
+      },
+      "source_import_status": "BLOCKED_PUBLIC_SECURITY_REVIEW",
+      "evidence_status": "SOURCE_VERIFIED",
+      "note": "Description says owner-private operational control plane while current access is public. Source is quarantined from this public repository pending explicit security review.",
+      "high_confidence_pattern_file_count": 6,
+      "sensitive_field_file_count": 91
+    }
+  ],
+  "external_surfaces": [
+    {
+      "id": "casepath-au",
+      "url": "https://casepath.com.au/",
+      "current_readback": "OBSERVED",
+      "source_binding": "UNRESOLVED",
+      "import_status": "BLOCKED_NO_OWNED_SOURCE"
+    },
+    {
+      "id": "casepath-uk",
+      "url": "https://casepath.co.uk/",
+      "current_readback": "FAILED",
+      "source_binding": "UNRESOLVED",
+      "import_status": "BLOCKED_NO_OWNED_SOURCE"
+    },
+    {
+      "id": "claimpath-ai",
+      "url": "https://claimpath.ai/",
+      "current_readback": "FAILED",
+      "source_binding": "UNRESOLVED",
+      "import_status": "BLOCKED_NO_OWNED_SOURCE",
+      "note": "ClaimPath is observed as a KEDDEH.COM product/application route."
+    },
+    {
+      "id": "braink-ai",
+      "url": "https://braink.ai/",
+      "current_readback": "FAILED",
+      "source_binding": "UNRESOLVED",
+      "import_status": "BLOCKED_NO_OWNED_SOURCE"
+    }
+  ],
+  "github_sources": [
+    {
+      "repository": "aboudykeddeh276-stack/BRAINK",
+      "permissions": {
+        "pull": true,
+        "push": false
+      },
+      "relationship": "separate BRAINK system; not a website-estate substitute"
+    },
+    {
+      "repository": "aboudykeddeh276-stack/SERVERS-KEDDEHSYSTEMS",
+      "permissions": {
+        "pull": true,
+        "push": false
+      },
+      "relationship": "separate server/runtime source"
+    },
+    {
+      "repository": "Keddeh1/SERVERSPACE",
+      "permissions": {
+        "admin": true,
+        "push": true
+      },
+      "relationship": "selected public estate repository"
+    }
+  ],
+  "unresolved": [
+    "Resolve owned source and deployment actuator for CasePath Australia.",
+    "Verify whether casepath.co.uk, claimpath.ai and braink.ai are current Keddeh-owned deployments.",
+    "Review Keddeh Systems Runtime public access against its owner-private description before mirroring source.",
+    "Install and verify a GitHub-to-Sites publication path before treating this repository as a deployment actuator."
+  ],
+  "updated_at": "2026-10-07T01:24:00Z"
+}

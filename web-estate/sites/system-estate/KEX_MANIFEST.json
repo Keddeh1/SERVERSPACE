@@ -1,0 +1,86 @@
+{
+  "schema": "KEX_ARTIFACT_MANIFEST_V1",
+  "workstream_seed": "82649ADE3814B8F308E849DD4B096A10932C1A24DF962D048B6AA6AFC10ABBCA",
+  "directive_parent_seed": "62AC56994B8E394C768CED924E40BEF6B78413EC4F493AF316D0579C66586FB4",
+  "created_at": "2026-09-14T12:28:40Z",
+  "artifact": {
+    "name": "Keddeh Systems Market Frontage Prototype",
+    "type": "interactive_website",
+    "evidence_status": "TESTED",
+    "parent_lineage": [
+      "Keddeh Systems branding and tagline supplied by the user",
+      "Foundry Fabric boundary requirements supplied by the user",
+      "KEX Absolute R&D Execution Control Plane v6.0.0 supplied as an OpenAPI contract"
+    ],
+    "derived_lineage": [
+      "New market-frontage prototype authored for this workstream",
+      "No recovered CasePath page design, copy, source tree or deployment was used"
+    ]
+  },
+  "source_provenance": [
+    {
+      "source": "Pasted markdown(20260914-120621).md",
+      "sha256": "f25424e07004ec2184fba157e16d4b4acc84f508298f91585073473777439960",
+      "status": "SOURCE_VERIFIED",
+      "use": "KEX v6 capability-contract structure and proof-before-trust discipline",
+      "boundary": "Specification content is not treated as proof that its placeholder production server is live"
+    },
+    {
+      "source": "User-authored project directive",
+      "status": "OBSERVED",
+      "use": "Keddeh Systems brand, ENGINEER · AUTOMATE · SCALE tagline, and distinct Frontage Foundry / Website Foundry boundary"
+    }
+  ],
+  "files": [
+    {
+      "path": "app/page.tsx",
+      "sha256": "044d8008e49356366efdacc2c7c210ba96e5ed4cce18f18a509408f4344510b9"
+    },
+    {
+      "path": "app/layout.tsx",
+      "sha256": "209018e506532d191ec0221394e3c9f20595db07cdea1e803a75a9e31e9fdb63"
+    },
+    {
+      "path": "app/globals.css",
+      "sha256": "b06bc8278d4aeb40b01157d4b1d4fb0508d3b34431f399343e9baf86dafac38e"
+    },
+    {
+      "path": "public/favicon.svg",
+      "sha256": "600a476988b0188c02edff1007b6293c4c50a998d4777c0454a88f83921106ab"
+    },
+    {
+      "path": "package.json",
+      "sha256": "4f6c2790297197729de0f4557b1fdf37e8e7868c232e75f13ab92e615ce3e03b"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "sha256": "89dcf13994f9f97e62a63ac011591005afe4096309f4488ec0b99f7593a9294c"
+    },
+    {
+      "path": ".openai/hosting.json",
+      "sha256": "641900e013c3931b1ee1ad4b81e13d90aa452dbe2938e7107ad190cb66233d54"
+    }
+  ],
+  "validation": {
+    "build": "TESTED",
+    "desktop_render": "TESTED",
+    "navigation": "TESTED",
+    "keyboard_interaction": "TESTED",
+    "interactive_state_flows": "TESTED",
+    "responsive_rules": "TESTED",
+    "mobile_visual_render": "UNTESTED",
+    "webmcp_runtime": "UNTESTED",
+    "accessibility_structure": "TESTED",
+    "contrast": "TESTED"
+  },
+  "destination": {
+    "system": "OpenAI Sites",
+    "project_id": "appgprj_6aa7e48116b881919cac82f2764ee9ca",
+    "audience": "owner_private",
+    "status": "deployment_pending_at_manifest_creation"
+  },
+  "unresolved_claims": [
+    "This artifact does not resolve the historical May-to-July CasePath origin-write actuator or authorship chain",
+    "The supplied KEX OpenAPI server URL is a placeholder and was not tested as a live production endpoint"
+  ]
+}

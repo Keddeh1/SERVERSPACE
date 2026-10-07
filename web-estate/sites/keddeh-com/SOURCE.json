@@ -1,0 +1,15 @@
+{
+  "schema": "keddeh.site-source.v1",
+  "site_project_id": "appgprj_6aa52748b7788191afe0f7f86fc78833",
+  "source_commit": "6569868cd12122a7ffd5a736fcd266dafc6e9fb1",
+  "archive_sha256": "4df5756bf4ba8f6051dbce2a64d7df4c4a2d808c15870c72bc41a9b4cb69874f",
+  "tracked_file_count": 113,
+  "imported_file_count": 0,
+  "import_status": "BLOCKED_PUBLIC_CREDENTIAL_REVIEW",
+  "evidence_status": "SOURCE_VERIFIED",
+  "blocked_paths": [
+    "source/KEDDEH-Storage.html",
+    "dist/server/apps.mjs"
+  ],
+  "note": "High-confidence Google API credential pattern observed. Value intentionally omitted."
+}
