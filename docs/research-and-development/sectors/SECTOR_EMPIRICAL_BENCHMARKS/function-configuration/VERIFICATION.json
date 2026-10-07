@@ -1,0 +1,11 @@
+{
+  "repository": "Keddeh1/BRAINK-BETA-TEST",
+  "revision": "6af66e4e2a1ed588fae6f659931552ba99534de0",
+  "tests_passed": 25,
+  "command": ".venv/bin/python -m pytest -o addopts='' tests vfs_server/tests",
+  "wheel_build_passed": true,
+  "installed_smoke_passed": true,
+  "wheel_sha256": "823ffaa3e3ddac8204758cfec8b6b7b31e41ab327021d8b531f5daf6c86e4369",
+  "production_deployed": false,
+  "native_seed_execution_qualified": false
+}

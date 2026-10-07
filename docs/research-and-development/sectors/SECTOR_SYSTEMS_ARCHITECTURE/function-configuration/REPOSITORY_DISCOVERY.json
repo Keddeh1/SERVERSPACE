@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-08 Australia/Adelaide",
+  "repositories": [
+    {
+      "repository": "BRAINK-BETA-TEST",
+      "ref": "main",
+      "tree_sha": "b00d00924b4dbcf13ca64468aa4790ce3308faf8",
+      "truncated": false,
+      "files": 57,
+      "referenced_path_matches": []
+    },
+    {
+      "repository": "KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME",
+      "ref": "main",
+      "tree_sha": "3300e02e4c025a167fde414263f5344c5eecd70d",
+      "truncated": false,
+      "files": 101,
+      "referenced_path_matches": []
+    },
+    {
+      "repository": "Keddeh-SYSTEMS-Virtual-File-Space-ZCG-ARCHITECTURE",
+      "ref": "main",
+      "tree_sha": "d70e9739a27197880698d3dc899121b77fb2efc7",
+      "truncated": false,
+      "files": 28,
+      "referenced_path_matches": []
+    },
+    {
+      "repository": "SERVERSPACE-EXTERNAL",
+      "ref": "main",
+      "tree_sha": "f8d0766f1284d1f2ac673cc60ae3c09b6f40fd8f",
+      "truncated": false,
+      "files": 5,
+      "referenced_path_matches": []
+    },
+    {
+      "repository": "SERVERSPACE",
+      "ref": "main",
+      "tree_sha": "735f5c4924ba46d7f271110e6afb1ff78ca61387",
+      "truncated": false,
+      "files": 120,
+      "referenced_path_matches": []
+    },
+    {
+      "repository": "SYSTEMS-SERVICES-FOR-DEPLOYMENT-QUEUE",
+      "ref": "main",
+      "tree_sha": "812110e32023c3192eab183228fd4ec38b75f1e7",
+      "truncated": false,
+      "files": 32,
+      "referenced_path_matches": []
+    },
+    {
+      "repository": "Virtual-File-Space-ZCG-ARCHITECTURE",
+      "ref": "main",
+      "tree_sha": "47d126e1427a09952734a145f4a7bcd2e481be39",
+      "truncated": false,
+      "files": 28,
+      "referenced_path_matches": []
+    },
+    {
+      "repository": "braink-foundary-schema",
+      "ref": "main",
+      "tree_sha": "2be46d0ce84d5e22823a0a3f114299be614885d8",
+      "truncated": false,
+      "files": 3,
+      "referenced_path_matches": []
+    },
+    {
+      "repository": "keddeh.com",
+      "ref": "main",
+      "tree_sha": "e4aa42ee0a7c0310cc3ca5e5f28c118d92b7ef8c",
+      "truncated": false,
+      "files": 1,
+      "referenced_path_matches": []
+    }
+  ],
+  "scope": "current main tree paths, not every historical branch or archive content"
+}

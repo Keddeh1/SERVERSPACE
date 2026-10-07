@@ -17,7 +17,7 @@
     "scripts/engineering",
     "scripts/planning"
   ],
-  "indexed_artefacts": 141,
+  "indexed_artefacts": 147,
   "artefacts": [
     {
       "path": "AGENTS.md",
@@ -580,6 +580,22 @@
       "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
     },
     {
+      "path": "docs/research-and-development/sectors/SECTOR_EMPIRICAL_BENCHMARKS/function-configuration/README.md",
+      "primary_sector": "SECTOR_EMPIRICAL_BENCHMARKS",
+      "document_type": "formal-document-or-record",
+      "sha256": "5fe473d4fe530e5e40328ad71c78f6c738361f86c9b6ad04a140fc1dec24cc12",
+      "bytes": 2960,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
+      "path": "docs/research-and-development/sectors/SECTOR_EMPIRICAL_BENCHMARKS/function-configuration/VERIFICATION.json",
+      "primary_sector": "SECTOR_EMPIRICAL_BENCHMARKS",
+      "document_type": "formal-document-or-record",
+      "sha256": "af5efe4f35ede1f4bc6a8946f7294b4da63e631f9a450a22e894efc159160910",
+      "bytes": 433,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
       "path": "docs/research-and-development/sectors/SECTOR_EMPIRICAL_BENCHMARKS/incremental-replay-case-study/ANALYSIS.json",
       "primary_sector": "SECTOR_EMPIRICAL_BENCHMARKS",
       "document_type": "formal-document-or-record",
@@ -708,6 +724,30 @@
       "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
     },
     {
+      "path": "docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/function-configuration/FUNCTION_MAP.json",
+      "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
+      "document_type": "formal-document-or-record",
+      "sha256": "68d2bca45803e08e930b8c08ec3291aa070f1db57a065545743c629a032c149d",
+      "bytes": 123269,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
+      "path": "docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/function-configuration/README.md",
+      "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
+      "document_type": "formal-document-or-record",
+      "sha256": "e710728b72498708fba67d79ad93babc8c42df3b5c42126fe070ce51c93c4ed7",
+      "bytes": 2427,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
+      "path": "docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/function-configuration/REPOSITORY_DISCOVERY.json",
+      "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
+      "document_type": "formal-document-or-record",
+      "sha256": "af62bb3d87a23a65202719945774d9b74ecf33706849eaa5691728261aa13564",
+      "bytes": 2199,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
       "path": "docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/incremental-replay/README.md",
       "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
       "document_type": "formal-document-or-record",
@@ -777,6 +817,14 @@
       "document_type": "implementation-or-test",
       "sha256": "da3d87e3c4607726178bc109e2e43801a533c9504d6111fabee58dbe55644e5a",
       "bytes": 2629,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
+      "path": "scripts/engineering/index_functions.py",
+      "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
+      "document_type": "implementation-or-test",
+      "sha256": "128d8ebfff7f142001ff414e2920c4ba0631d31d601254b434697500e1b8362c",
+      "bytes": 1951,
       "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
     },
     {
