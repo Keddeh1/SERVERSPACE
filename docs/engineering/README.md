@@ -9,3 +9,5 @@ Batch README directories 01–10 retain each exact canonical requirement and dep
 [Per-utility actuation requirements](UTILITY_ACTUATION.md) cover every inventoried GitHub utility and distinguish activation from prepared files.
 
 [Owner relational memory and verified fallback](RELATIONAL_MEMORY.md) implements the newly supplied 64×64 coordinate/VFS field.
+
+[Number-line study and executable readback](number-line/README.md) records unit-origin arithmetic, zero/reference typing, conjugated operations, recurrence and context-preserving lineage.
