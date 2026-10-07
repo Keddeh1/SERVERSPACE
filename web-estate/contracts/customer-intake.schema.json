@@ -1,0 +1,483 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://keddeh.systems/schemas/apex/customer-intake.schema.json",
+  "title": "Keddeh APEX customer intake contract",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "intake_id",
+    "site_id",
+    "system_owners",
+    "purpose",
+    "audiences",
+    "jurisdictions",
+    "start",
+    "scope_gate",
+    "fields",
+    "steps",
+    "privacy_notice",
+    "review",
+    "confirmation",
+    "human_handoff",
+    "marketing_consent",
+    "instrumentation",
+    "accessibility_target",
+    "evidence_status"
+  ],
+  "properties": {
+    "schema": {
+      "const": "kex.apex-customer-intake.v1"
+    },
+    "intake_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]{2,63}$"
+    },
+    "site_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "system_owners": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "experience",
+        "implementation",
+        "processing"
+      ],
+      "properties": {
+        "experience": {
+          "const": "Frontage Foundry"
+        },
+        "implementation": {
+          "const": "Website Foundry"
+        },
+        "processing": {
+          "const": "Server Foundry"
+        }
+      }
+    },
+    "purpose": {
+      "type": "string",
+      "minLength": 20
+    },
+    "audiences": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 2
+      }
+    },
+    "jurisdictions": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 2
+      }
+    },
+    "start": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "what_it_does",
+        "who_for",
+        "estimated_minutes",
+        "what_user_needs",
+        "alternate_channels"
+      ],
+      "properties": {
+        "what_it_does": {
+          "type": "string",
+          "minLength": 10
+        },
+        "who_for": {
+          "type": "string",
+          "minLength": 10
+        },
+        "estimated_minutes": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 120
+        },
+        "what_user_needs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "alternate_channels": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "scope_gate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "before_personal_information",
+        "questions",
+        "unsuitable_route"
+      ],
+      "properties": {
+        "before_personal_information": {
+          "const": true
+        },
+        "questions": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "unsuitable_route": {
+          "type": "string",
+          "minLength": 5
+        }
+      }
+    },
+    "fields": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "label",
+          "data_type",
+          "required",
+          "purpose",
+          "necessity",
+          "sensitivity",
+          "retention_class",
+          "usual_disclosures"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "data_type": {
+            "enum": [
+              "text",
+              "email",
+              "telephone",
+              "select",
+              "multiselect",
+              "boolean",
+              "date",
+              "file-reference"
+            ]
+          },
+          "required": {
+            "type": "boolean"
+          },
+          "purpose": {
+            "type": "string",
+            "minLength": 10
+          },
+          "necessity": {
+            "type": "string",
+            "minLength": 10
+          },
+          "sensitivity": {
+            "enum": [
+              "ordinary",
+              "personal",
+              "sensitive",
+              "high-risk"
+            ]
+          },
+          "retention_class": {
+            "type": "string",
+            "minLength": 2
+          },
+          "usual_disclosures": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "steps": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "question",
+          "field_ids",
+          "recovery"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]*$"
+          },
+          "question": {
+            "type": "string",
+            "minLength": 3
+          },
+          "field_ids": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            }
+          },
+          "recovery": {
+            "type": "object",
+            "required": [
+              "preserve_answers",
+              "error_summary",
+              "field_error"
+            ],
+            "properties": {
+              "preserve_answers": {
+                "const": true
+              },
+              "error_summary": {
+                "const": true
+              },
+              "field_error": {
+                "const": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "privacy_notice": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "timing",
+        "identity",
+        "contact",
+        "collection_circumstances",
+        "purposes",
+        "consequences",
+        "usual_disclosures",
+        "privacy_policy_url",
+        "overseas_disclosures"
+      ],
+      "properties": {
+        "timing": {
+          "enum": [
+            "before_collection",
+            "at_collection"
+          ]
+        },
+        "identity": {
+          "type": "string",
+          "minLength": 2
+        },
+        "contact": {
+          "type": "string",
+          "minLength": 3
+        },
+        "collection_circumstances": {
+          "type": "string",
+          "minLength": 10
+        },
+        "purposes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "consequences": {
+          "type": "string",
+          "minLength": 5
+        },
+        "usual_disclosures": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "privacy_policy_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "overseas_disclosures": {
+          "type": "object",
+          "required": [
+            "likely",
+            "countries_or_regions"
+          ],
+          "properties": {
+            "likely": {
+              "type": "boolean"
+            },
+            "countries_or_regions": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "enabled",
+        "change_each_answer",
+        "final_action_label"
+      ],
+      "properties": {
+        "enabled": {
+          "const": true
+        },
+        "change_each_answer": {
+          "const": true
+        },
+        "final_action_label": {
+          "type": "string",
+          "minLength": 3
+        }
+      }
+    },
+    "confirmation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "reference",
+        "next_step",
+        "response_window",
+        "correction_route"
+      ],
+      "properties": {
+        "reference": {
+          "const": true
+        },
+        "next_step": {
+          "type": "string",
+          "minLength": 5
+        },
+        "response_window": {
+          "type": "string",
+          "minLength": 3
+        },
+        "correction_route": {
+          "type": "string",
+          "minLength": 3
+        }
+      }
+    },
+    "human_handoff": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "available",
+        "channel",
+        "owner"
+      ],
+      "properties": {
+        "available": {
+          "const": true
+        },
+        "channel": {
+          "type": "string",
+          "minLength": 2
+        },
+        "owner": {
+          "type": "string",
+          "minLength": 2
+        }
+      }
+    },
+    "marketing_consent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "separate_from_service",
+        "optional",
+        "default_selected",
+        "records_when_and_how",
+        "unsubscribe_route"
+      ],
+      "properties": {
+        "separate_from_service": {
+          "const": true
+        },
+        "optional": {
+          "const": true
+        },
+        "default_selected": {
+          "const": false
+        },
+        "records_when_and_how": {
+          "const": true
+        },
+        "unsubscribe_route": {
+          "type": "string",
+          "minLength": 3
+        }
+      }
+    },
+    "instrumentation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "data_dictionary",
+        "events",
+        "retention_class"
+      ],
+      "properties": {
+        "data_dictionary": {
+          "type": "string",
+          "minLength": 3
+        },
+        "events": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "retention_class": {
+          "type": "string",
+          "minLength": 2
+        }
+      }
+    },
+    "accessibility_target": {
+      "const": "WCAG 2.2 Level AA"
+    },
+    "evidence_status": {
+      "enum": [
+        "OBSERVED",
+        "SOURCE_VERIFIED",
+        "TESTED",
+        "INFERRED",
+        "UNTESTED",
+        "FAILED",
+        "UNSUPPORTED",
+        "SUPERSEDED"
+      ]
+    }
+  }
+}

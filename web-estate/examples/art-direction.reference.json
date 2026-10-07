@@ -1,0 +1,146 @@
+{
+  "schema": "kex.apex-art-direction.v1",
+  "art_id": "keddeh-system-estate-art",
+  "site_id": "keddeh-com",
+  "system_owners": {
+    "direction": "Frontage Foundry",
+    "implementation": "Website Foundry"
+  },
+  "objective": "Make the multi-system estate immediately legible as a coordinated set of distinct systems while preserving Keddeh Systems authority and the ENGINEER · AUTOMATE · SCALE line.",
+  "audience": [
+    "prospective customer",
+    "technical evaluator",
+    "delivery partner"
+  ],
+  "brand_invariants": [
+    "Keddeh Systems",
+    "ENGINEER · AUTOMATE · SCALE",
+    "Frontage Foundry and Website Foundry remain distinct",
+    "black, warm-white and electric-signal palette"
+  ],
+  "concepts": [
+    {
+      "id": "operational-atlas",
+      "name": "Operational atlas",
+      "semantic_intent": "A precise spatial map shows bounded systems, handoffs and operating evidence.",
+      "decision_supported": "Helps a visitor select the right capability without treating the estate as one product.",
+      "differentiator": "Uses route topology and live evidence states rather than generic service cards."
+    },
+    {
+      "id": "proof-ledger",
+      "name": "Proof ledger",
+      "semantic_intent": "A restrained editorial system foregrounds verified outcomes, contracts and release evidence.",
+      "decision_supported": "Helps a technical buyer judge credibility and delivery maturity.",
+      "differentiator": "Uses artifact provenance and readback evidence as the visual rhythm."
+    }
+  ],
+  "selected_concept_id": "operational-atlas",
+  "visual_system": {
+    "colour_roles": {
+      "canvas": "#F3F0E8",
+      "ink": "#111111",
+      "signal": "#20E0A0",
+      "warning": "#D45500"
+    },
+    "type_scale": [
+      0.875,
+      1,
+      1.25,
+      1.75,
+      2.5,
+      4
+    ],
+    "spacing_scale": [
+      0,
+      4,
+      8,
+      12,
+      20,
+      32,
+      52,
+      84
+    ],
+    "density": "contextual",
+    "icon_rule": "Use simple owner-authored vector symbols with visible labels; never use icon-only critical controls."
+  },
+  "assets": [
+    {
+      "id": "estate-map",
+      "kind": "illustration",
+      "source_kind": "original",
+      "source_reference": "Keddeh Systems owner-authored estate topology",
+      "rights_state": "verified",
+      "consent_or_release": "not-applicable",
+      "semantic_role": "complex",
+      "alternative": {
+        "mode": "long-description",
+        "text": "A topology of distinct Foundry systems showing Frontage Foundry defining the market experience, Website Foundry implementing it, and Publishing, Domain and Server Foundries delivering it under Foundry Fabric coordination."
+      },
+      "responsive_variants": [
+        {
+          "min_width": 0,
+          "max_width": 767,
+          "source": "estate-map-stacked.svg",
+          "focal_point": {
+            "x": 0.5,
+            "y": 0.15
+          }
+        },
+        {
+          "min_width": 768,
+          "max_width": 1439,
+          "source": "estate-map-grid.svg",
+          "focal_point": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        {
+          "min_width": 1440,
+          "max_width": null,
+          "source": "estate-map-wide.svg",
+          "focal_point": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      ],
+      "intrinsic_dimensions": {
+        "width": 1600,
+        "height": 900
+      },
+      "encoded_bytes": 180000
+    }
+  ],
+  "responsive_frames": [
+    {
+      "width": 320,
+      "critical_meaning_preserved": true
+    },
+    {
+      "width": 768,
+      "critical_meaning_preserved": true
+    },
+    {
+      "width": 1440,
+      "critical_meaning_preserved": true
+    }
+  ],
+  "motion": {
+    "used": true,
+    "reduced_motion": "replace",
+    "essential_information_equivalent": true
+  },
+  "performance_budget": {
+    "initial_media_bytes": 220000,
+    "largest_single_asset_bytes": 200000
+  },
+  "review_scenarios": [
+    "small-screen touch at 320 CSS pixels",
+    "keyboard and 200 percent zoom",
+    "reduced motion",
+    "high-contrast or forced-colour mode",
+    "slow mobile network"
+  ],
+  "evidence_status": "UNTESTED"
+}

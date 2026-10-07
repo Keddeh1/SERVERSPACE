@@ -28,3 +28,24 @@ Frontage Foundry owns the market-facing experience contract. Website Foundry own
 6. Do not deploy from this repository until a verified GitHub-to-Sites publication actuator is installed and read back.
 
 See `estate.json`, `MERGE_POLICY.md` and `PUBLIC_SOURCE_POLICY.md`.
+
+
+## APEX design, art and customer-intake capability
+
+APEX is a Keddeh operational workflow—not an external standard or certification. It turns the current HCI, accessibility, privacy, consumer, performance and experimental-design source set into reviewable release gates while preserving Foundry boundaries.
+
+- Workflow: `standards/APEX_DESIGN_WORKFLOW.md`
+- Authoritative source register: `evidence/APEX_SOURCE_REGISTER.json`
+- Executable control matrix: `contracts/APEX_CONTROL_MATRIX.json`
+- Customer intake, art-direction and conversion-experiment schemas: `contracts/`
+- Reference contracts: `examples/`
+- Validator: `tools/validate-apex-contract.mjs`
+- Deterministic tests: `tests/apex-contract.test.mjs`
+- Validation and KEX artifact evidence: `evidence/APEX_VALIDATION_20261007.json` and `evidence/APEX_ARTIFACT_LEDGER.json`
+
+Run the deterministic suite with:
+
+    node web-estate/tools/validate-apex-contract.mjs --self-test
+    node --test web-estate/tests/apex-contract.test.mjs
+
+These checks prove contract structure and deterministic invariants. They do not, by themselves, prove ISO certification, WCAG conformance, legal compliance, real-user usability or conversion performance.

@@ -1,0 +1,97 @@
+{
+  "schema": "kex.apex-conversion-experiment.v1",
+  "experiment_id": "estate-route-first-task",
+  "site_id": "keddeh-com",
+  "pre_registered": true,
+  "hypothesis": {
+    "user_problem": "Visitors cannot quickly decide which bounded system or capability matches their operational problem.",
+    "change": "Replace a generic contact action with an outcome-first capability router before personal-information collection.",
+    "expected_effect": "Increase the proportion of eligible starts that become qualified, accepted project enquiries.",
+    "because": "The change reduces system-selection uncertainty and asks for service fit before contact data."
+  },
+  "audience": {
+    "inclusion": [
+      "new visitors who open the capability router",
+      "Australia-based business enquiries"
+    ],
+    "exclusion": [
+      "owner-admin sessions",
+      "known automated traffic",
+      "returning users resuming an existing enquiry"
+    ]
+  },
+  "allocation_unit": "visitor",
+  "variants": [
+    {
+      "id": "control",
+      "allocation": 0.5,
+      "description": "Current capability presentation and contact route."
+    },
+    {
+      "id": "outcome-router",
+      "allocation": 0.5,
+      "description": "Outcome-first routing with distinct system ownership and suitability feedback."
+    }
+  ],
+  "primary_metric": {
+    "name": "qualified accepted enquiry rate",
+    "numerator": "confirmed enquiries accepted by the responsible intake owner",
+    "denominator": "eligible capability-router starts",
+    "direction": "increase",
+    "practical_threshold": 0.1
+  },
+  "guardrails": [
+    {
+      "name": "critical accessibility failures",
+      "category": "accessibility",
+      "failure_rule": "No new critical or serious complete-process accessibility failure."
+    },
+    {
+      "name": "personal fields collected",
+      "category": "privacy",
+      "failure_rule": "No increase in personal-information fields or undisclosed collection."
+    },
+    {
+      "name": "intake complaints",
+      "category": "complaints",
+      "failure_rule": "No material increase in complaints or support contacts caused by the treatment."
+    },
+    {
+      "name": "misleading expectation reports",
+      "category": "claim-truth",
+      "failure_rule": "No treatment copy or art may overstate fit, result, price or response time."
+    },
+    {
+      "name": "downstream acceptance",
+      "category": "lead-quality",
+      "failure_rule": "Accepted-enquiry quality must not fall below the declared baseline tolerance."
+    },
+    {
+      "name": "response capacity",
+      "category": "fulfilment",
+      "failure_rule": "Median human response time and backlog must remain within the declared service window."
+    }
+  ],
+  "sample_size_plan": {
+    "method": "two-proportion comparison using the recorded baseline, significance risk and power target",
+    "alpha": 0.05,
+    "power": 0.8,
+    "minimum_detectable_effect": 0.1,
+    "baseline_source": "Replace with observed qualified accepted enquiry baseline before activation.",
+    "calculated_per_variant": 1000
+  },
+  "runtime": {
+    "minimum_days": 14,
+    "start_condition": "Instrumentation and assignment persistence pass replay tests.",
+    "end_condition": "Both the calculated sample per variant and minimum runtime are reached without a guardrail stop."
+  },
+  "stopping_rule": "Do not stop for a favourable interim result; stop only for a pre-registered safety guardrail or after both minimum runtime and planned sample are reached.",
+  "instrumentation_version": "apex-intake-events-v1",
+  "decision_rule": {
+    "adopt": "Adopt only when the primary metric reaches the pre-registered practical and statistical threshold and every guardrail passes.",
+    "reject": "Reject when the primary threshold fails or any guardrail vetoes the result.",
+    "inconclusive": "Extend or redesign only under the pre-registered rule; otherwise report the result as inconclusive.",
+    "guardrail_veto": true
+  },
+  "evidence_status": "UNTESTED"
+}

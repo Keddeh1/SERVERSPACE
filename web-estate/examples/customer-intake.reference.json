@@ -1,0 +1,186 @@
+{
+  "schema": "kex.apex-customer-intake.v1",
+  "intake_id": "keddeh-project-enquiry",
+  "site_id": "keddeh-com",
+  "system_owners": {
+    "experience": "Frontage Foundry",
+    "implementation": "Website Foundry",
+    "processing": "Server Foundry"
+  },
+  "purpose": "Route a prospective customer to the correct Keddeh Systems capability and responsible human without collecting unnecessary personal information.",
+  "audiences": [
+    "business owner",
+    "operations leader",
+    "technical lead"
+  ],
+  "jurisdictions": [
+    "Australia"
+  ],
+  "start": {
+    "what_it_does": "Checks service fit and sends a structured project enquiry.",
+    "who_for": "Organisations seeking engineering, automation or scaling work.",
+    "estimated_minutes": 4,
+    "what_user_needs": [
+      "desired outcome",
+      "current constraint",
+      "preferred contact route"
+    ],
+    "alternate_channels": [
+      "email",
+      "scheduled human call"
+    ]
+  },
+  "scope_gate": {
+    "before_personal_information": true,
+    "questions": [
+      "What outcome are you trying to achieve?",
+      "Which capability area best matches the work?",
+      "When is a decision needed?"
+    ],
+    "unsuitable_route": "Show the closest bounded system or a human triage route; do not force submission."
+  },
+  "fields": [
+    {
+      "id": "desired_outcome",
+      "label": "What outcome do you need?",
+      "data_type": "text",
+      "required": true,
+      "purpose": "Understand the customer task and evaluate fit.",
+      "necessity": "The service cannot route or assess an enquiry without the intended outcome.",
+      "sensitivity": "ordinary",
+      "retention_class": "project-enquiry",
+      "usual_disclosures": []
+    },
+    {
+      "id": "capability_area",
+      "label": "Which capability area fits best?",
+      "data_type": "select",
+      "required": true,
+      "purpose": "Route the enquiry to the responsible bounded system.",
+      "necessity": "Prevents the enquiry being treated as a generic request and reduces rework.",
+      "sensitivity": "ordinary",
+      "retention_class": "project-enquiry",
+      "usual_disclosures": []
+    },
+    {
+      "id": "contact_name",
+      "label": "Your name",
+      "data_type": "text",
+      "required": true,
+      "purpose": "Address and manage the requested response.",
+      "necessity": "A responsible human needs a name for the project conversation.",
+      "sensitivity": "personal",
+      "retention_class": "project-enquiry",
+      "usual_disclosures": []
+    },
+    {
+      "id": "contact_email",
+      "label": "Email address",
+      "data_type": "email",
+      "required": true,
+      "purpose": "Send the requested response and submission reference.",
+      "necessity": "The selected response channel requires a deliverable address.",
+      "sensitivity": "personal",
+      "retention_class": "project-enquiry",
+      "usual_disclosures": [
+        "approved email delivery processor"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "outcome",
+      "question": "What outcome are you trying to achieve?",
+      "field_ids": [
+        "desired_outcome"
+      ],
+      "recovery": {
+        "preserve_answers": true,
+        "error_summary": true,
+        "field_error": true
+      }
+    },
+    {
+      "id": "capability",
+      "question": "Which Keddeh capability is the closest fit?",
+      "field_ids": [
+        "capability_area"
+      ],
+      "recovery": {
+        "preserve_answers": true,
+        "error_summary": true,
+        "field_error": true
+      }
+    },
+    {
+      "id": "contact",
+      "question": "Where should we send the response?",
+      "field_ids": [
+        "contact_name",
+        "contact_email"
+      ],
+      "recovery": {
+        "preserve_answers": true,
+        "error_summary": true,
+        "field_error": true
+      }
+    }
+  ],
+  "privacy_notice": {
+    "timing": "before_collection",
+    "identity": "Keddeh Systems",
+    "contact": "Published Keddeh Systems privacy contact",
+    "collection_circumstances": "Information entered directly into the project-enquiry service.",
+    "purposes": [
+      "assess fit",
+      "route the enquiry",
+      "respond to the requested contact"
+    ],
+    "consequences": "Without the required scope and contact fields, Keddeh Systems cannot route or answer the enquiry.",
+    "usual_disclosures": [
+      "approved email delivery processor when email is selected"
+    ],
+    "privacy_policy_url": "https://www.keddeh.com/privacy",
+    "overseas_disclosures": {
+      "likely": false,
+      "countries_or_regions": []
+    }
+  },
+  "review": {
+    "enabled": true,
+    "change_each_answer": true,
+    "final_action_label": "Send project enquiry"
+  },
+  "confirmation": {
+    "reference": true,
+    "next_step": "A responsible human checks fit and assigns the bounded delivery system.",
+    "response_window": "Display the current service response window before submission and repeat it on confirmation.",
+    "correction_route": "Reply through the published support route with the submission reference."
+  },
+  "human_handoff": {
+    "available": true,
+    "channel": "published email or scheduled call",
+    "owner": "Keddeh Systems customer intake owner"
+  },
+  "marketing_consent": {
+    "separate_from_service": true,
+    "optional": true,
+    "default_selected": false,
+    "records_when_and_how": true,
+    "unsubscribe_route": "one-step unsubscribe route in each marketing message"
+  },
+  "instrumentation": {
+    "data_dictionary": "apex-intake-events-v1",
+    "events": [
+      "intake_start",
+      "scope_complete",
+      "contact_reached",
+      "review_reached",
+      "submission_confirmed",
+      "human_handoff_requested"
+    ],
+    "retention_class": "aggregated-service-measurement"
+  },
+  "accessibility_target": "WCAG 2.2 Level AA",
+  "evidence_status": "UNTESTED"
+}
