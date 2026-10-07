@@ -1,0 +1,25 @@
+{
+  "runtime_tests_passed": 39,
+  "paired_http_rounds": 12,
+  "http_sessions_completed": 24,
+  "business_payload_equivalence": "passed",
+  "idempotent_replays": "passed",
+  "kex_context_reopen": "passed",
+  "browser_programs_per_path": 3000,
+  "browser_executable_equivalence": "passed",
+  "browser_median_ms_per_250_programs": {
+    "owner": 10.049999999813735,
+    "portable": 5.150000000139698
+  },
+  "browser_reference_to_portable_time_ratio": 1.9514563105905087,
+  "energy_field_substitution_rejected": true,
+  "physical_energy_or_cost_measured": false,
+  "python_version": "3.12.14",
+  "machine_architecture": "x86_64",
+  "instrumentation": "process_time_ns, perf_counter_ns, process RSS high-water mark, Chromium performance.now",
+  "source_files": {
+    "scripts/analysis/enterprise_pilot.py": "70f205af9b175ad96eec08a76d90eed3680245059c6d6e687a0225a52feab569",
+    "scripts/analysis/browser_compiler_pilot.cjs": "8e59963e9ceda99fd4e1ef75c7cab4e130a504537389693de4b2c5e7a8ac472d",
+    "web-estate/sites/aboudy-keddeh/runtime/context_continuation.py": "386de98d2f14f01de4ee65c17027648f4de67deadfa8c8470440ce12121efc01"
+  }
+}

@@ -126,3 +126,16 @@ class ContextTests(unittest.TestCase):
         with sqlite3.connect(self.path) as db:db.execute('UPDATE lineage SET body=? WHERE hash=?',('[]',a['head']))
         r=resolve_equivalent([self.runtime,secondary],'a',a['head'],C)
         self.assertTrue(r['fallback_used'])
+
+    def test_energy_fields_do_not_admit_other_field_context(self):
+        from context_continuation import resolve_equivalent
+        a={**C,'origin':'fixture://energy/solar','vector':'fixture://energy/solar/1'}
+        b={**C,'origin':'fixture://energy/grid','vector':'fixture://energy/grid/1'}
+        solar=Continuation(Path(self.tmp.name)/'solar.sqlite',[a]);solar.create('field')
+        grid=Continuation(Path(self.tmp.name)/'grid.sqlite',[b]);grid.create('field')
+        ra=solar.advance('field',None,a,'+X',1);rb=grid.advance('field',None,b,'+X',1)
+        self.assertEqual(ra['value'],rb['value']);self.assertNotEqual(ra['head'],rb['head'])
+        with self.assertRaises(ValueError):solar.advance('field',ra['head'],b,'+Y',2)
+        with self.assertRaises(ValueError):resolve_equivalent([grid],'field',ra['head'],a)
+        self.assertEqual(solar.read('field',a)['head'],ra['head'])
+        self.assertEqual(grid.read('field',b)['head'],rb['head'])

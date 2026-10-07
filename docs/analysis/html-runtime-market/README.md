@@ -100,3 +100,5 @@ A deployment is not evidence of universal performance; a source-valid lineage is
 The current evidence supports executable runtime primitives, typed fault handling, preserved contextual lineage and specific local recoveries. The strongest near-term market claim is: **a governed HTML node can augment existing applications and make selected workloads cheaper, more portable and more recoverable, with savings established by equivalent-work qualification**. The customer's measured performance, financial and environmental results determine how far that claim scales.
 
 Next: run the documented matched-workload pilot with the existing backend connector and record both endpoint and server resource evidence.
+
+[Executed pilot and raw measurements](PILOT.md) and [energy-management applications and field qualification](ENERGY_MANAGEMENT.md) extend this assessment with current-run evidence.

@@ -1,0 +1,178 @@
+{
+  "samples": [
+    {
+      "path": "owner",
+      "round": 0,
+      "programs": 250,
+      "milliseconds": 22.100000000093132,
+      "checksum": "E5628D29"
+    },
+    {
+      "path": "portable",
+      "round": 0,
+      "programs": 250,
+      "milliseconds": 6.199999999720603,
+      "checksum": "E5628D29"
+    },
+    {
+      "path": "portable",
+      "round": 1,
+      "programs": 250,
+      "milliseconds": 9.400000000372529,
+      "checksum": "E5628D29"
+    },
+    {
+      "path": "owner",
+      "round": 1,
+      "programs": 250,
+      "milliseconds": 13.199999999720603,
+      "checksum": "E5628D29"
+    },
+    {
+      "path": "owner",
+      "round": 2,
+      "programs": 250,
+      "milliseconds": 10.399999999906868,
+      "checksum": "E5628D29"
+    },
+    {
+      "path": "portable",
+      "round": 2,
+      "programs": 250,
+      "milliseconds": 4.800000000279397,
+      "checksum": "E5628D29"
+    },
+    {
+      "path": "portable",
+      "round": 3,
+      "programs": 250,
+      "milliseconds": 1.1999999997206032,
+      "checksum": "E5628D29"
+    },
+    {
+      "path": "owner",
+      "round": 3,
+      "programs": 250,
+      "milliseconds": 9.600000000093132,
+      "checksum": "E5628D29"
+    },
+    {
+      "path": "owner",
+      "round": 4,
+      "programs": 250,
+      "milliseconds": 7.800000000279397,
+      "checksum": "E5628D29"
+    },
+    {
+      "path": "portable",
+      "round": 4,
+      "programs": 250,
+      "milliseconds": 5.5,
+      "checksum": "E5628D29"
+    },
+    {
+      "path": "portable",
+      "round": 5,
+      "programs": 250,
+      "milliseconds": 5.7999999998137355,
+      "checksum": "E5628D29"
+    },
+    {
+      "path": "owner",
+      "round": 5,
+      "programs": 250,
+      "milliseconds": 11.200000000186265,
+      "checksum": "E5628D29"
+    },
+    {
+      "path": "owner",
+      "round": 6,
+      "programs": 250,
+      "milliseconds": 6.5,
+      "checksum": "E5628D29"
+    },
+    {
+      "path": "portable",
+      "round": 6,
+      "programs": 250,
+      "milliseconds": 4.199999999720603,
+      "checksum": "E5628D29"
+    },
+    {
+      "path": "portable",
+      "round": 7,
+      "programs": 250,
+      "milliseconds": 11.100000000093132,
+      "checksum": "E5628D29"
+    },
+    {
+      "path": "owner",
+      "round": 7,
+      "programs": 250,
+      "milliseconds": 11,
+      "checksum": "E5628D29"
+    },
+    {
+      "path": "owner",
+      "round": 8,
+      "programs": 250,
+      "milliseconds": 12.799999999813735,
+      "checksum": "E5628D29"
+    },
+    {
+      "path": "portable",
+      "round": 8,
+      "programs": 250,
+      "milliseconds": 7.400000000372529,
+      "checksum": "E5628D29"
+    },
+    {
+      "path": "portable",
+      "round": 9,
+      "programs": 250,
+      "milliseconds": 2.8999999999068677,
+      "checksum": "E5628D29"
+    },
+    {
+      "path": "owner",
+      "round": 9,
+      "programs": 250,
+      "milliseconds": 4.2999999998137355,
+      "checksum": "E5628D29"
+    },
+    {
+      "path": "owner",
+      "round": 10,
+      "programs": 250,
+      "milliseconds": 9,
+      "checksum": "E5628D29"
+    },
+    {
+      "path": "portable",
+      "round": 10,
+      "programs": 250,
+      "milliseconds": 3.2000000001862645,
+      "checksum": "E5628D29"
+    },
+    {
+      "path": "portable",
+      "round": 11,
+      "programs": 250,
+      "milliseconds": 4.100000000093132,
+      "checksum": "E5628D29"
+    },
+    {
+      "path": "owner",
+      "round": 11,
+      "programs": 250,
+      "milliseconds": 9.699999999720603,
+      "checksum": "E5628D29"
+    }
+  ],
+  "equivalence": "exact executable bytes and checksum",
+  "programs_per_path": 3000,
+  "admitted_handler_calls": 2,
+  "scope": "Chromium compile/assemble/package microbenchmark; not whole HTML computer or enterprise deployment",
+  "chromiumSandbox": false,
+  "energyJoulesMeasured": null
+}
