@@ -1,0 +1,259 @@
+{
+  "schema": "kex.artifact-ledger.v1",
+  "workstream_seed": "696253484E447C924D43B51B9A506F6029464447D321DDBE568B3243AE00CCA2",
+  "created_at": "2026-10-07T01:30:00Z",
+  "artifacts": [
+    {
+      "path": "web-estate/README.md",
+      "kex_seed": "7275D04D8831874F69B498E15AA06778D156A184976589DA113A244E8CC4E3F2",
+      "sha256": "45c0146f69adf6b422070c94b4a6768eca5ee3939c4975c6797992fc2302de4c",
+      "bytes": 2087,
+      "evidence_status": "SOURCE_VERIFIED",
+      "parent_lineage": [
+        "696253484E447C924D43B51B9A506F6029464447D321DDBE568B3243AE00CCA2"
+      ],
+      "destination": {
+        "repository": "Keddeh1/SERVERSPACE",
+        "branch": "web-estate/import-sources-20261007",
+        "path": "web-estate/README.md"
+      }
+    },
+    {
+      "path": "web-estate/LICENSE.md",
+      "kex_seed": "28DA426A625A075307143C7053A1A374A752C04EB94725B16F154F491C028B47",
+      "sha256": "0c0a2f874c11d1815ee7064a7fafd8f36d7ae0ab6b635d431ef069a4237d2763",
+      "bytes": 511,
+      "evidence_status": "SOURCE_VERIFIED",
+      "parent_lineage": [
+        "696253484E447C924D43B51B9A506F6029464447D321DDBE568B3243AE00CCA2"
+      ],
+      "destination": {
+        "repository": "Keddeh1/SERVERSPACE",
+        "branch": "web-estate/import-sources-20261007",
+        "path": "web-estate/LICENSE.md"
+      }
+    },
+    {
+      "path": "web-estate/PUBLIC_SOURCE_POLICY.md",
+      "kex_seed": "EE607A9ECE1A0C5310B6A9A5E1A2C763D2138A13776EDBB07D721BA052D92475",
+      "sha256": "c200d95029551950ac0ca5304f059fd4390f810a6b1364a861abb71358120df2",
+      "bytes": 857,
+      "evidence_status": "SOURCE_VERIFIED",
+      "parent_lineage": [
+        "696253484E447C924D43B51B9A506F6029464447D321DDBE568B3243AE00CCA2"
+      ],
+      "destination": {
+        "repository": "Keddeh1/SERVERSPACE",
+        "branch": "web-estate/import-sources-20261007",
+        "path": "web-estate/PUBLIC_SOURCE_POLICY.md"
+      }
+    },
+    {
+      "path": "web-estate/MERGE_POLICY.md",
+      "kex_seed": "E115D29F052F90A0C52A4727527C0A5257EE251B755AA49749CA77F8E5FB9496",
+      "sha256": "b59da527a948f4af9e1125ace7d99625ecaea769d3ea34514e1628f07f333208",
+      "bytes": 1372,
+      "evidence_status": "SOURCE_VERIFIED",
+      "parent_lineage": [
+        "696253484E447C924D43B51B9A506F6029464447D321DDBE568B3243AE00CCA2"
+      ],
+      "destination": {
+        "repository": "Keddeh1/SERVERSPACE",
+        "branch": "web-estate/import-sources-20261007",
+        "path": "web-estate/MERGE_POLICY.md"
+      }
+    },
+    {
+      "path": "web-estate/estate.json",
+      "kex_seed": "AF96E205133476D324177EF749F41A17406C2FE519A73A46932E34F18ECC3B21",
+      "sha256": "904b50567f61821964f2242e26acce61cbea6ada6120386b25e82225f662753b",
+      "bytes": 7026,
+      "evidence_status": "SOURCE_VERIFIED",
+      "parent_lineage": [
+        "696253484E447C924D43B51B9A506F6029464447D321DDBE568B3243AE00CCA2"
+      ],
+      "destination": {
+        "repository": "Keddeh1/SERVERSPACE",
+        "branch": "web-estate/import-sources-20261007",
+        "path": "web-estate/estate.json"
+      }
+    },
+    {
+      "path": "web-estate/external/README.md",
+      "kex_seed": "0E0015023397CB8AAF7CDD296521E0FEEE20E7A4E321FEBDBF210C92D5E1246E",
+      "sha256": "4d163e5cefa3072e49ffe709788e4a23b97f3ef2a606ce8fd1c907d8e69b990a",
+      "bytes": 716,
+      "evidence_status": "SOURCE_VERIFIED",
+      "parent_lineage": [
+        "696253484E447C924D43B51B9A506F6029464447D321DDBE568B3243AE00CCA2"
+      ],
+      "destination": {
+        "repository": "Keddeh1/SERVERSPACE",
+        "branch": "web-estate/import-sources-20261007",
+        "path": "web-estate/external/README.md"
+      }
+    },
+    {
+      "path": "web-estate/sites/aboudy-keddeh/SOURCE.json",
+      "kex_seed": "85713E3056134091F3A46F533EA0285D32AD98CF93872C4D5DAA0F02E311174A",
+      "sha256": "4fd4e272845ca53a6d148ce126b2794202b2e9729c05b784e9f0f525ab98a2d3",
+      "bytes": 405,
+      "evidence_status": "SOURCE_VERIFIED",
+      "parent_lineage": [
+        "696253484E447C924D43B51B9A506F6029464447D321DDBE568B3243AE00CCA2"
+      ],
+      "destination": {
+        "repository": "Keddeh1/SERVERSPACE",
+        "branch": "web-estate/import-sources-20261007",
+        "path": "web-estate/sites/aboudy-keddeh/SOURCE.json"
+      }
+    },
+    {
+      "path": "web-estate/sites/system-estate/SOURCE.json",
+      "kex_seed": "BD66EC3DC2EE0E9730CD6B47FFFE06F3363D4E45EFB34EEA6D34380CE1B16950",
+      "sha256": "6c97e6dde2a22097e04cf8d839c8eab0e2570e63704915494e51868099e76ed6",
+      "bytes": 433,
+      "evidence_status": "SOURCE_VERIFIED",
+      "parent_lineage": [
+        "696253484E447C924D43B51B9A506F6029464447D321DDBE568B3243AE00CCA2"
+      ],
+      "destination": {
+        "repository": "Keddeh1/SERVERSPACE",
+        "branch": "web-estate/import-sources-20261007",
+        "path": "web-estate/sites/system-estate/SOURCE.json"
+      }
+    },
+    {
+      "path": "web-estate/sites/keddeh-com/SOURCE.json",
+      "kex_seed": "B8ECB54CE096C109A14C2AC1E3BCE63A243611165A7FEE0EA974E0A54299F3C6",
+      "sha256": "2c26a4e646fc15e5a10b60932b2ee857985587cf7d92a43231893a8ef18593d8",
+      "bytes": 593,
+      "evidence_status": "SOURCE_VERIFIED",
+      "parent_lineage": [
+        "696253484E447C924D43B51B9A506F6029464447D321DDBE568B3243AE00CCA2"
+      ],
+      "destination": {
+        "repository": "Keddeh1/SERVERSPACE",
+        "branch": "web-estate/import-sources-20261007",
+        "path": "web-estate/sites/keddeh-com/SOURCE.json"
+      }
+    },
+    {
+      "path": "web-estate/sites/keddeh-com/QUARANTINE.md",
+      "kex_seed": "305B37EC73A4C614D47C808B0A1703CB136ED41428A247D72630670BF004D28A",
+      "sha256": "1f00f45a91178982f49392f058a130c5e2360e2ca653654403b255b1079b8113",
+      "bytes": 589,
+      "evidence_status": "SOURCE_VERIFIED",
+      "parent_lineage": [
+        "696253484E447C924D43B51B9A506F6029464447D321DDBE568B3243AE00CCA2"
+      ],
+      "destination": {
+        "repository": "Keddeh1/SERVERSPACE",
+        "branch": "web-estate/import-sources-20261007",
+        "path": "web-estate/sites/keddeh-com/QUARANTINE.md"
+      }
+    },
+    {
+      "path": "web-estate/sites/keddeh-runtime/SOURCE.json",
+      "kex_seed": "843BD63F9185B2E9D66FDC10E94AF976D97C78FD5AECBC73BD95DFB809E75B58",
+      "sha256": "8f92f02a32bb9649aea3689ea81ce674a2beab2aadd122996e370dde34c376a2",
+      "bytes": 867,
+      "evidence_status": "SOURCE_VERIFIED",
+      "parent_lineage": [
+        "696253484E447C924D43B51B9A506F6029464447D321DDBE568B3243AE00CCA2"
+      ],
+      "destination": {
+        "repository": "Keddeh1/SERVERSPACE",
+        "branch": "web-estate/import-sources-20261007",
+        "path": "web-estate/sites/keddeh-runtime/SOURCE.json"
+      }
+    },
+    {
+      "path": "web-estate/sites/keddeh-runtime/QUARANTINE.md",
+      "kex_seed": "2AB5B60A1E2908713F714955E4BC2B2493F0A6F22DED58D42DB0E15DCCB83272",
+      "sha256": "6f801f949429f14c632f99caed8cc7529d5b34aaf3174fd715863075608c9f9f",
+      "bytes": 585,
+      "evidence_status": "SOURCE_VERIFIED",
+      "parent_lineage": [
+        "696253484E447C924D43B51B9A506F6029464447D321DDBE568B3243AE00CCA2"
+      ],
+      "destination": {
+        "repository": "Keddeh1/SERVERSPACE",
+        "branch": "web-estate/import-sources-20261007",
+        "path": "web-estate/sites/keddeh-runtime/QUARANTINE.md"
+      }
+    },
+    {
+      "path": "web-estate/evidence/IMPORT_READBACK_20261007.json",
+      "kex_seed": "A5F3B15575BF0AEA7721E9C26FDEE939B7FAF9D23EAC6EAC91A7841425F4D668",
+      "sha256": "d5a77ee9b33b2f8a3768db976848b1ca5b5495b8237f10cf567cc2d9335198db",
+      "bytes": 1668,
+      "evidence_status": "SOURCE_VERIFIED",
+      "parent_lineage": [
+        "696253484E447C924D43B51B9A506F6029464447D321DDBE568B3243AE00CCA2"
+      ],
+      "destination": {
+        "repository": "Keddeh1/SERVERSPACE",
+        "branch": "web-estate/import-sources-20261007",
+        "path": "web-estate/evidence/IMPORT_READBACK_20261007.json"
+      }
+    },
+    {
+      "path": "web-estate/sites/aboudy-keddeh/",
+      "kex_seed": "AF2D96520B2ABC2BA56FA28CDDFCA2D679C3B299430B759D97F360189A4B3EFA",
+      "sha256": "abb16bdf770f6b7bdbc7c2ce46191accdee5179771fb4e667a140c49983a1bb1",
+      "hash_scope": "native Sites deployment archive",
+      "source_commit": "988804e539ae9b08f8741430643f7985d203d410",
+      "evidence_status": "SOURCE_VERIFIED",
+      "destination": {
+        "repository": "Keddeh1/SERVERSPACE",
+        "branch": "web-estate/import-sources-20261007",
+        "path": "web-estate/sites/aboudy-keddeh/",
+        "status": "IMPORTED"
+      }
+    },
+    {
+      "path": "web-estate/sites/system-estate/",
+      "kex_seed": "8E9B0AE191604754F530696EE15330DAEAEC37C6FD703769099E52D92E1AFDFD",
+      "sha256": "c2242b913b842072702b8bf1b3832e1601e9ae01d59d9274f8f3722ee997aa29",
+      "hash_scope": "native Sites deployment archive",
+      "source_commit": "ef5376bc8aed0c0404ac26997bb169a6089ed4de",
+      "evidence_status": "SOURCE_VERIFIED",
+      "destination": {
+        "repository": "Keddeh1/SERVERSPACE",
+        "branch": "web-estate/import-sources-20261007",
+        "path": "web-estate/sites/system-estate/",
+        "status": "IMPORTED"
+      }
+    },
+    {
+      "path": "web-estate/sites/keddeh-com/",
+      "kex_seed": "70EED16C754DB64C41A71B627EA951E589A5C16831D0724F43E90C3061986DA2",
+      "sha256": "4df5756bf4ba8f6051dbce2a64d7df4c4a2d808c15870c72bc41a9b4cb69874f",
+      "hash_scope": "native Sites deployment archive",
+      "source_commit": "6569868cd12122a7ffd5a736fcd266dafc6e9fb1",
+      "evidence_status": "OBSERVED",
+      "destination": {
+        "repository": "Keddeh1/SERVERSPACE",
+        "branch": "web-estate/import-sources-20261007",
+        "path": "web-estate/sites/keddeh-com/",
+        "status": "BLOCKED"
+      }
+    },
+    {
+      "path": "web-estate/sites/keddeh-runtime/",
+      "kex_seed": "329C2EE5725614860EACEE2703D6036C1D453B0ED51EB0F9E1B4789CD478A1A5",
+      "sha256": "2829682f208282afed277f788642fedd0c31b3a70e92cf295b0ac6b0db5f55f0",
+      "hash_scope": "native Sites deployment archive",
+      "source_commit": "a0e4a81f01f0c4f4e94cbc08857b37a274f88250",
+      "evidence_status": "OBSERVED",
+      "destination": {
+        "repository": "Keddeh1/SERVERSPACE",
+        "branch": "web-estate/import-sources-20261007",
+        "path": "web-estate/sites/keddeh-runtime/",
+        "status": "BLOCKED"
+      }
+    }
+  ],
+  "ledger_entries_sha256": "fe99a3cbb42c35aae5315c4e3a57ef09931ea7c136080f621bd36a32b91e97e6"
+}
