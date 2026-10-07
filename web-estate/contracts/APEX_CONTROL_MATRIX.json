@@ -1,0 +1,390 @@
+{
+  "schema": "kex.apex-control-matrix.v1",
+  "version": "1.0.0",
+  "kex_seed": "87EBF9866AB8EE7A09EECE63B36501C5FA18186C39B4C5108DF94B2DFF3E4899",
+  "allowed_evidence_states": [
+    "OBSERVED",
+    "SOURCE_VERIFIED",
+    "TESTED",
+    "INFERRED",
+    "UNTESTED",
+    "FAILED",
+    "UNSUPPORTED",
+    "SUPERSEDED"
+  ],
+  "claim_policy": {
+    "allowed_before_full_assessment": [
+      "designed using the APEX workflow",
+      "evaluation target: WCAG 2.2 Level AA",
+      "evaluated against [named source] with linked evidence"
+    ],
+    "prohibited_without_evidence": [
+      "ISO compliant",
+      "ISO certified",
+      "fully accessible",
+      "WCAG compliant",
+      "legally compliant"
+    ]
+  },
+  "controls": [
+    {
+      "id": "BOUNDARY-001",
+      "gate": 0,
+      "severity": "BLOCKER",
+      "owner": "Foundry Fabric",
+      "sources": [],
+      "criterion": "Frontage, Website, Publishing, Domain and Server Foundries have distinct accountable outputs.",
+      "evidence": [
+        "boundary record"
+      ],
+      "status": "UNTESTED"
+    },
+    {
+      "id": "CLAIM-001",
+      "gate": 0,
+      "severity": "BLOCKER",
+      "owner": "Frontage Foundry",
+      "sources": [
+        "ACCC-CLAIMS"
+      ],
+      "criterion": "Every material capability, performance, price, testimonial and result claim has current substantiation.",
+      "evidence": [
+        "claim register",
+        "source link",
+        "review date"
+      ],
+      "status": "UNTESTED"
+    },
+    {
+      "id": "HCI-001",
+      "gate": 1,
+      "severity": "BLOCKER",
+      "owner": "Frontage Foundry",
+      "sources": [
+        "ISO-9241-210-2019",
+        "ISO-9241-11-2018",
+        "GOVUK-SERVICE-STANDARD"
+      ],
+      "criterion": "The context of use, user groups, goals, environments, constraints and failure consequences are documented from evidence or marked UNTESTED.",
+      "evidence": [
+        "context record",
+        "research register"
+      ],
+      "status": "UNTESTED"
+    },
+    {
+      "id": "HCI-002",
+      "gate": 6,
+      "severity": "BLOCKER",
+      "owner": "Frontage Foundry",
+      "sources": [
+        "ISO-9241-210-2019",
+        "ISO-9241-11-2018"
+      ],
+      "criterion": "Representative users evaluate the primary task and at least one recovery path before release.",
+      "evidence": [
+        "usability protocol",
+        "observations",
+        "finding dispositions"
+      ],
+      "status": "UNTESTED"
+    },
+    {
+      "id": "UX-001",
+      "gate": 2,
+      "severity": "BLOCKER",
+      "owner": "Frontage Foundry",
+      "sources": [
+        "GOVUK-SERVICE-STANDARD",
+        "ISO-9241-110-2020"
+      ],
+      "criterion": "Each route has one explicit primary task, success condition and unsuitable-user route.",
+      "evidence": [
+        "task model",
+        "journey map"
+      ],
+      "status": "UNTESTED"
+    },
+    {
+      "id": "UI-001",
+      "gate": 5,
+      "severity": "BLOCKER",
+      "owner": "Website Foundry",
+      "sources": [
+        "ISO-9241-110-2020",
+        "ISO-9241-112-2025",
+        "ISO-9241-161-2025"
+      ],
+      "criterion": "Information hierarchy, controls, feedback and error states are consistent, understandable and tested across viewports.",
+      "evidence": [
+        "coded prototype",
+        "interaction review"
+      ],
+      "status": "UNTESTED"
+    },
+    {
+      "id": "ART-001",
+      "gate": 4,
+      "severity": "BLOCKER",
+      "owner": "Frontage Foundry",
+      "sources": [
+        "ACCC-CLAIMS",
+        "WCAG-2.2"
+      ],
+      "criterion": "Every visual asset has source, rights state, semantic role and alternative-content strategy.",
+      "evidence": [
+        "art-direction brief",
+        "asset register"
+      ],
+      "status": "UNTESTED"
+    },
+    {
+      "id": "ART-002",
+      "gate": 4,
+      "severity": "BLOCKER",
+      "owner": "Website Foundry",
+      "sources": [
+        "ISO-9241-112-2025",
+        "ISO-9241-161-2025",
+        "WEB-VITALS"
+      ],
+      "criterion": "Responsive crops preserve meaning and focal content while meeting explicit encoded-size and layout-stability budgets.",
+      "evidence": [
+        "responsive renders",
+        "asset measurements"
+      ],
+      "status": "UNTESTED"
+    },
+    {
+      "id": "ART-003",
+      "gate": 4,
+      "severity": "BLOCKER",
+      "owner": "Website Foundry",
+      "sources": [
+        "WCAG-2.2"
+      ],
+      "criterion": "Motion has user control, respects reduced-motion preference and carries no essential information without an equivalent.",
+      "evidence": [
+        "motion test",
+        "reduced-motion capture"
+      ],
+      "status": "UNTESTED"
+    },
+    {
+      "id": "INTAKE-001",
+      "gate": 3,
+      "severity": "BLOCKER",
+      "owner": "Frontage Foundry",
+      "sources": [
+        "OAIC-APP3",
+        "GOVUK-SERVICE-STANDARD"
+      ],
+      "criterion": "Each personal-information field has a documented, proportionate purpose and necessity rationale.",
+      "evidence": [
+        "field-purpose matrix"
+      ],
+      "status": "UNTESTED"
+    },
+    {
+      "id": "INTAKE-002",
+      "gate": 3,
+      "severity": "BLOCKER",
+      "owner": "Frontage Foundry",
+      "sources": [
+        "OAIC-APP5"
+      ],
+      "criterion": "The collection notice is presented at or before collection and covers the applicable notification matters.",
+      "evidence": [
+        "notice copy",
+        "rendered state"
+      ],
+      "status": "UNTESTED"
+    },
+    {
+      "id": "INTAKE-003",
+      "gate": 3,
+      "severity": "BLOCKER",
+      "owner": "Website Foundry",
+      "sources": [
+        "GOVUK-QUESTION-PAGES",
+        "GOVUK-ERROR-SUMMARY",
+        "WCAG-2.2"
+      ],
+      "criterion": "Questions, labels, instructions, validation and error recovery form a complete accessible process.",
+      "evidence": [
+        "journey test",
+        "keyboard test",
+        "screen-reader test"
+      ],
+      "status": "UNTESTED"
+    },
+    {
+      "id": "INTAKE-004",
+      "gate": 3,
+      "severity": "BLOCKER",
+      "owner": "Website Foundry",
+      "sources": [
+        "GOVUK-CHECK-ANSWERS"
+      ],
+      "criterion": "Users can review and change preserved answers before final submission.",
+      "evidence": [
+        "review-state test"
+      ],
+      "status": "UNTESTED"
+    },
+    {
+      "id": "INTAKE-005",
+      "gate": 3,
+      "severity": "BLOCKER",
+      "owner": "Server Foundry",
+      "sources": [
+        "GOVUK-SERVICE-STANDARD"
+      ],
+      "criterion": "Confirmation identifies receipt, reference, next step, response window and a human correction or support route.",
+      "evidence": [
+        "submission receipt",
+        "failure-path test"
+      ],
+      "status": "UNTESTED"
+    },
+    {
+      "id": "MKT-001",
+      "gate": 3,
+      "severity": "BLOCKER",
+      "owner": "Frontage Foundry",
+      "sources": [
+        "ACMA-SPAM"
+      ],
+      "criterion": "Marketing permission is separate, optional, unselected, recorded and paired with a functional unsubscribe process.",
+      "evidence": [
+        "consent record schema",
+        "unsubscribe test"
+      ],
+      "status": "UNTESTED"
+    },
+    {
+      "id": "A11Y-001",
+      "gate": 8,
+      "severity": "BLOCKER",
+      "owner": "Website Foundry",
+      "sources": [
+        "WCAG-2.2"
+      ],
+      "criterion": "The declared release target is WCAG 2.2 Level AA and every in-scope complete process is evaluated.",
+      "evidence": [
+        "criterion results",
+        "complete-process results"
+      ],
+      "status": "UNTESTED"
+    },
+    {
+      "id": "A11Y-002",
+      "gate": 8,
+      "severity": "BLOCKER",
+      "owner": "Website Foundry",
+      "sources": [
+        "WCAG-EM-2.0"
+      ],
+      "criterion": "Scope, accessibility-support baseline, samples, technologies and findings are documented; sample evaluation is not misrepresented as whole-site conformance.",
+      "evidence": [
+        "evaluation report"
+      ],
+      "status": "UNTESTED"
+    },
+    {
+      "id": "ATAG-001",
+      "gate": 8,
+      "severity": "BLOCKER",
+      "owner": "Website Foundry",
+      "sources": [
+        "ATAG-2.0"
+      ],
+      "criterion": "Owner authoring surfaces are accessible to authors and support production of accessible content.",
+      "evidence": [
+        "authoring-interface review",
+        "output review"
+      ],
+      "status": "UNTESTED"
+    },
+    {
+      "id": "PERF-001",
+      "gate": 7,
+      "severity": "BLOCKER",
+      "owner": "Website Foundry",
+      "sources": [
+        "WEB-VITALS"
+      ],
+      "criterion": "Field data at the 75th percentile meets LCP <= 2500 ms, INP <= 200 ms and CLS <= 0.1 on mobile and desktop, or an explicit exception is approved.",
+      "evidence": [
+        "field report",
+        "exception record"
+      ],
+      "status": "UNTESTED"
+    },
+    {
+      "id": "EXP-001",
+      "gate": 9,
+      "severity": "BLOCKER",
+      "owner": "Frontage Foundry",
+      "sources": [
+        "NIST-DOE",
+        "NIST-SAMPLE-SIZE"
+      ],
+      "criterion": "The conversion experiment is pre-registered with objective, factor, response, allocation, sample-size assumptions and stopping rule.",
+      "evidence": [
+        "experiment contract"
+      ],
+      "status": "UNTESTED"
+    },
+    {
+      "id": "EXP-002",
+      "gate": 9,
+      "severity": "BLOCKER",
+      "owner": "Foundry Fabric",
+      "sources": [
+        "NIST-DOE",
+        "WCAG-2.2",
+        "OAIC-APP3",
+        "ACCC-CLAIMS"
+      ],
+      "criterion": "A primary-metric gain cannot pass when an accessibility, privacy, complaint, claim-truth, lead-quality or fulfilment guardrail fails.",
+      "evidence": [
+        "experiment result",
+        "guardrail result"
+      ],
+      "status": "UNTESTED"
+    },
+    {
+      "id": "SEC-001",
+      "gate": 7,
+      "severity": "BLOCKER",
+      "owner": "Server Foundry",
+      "sources": [
+        "GOVUK-SERVICE-STANDARD"
+      ],
+      "criterion": "No secret, private allowlist or production credential appears in client source or public evidence.",
+      "evidence": [
+        "secret scan",
+        "manual review"
+      ],
+      "status": "UNTESTED"
+    },
+    {
+      "id": "PUB-001",
+      "gate": 10,
+      "severity": "BLOCKER",
+      "owner": "Publishing Foundry",
+      "sources": [
+        "GOVUK-SERVICE-STANDARD"
+      ],
+      "criterion": "Source, build, saved version, deployment and outside-in readback are separate, linked evidence records.",
+      "evidence": [
+        "source commit",
+        "build result",
+        "deployment result",
+        "readback"
+      ],
+      "status": "UNTESTED"
+    }
+  ]
+}
