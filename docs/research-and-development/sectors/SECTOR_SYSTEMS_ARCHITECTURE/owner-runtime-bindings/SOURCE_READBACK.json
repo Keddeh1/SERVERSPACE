@@ -1,0 +1,187 @@
+{
+  "acquired_date": "2026-10-08 Australia/Adelaide",
+  "sources": [
+    {
+      "title": "KEX_A_KEDDEH_VERIFICATION_ENGINE_LOCAL_RUN_V20.json",
+      "identity": "kex::1x/library/f57c0e6ae5484812b93d0b62bc37d7ea",
+      "sha256": "22b7053292dff06e470304a4d63e2b386efb0f4ab681512d550d2a359e3099a4",
+      "bytes": 991,
+      "read_scope": "complete file; static analysis"
+    },
+    {
+      "title": "kex-capability-runner.service",
+      "identity": "kex::1x/library/2fea912a088c4c8f9d753867f7f8c9a3",
+      "sha256": "c8d4f134d278519c427dd2c1a63d50b9d91f44369b4e59f25cc91b41abdf162f",
+      "bytes": 858,
+      "read_scope": "complete file; static analysis"
+    },
+    {
+      "title": "kex.service",
+      "identity": "kex::1x/library/f83f98f8263b4779960b9a08955b2814",
+      "sha256": "3b420028a4723d2140b5c7a6b73b9debf333c0ad15873df6027eb87a7bc6c26e",
+      "bytes": 454,
+      "read_scope": "complete file; static analysis"
+    },
+    {
+      "title": "AppleUSBHostBulkHIDDevice.h",
+      "identity": "kex::1x/library/9ec5adc102524f7bb3d919707e7c5b55",
+      "sha256": "6560a230b87a8ea46fb8ba68c26668433d0c48fd72c06469d7eec6078eabba7a",
+      "bytes": 1904,
+      "read_scope": "complete file; static analysis"
+    },
+    {
+      "title": "__init__.py",
+      "identity": "kex::1x/library/1f8d21b14e3b4d1fa786a8dc54a5d6b5",
+      "sha256": "a0174b2ff2d12d09f37832a34e233724bb806c3bf529c1f1615350bf4516b0be",
+      "bytes": 52,
+      "read_scope": "complete file; static analysis"
+    }
+  ],
+  "static_unit_readback": [
+    {
+      "title": "kex-capability-runner.service",
+      "directives": {
+        "Unit": {
+          "Description": [
+            "KEX Capability Runner"
+          ],
+          "After": [
+            "network-online.target"
+          ],
+          "Wants": [
+            "network-online.target"
+          ]
+        },
+        "Service": {
+          "Type": [
+            "simple"
+          ],
+          "User": [
+            "braink"
+          ],
+          "Group": [
+            "braink"
+          ],
+          "WorkingDirectory": [
+            "/opt/braink"
+          ],
+          "RuntimeDirectory": [
+            "keddeh"
+          ],
+          "RuntimeDirectoryMode": [
+            "0750"
+          ],
+          "StateDirectory": [
+            "braink/kex"
+          ],
+          "Environment": [
+            "KEX_RUNNER_SOCKET=/run/keddeh/kex-runner.sock",
+            "KEX_CAPABILITY_LEDGER=/var/lib/braink/kex/capability-ledger.jsonl",
+            "KEX_CAPABILITY_CALLERS=service://braink/stripe-payment-rail",
+            "KEX_SECRET_RESOLVER=/usr/local/libexec/kex-secret-resolver"
+          ],
+          "ExecStart": [
+            "/usr/bin/python3 /opt/braink/modules/kex_wbos/capability_runner.py"
+          ],
+          "Restart": [
+            "on-failure"
+          ],
+          "RestartSec": [
+            "2"
+          ],
+          "NoNewPrivileges": [
+            "true"
+          ],
+          "PrivateTmp": [
+            "true"
+          ],
+          "ProtectSystem": [
+            "strict"
+          ],
+          "ProtectHome": [
+            "true"
+          ],
+          "ReadWritePaths": [
+            "/run/keddeh /var/lib/braink/kex"
+          ],
+          "RestrictAddressFamilies": [
+            "AF_UNIX AF_INET AF_INET6"
+          ],
+          "UMask": [
+            "0007"
+          ]
+        },
+        "Install": {
+          "WantedBy": [
+            "multi-user.target"
+          ]
+        }
+      },
+      "installed": false,
+      "started": false
+    },
+    {
+      "title": "kex.service",
+      "directives": {
+        "Unit": {
+          "Description": [
+            "Keddeh Sovereign Substrate KEX-BRAINK Service Mesh"
+          ],
+          "After": [
+            "network.target network-online.target"
+          ],
+          "Wants": [
+            "network-online.target"
+          ]
+        },
+        "Service": {
+          "Type": [
+            "simple"
+          ],
+          "User": [
+            "ak"
+          ],
+          "WorkingDirectory": [
+            "/Users/ak/Documents/antigravity/fervent-euclid"
+          ],
+          "ExecStart": [
+            "/usr/bin/python3 -m kex.cli.main mesh --blades 100"
+          ],
+          "Restart": [
+            "always"
+          ],
+          "RestartSec": [
+            "5s"
+          ],
+          "LimitNOFILE": [
+            "65536"
+          ],
+          "LimitAS": [
+            "4294967296"
+          ],
+          "Nice": [
+            "10"
+          ],
+          "StandardOutput": [
+            "journal"
+          ],
+          "StandardError": [
+            "journal"
+          ]
+        },
+        "Install": {
+          "WantedBy": [
+            "multi-user.target"
+          ]
+        }
+      },
+      "installed": false,
+      "started": false
+    }
+  ],
+  "report_scope": "owner report, not current-host runtime verification",
+  "library_documents": 148,
+  "library_integrity_failures": [],
+  "seed_execution_implementation_in_these_files": false,
+  "parser_note": "repeatable systemd directives retained as lists; ordinary strict INI parsing is inappropriate"
+}
