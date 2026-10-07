@@ -22,6 +22,17 @@
     for (var i = 0; i < value.length; i += 1) result = ((result * 33) ^ value.charCodeAt(i)) & 16777215;
     return result;
   }
+  function originOffset(address, capacity) {
+    if (typeof capacity !== 'number' || capacity % 1 !== 0 || capacity < 1 || capacity > 16777216 || typeof address !== 'number' || address % 1 !== 0 || address < 1 || address > capacity) fail('E_ORIGIN_ADDRESS');
+    return address - 1;
+  }
+  function originAddress(offset, capacity) {
+    if (typeof offset !== 'number' || offset % 1 !== 0 || offset < 0) fail('E_ORIGIN_OFFSET');
+    originOffset(offset + 1, capacity); return offset + 1;
+  }
+  function memoryLocation(bank, address) {
+    return { bank: bank, address: address, bank_offset: originOffset(bank, 9), word_offset: originOffset(address, 256) };
+  }
   function validate(records) {
     if (!Array.isArray(records) || records.length < 1 || records.length > 256) fail('E_IR_SHAPE');
     for (var i = 0; i < records.length; i += 1) {
@@ -84,11 +95,11 @@
         if (halted || pc >= image.words.length) return true;
         var row = decode(image.words[pc]); pc += 1;
         if (row.op === 'HALT') { halted = true; return true; }
-        handlers[row.op](row.operand, { source_identity: image.source_identity, instruction: pc - 1 });
+        handlers[row.op](row.operand, { source_identity: image.source_identity, instruction: pc - 1, instruction_address: originAddress(pc - 1, image.words.length), address_origin: 1 });
         return pc >= image.words.length;
       } };
   }
-  var api = { version: '1.0.0', compile: compile, assemble: assemble, decode: decode, pack: pack, load: load, runner: runner, checksum: checksum };
+  var api = { version: '1.1.0', originOffset: originOffset, originAddress: originAddress, memoryLocation: memoryLocation, compile: compile, assemble: assemble, decode: decode, pack: pack, load: load, runner: runner, checksum: checksum };
   if (typeof module === 'object' && module.exports) module.exports = api;
   else root.KEXEngine = api;
 }(this));

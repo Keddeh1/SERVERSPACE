@@ -55,3 +55,5 @@ Existing APEX and nine-family deliveries remain separate reviewable sources.
 Run `python3 scripts/planning/populate_utilities.py --apply` to reconcile missing labels, milestones, issues and relationships. Existing bodies and status are preserved. Native Projects and repository-administration denials require a capability change; retry after that change, not with repeated unchanged calls. No token values belong in issues. Calendar dates remain unset until owner scheduling.
 
 CI annotation: “The job was not started because your account is locked due to a billing issue.” This is a hosted execution blocker, not a failing local assertion. No billing configuration is modified.
+
+[Engineering execution envelopes and one-origin contract](../engineering/README.md) elaborate every canonical item without changing its completion state.
