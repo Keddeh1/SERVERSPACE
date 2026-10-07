@@ -1,0 +1,47 @@
+name: Bound Aboudy Site qualification
+on:
+  push:
+    paths:
+      - 'web-estate/sites/aboudy-keddeh/**'
+      - '.github/workflows/aboudy-site.yml'
+  pull_request:
+    paths:
+      - 'web-estate/sites/aboudy-keddeh/**'
+      - '.github/workflows/aboudy-site.yml'
+permissions:
+  contents: read
+jobs:
+  qualify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: web-estate/sites/aboudy-keddeh
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24'
+      - name: Install exact browser/parser dependencies
+        run: npm ci --ignore-scripts --no-audit --no-fund
+      - name: Reproduce static source and registers
+        run: |
+          npm run build
+          git diff --exit-code -- dist research/claim-register.json research/interaction-register.json
+      - name: Compiler conformance and portable wrapper
+        run: |
+          npm run test:engine
+          npm run test:wrapper
+      - name: Runtime, TLS, resource admission and failover tests
+        run: npm run test:runtime
+      - name: Install browser
+        run: npx playwright install --with-deps chromium
+      - name: Every-page DOM and automated accessibility
+        run: |
+          export CHROMIUM_PATH=$(node -e "console.log(require('playwright').chromium.executablePath())")
+          npm run test:dom
