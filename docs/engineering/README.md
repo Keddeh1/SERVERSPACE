@@ -11,3 +11,5 @@ Batch README directories 01–10 retain each exact canonical requirement and dep
 [Owner relational memory and verified fallback](RELATIONAL_MEMORY.md) implements the newly supplied 64×64 coordinate/VFS field.
 
 [Number-line study and executable readback](number-line/README.md) records unit-origin arithmetic, zero/reference typing, conjugated operations, recurrence and context-preserving lineage.
+
+[Context continuation, VFS composition and qualification](CONTINUATION.md) supplies exact arithmetic, predecessor replay and equivalent-path fallback.

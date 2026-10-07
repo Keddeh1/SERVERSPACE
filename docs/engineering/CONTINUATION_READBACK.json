@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "source_sha256": "f78c15a7b6e303fac9d92fa3ba712811adf22e77565befd4e6b783e1e5dd3b71",
+  "owner_cells_admitted": 4096,
+  "lineage_steps_replayed": 2,
+  "exact_arithmetic_result": "1",
+  "lineage_fallback_path": 2,
+  "memory_fallback_path": "coordinate",
+  "scope": "same-host software qualification; temporary fixture policy; no regional consensus assertion",
+  "runtime_suite": {
+    "command": "python3 -B -m unittest discover -s tests -p 'test_*.py' -v",
+    "tests_passed": 38,
+    "new_context_tests": 14
+  },
+  "fault_checks": [
+    "competing writers",
+    "stale predecessor",
+    "missing predecessor",
+    "invalid body shape",
+    "rehashed false vector",
+    "context substitution",
+    "unadmitted cross-origin transition",
+    "equal scalar different lineage",
+    "primary VFS index missing"
+  ]
+}
