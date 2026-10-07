@@ -1,0 +1,32 @@
+{
+  "Delivery": {
+    "kind": "native_issue_search",
+    "query": "repo:Keddeh1/BRAINK-BETA-TEST repo:Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME repo:Keddeh1/Keddeh-SYSTEMS-Virtual-File-Space-ZCG-ARCHITECTURE repo:Keddeh1/SERVERSPACE repo:Keddeh1/SERVERSPACE-EXTERNAL repo:Keddeh1/SYSTEMS-SERVICES-FOR-DEPLOYMENT-QUEUE repo:Keddeh1/Virtual-File-Space-ZCG-ARCHITECTURE repo:Keddeh1/braink-foundary-schema repo:Keddeh1/keddeh.com is:issue is:open",
+    "url": "https://github.com/issues?q=repo%3AKeddeh1/BRAINK-BETA-TEST%20repo%3AKeddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME%20repo%3AKeddeh1/Keddeh-SYSTEMS-Virtual-File-Space-ZCG-ARCHITECTURE%20repo%3AKeddeh1/SERVERSPACE%20repo%3AKeddeh1/SERVERSPACE-EXTERNAL%20repo%3AKeddeh1/SYSTEMS-SERVICES-FOR-DEPLOYMENT-QUEUE%20repo%3AKeddeh1/Virtual-File-Space-ZCG-ARCHITECTURE%20repo%3AKeddeh1/braink-foundary-schema%20repo%3AKeddeh1/keddeh.com%20is%3Aissue%20is%3Aopen"
+  },
+  "Access gates": {
+    "kind": "native_issue_search",
+    "query": "repo:Keddeh1/BRAINK-BETA-TEST repo:Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME repo:Keddeh1/Keddeh-SYSTEMS-Virtual-File-Space-ZCG-ARCHITECTURE repo:Keddeh1/SERVERSPACE repo:Keddeh1/SERVERSPACE-EXTERNAL repo:Keddeh1/SYSTEMS-SERVICES-FOR-DEPLOYMENT-QUEUE repo:Keddeh1/Virtual-File-Space-ZCG-ARCHITECTURE repo:Keddeh1/braink-foundary-schema repo:Keddeh1/keddeh.com is:issue is:open label:\"gate:access\"",
+    "url": "https://github.com/issues?q=repo%3AKeddeh1/BRAINK-BETA-TEST%20repo%3AKeddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME%20repo%3AKeddeh1/Keddeh-SYSTEMS-Virtual-File-Space-ZCG-ARCHITECTURE%20repo%3AKeddeh1/SERVERSPACE%20repo%3AKeddeh1/SERVERSPACE-EXTERNAL%20repo%3AKeddeh1/SYSTEMS-SERVICES-FOR-DEPLOYMENT-QUEUE%20repo%3AKeddeh1/Virtual-File-Space-ZCG-ARCHITECTURE%20repo%3AKeddeh1/braink-foundary-schema%20repo%3AKeddeh1/keddeh.com%20is%3Aissue%20is%3Aopen%20label%3A%22gate%3Aaccess%22"
+  },
+  "Physical capacity": {
+    "kind": "native_issue_search",
+    "query": "repo:Keddeh1/BRAINK-BETA-TEST repo:Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME repo:Keddeh1/Keddeh-SYSTEMS-Virtual-File-Space-ZCG-ARCHITECTURE repo:Keddeh1/SERVERSPACE repo:Keddeh1/SERVERSPACE-EXTERNAL repo:Keddeh1/SYSTEMS-SERVICES-FOR-DEPLOYMENT-QUEUE repo:Keddeh1/Virtual-File-Space-ZCG-ARCHITECTURE repo:Keddeh1/braink-foundary-schema repo:Keddeh1/keddeh.com is:issue is:open label:\"gate:capacity\"",
+    "url": "https://github.com/issues?q=repo%3AKeddeh1/BRAINK-BETA-TEST%20repo%3AKeddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME%20repo%3AKeddeh1/Keddeh-SYSTEMS-Virtual-File-Space-ZCG-ARCHITECTURE%20repo%3AKeddeh1/SERVERSPACE%20repo%3AKeddeh1/SERVERSPACE-EXTERNAL%20repo%3AKeddeh1/SYSTEMS-SERVICES-FOR-DEPLOYMENT-QUEUE%20repo%3AKeddeh1/Virtual-File-Space-ZCG-ARCHITECTURE%20repo%3AKeddeh1/braink-foundary-schema%20repo%3AKeddeh1/keddeh.com%20is%3Aissue%20is%3Aopen%20label%3A%22gate%3Acapacity%22"
+  },
+  "Portable engines": {
+    "kind": "native_issue_search",
+    "query": "repo:Keddeh1/BRAINK-BETA-TEST repo:Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME repo:Keddeh1/Keddeh-SYSTEMS-Virtual-File-Space-ZCG-ARCHITECTURE repo:Keddeh1/SERVERSPACE repo:Keddeh1/SERVERSPACE-EXTERNAL repo:Keddeh1/SYSTEMS-SERVICES-FOR-DEPLOYMENT-QUEUE repo:Keddeh1/Virtual-File-Space-ZCG-ARCHITECTURE repo:Keddeh1/braink-foundary-schema repo:Keddeh1/keddeh.com is:open label:\"scope:portable-engine\"",
+    "url": "https://github.com/issues?q=repo%3AKeddeh1/BRAINK-BETA-TEST%20repo%3AKeddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME%20repo%3AKeddeh1/Keddeh-SYSTEMS-Virtual-File-Space-ZCG-ARCHITECTURE%20repo%3AKeddeh1/SERVERSPACE%20repo%3AKeddeh1/SERVERSPACE-EXTERNAL%20repo%3AKeddeh1/SYSTEMS-SERVICES-FOR-DEPLOYMENT-QUEUE%20repo%3AKeddeh1/Virtual-File-Space-ZCG-ARCHITECTURE%20repo%3AKeddeh1/braink-foundary-schema%20repo%3AKeddeh1/keddeh.com%20is%3Aopen%20label%3A%22scope%3Aportable-engine%22"
+  },
+  "Planning utilities": {
+    "kind": "native_issue_search",
+    "query": "repo:Keddeh1/BRAINK-BETA-TEST repo:Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME repo:Keddeh1/Keddeh-SYSTEMS-Virtual-File-Space-ZCG-ARCHITECTURE repo:Keddeh1/SERVERSPACE repo:Keddeh1/SERVERSPACE-EXTERNAL repo:Keddeh1/SYSTEMS-SERVICES-FOR-DEPLOYMENT-QUEUE repo:Keddeh1/Virtual-File-Space-ZCG-ARCHITECTURE repo:Keddeh1/braink-foundary-schema repo:Keddeh1/keddeh.com is:issue label:\"planning:utility\"",
+    "url": "https://github.com/issues?q=repo%3AKeddeh1/BRAINK-BETA-TEST%20repo%3AKeddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME%20repo%3AKeddeh1/Keddeh-SYSTEMS-Virtual-File-Space-ZCG-ARCHITECTURE%20repo%3AKeddeh1/SERVERSPACE%20repo%3AKeddeh1/SERVERSPACE-EXTERNAL%20repo%3AKeddeh1/SYSTEMS-SERVICES-FOR-DEPLOYMENT-QUEUE%20repo%3AKeddeh1/Virtual-File-Space-ZCG-ARCHITECTURE%20repo%3AKeddeh1/braink-foundary-schema%20repo%3AKeddeh1/keddeh.com%20is%3Aissue%20label%3A%22planning%3Autility%22"
+  },
+  "Review deliveries": {
+    "kind": "native_issue_search",
+    "query": "repo:Keddeh1/BRAINK-BETA-TEST repo:Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME repo:Keddeh1/Keddeh-SYSTEMS-Virtual-File-Space-ZCG-ARCHITECTURE repo:Keddeh1/SERVERSPACE repo:Keddeh1/SERVERSPACE-EXTERNAL repo:Keddeh1/SYSTEMS-SERVICES-FOR-DEPLOYMENT-QUEUE repo:Keddeh1/Virtual-File-Space-ZCG-ARCHITECTURE repo:Keddeh1/braink-foundary-schema repo:Keddeh1/keddeh.com is:pr is:open",
+    "url": "https://github.com/issues?q=repo%3AKeddeh1/BRAINK-BETA-TEST%20repo%3AKeddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME%20repo%3AKeddeh1/Keddeh-SYSTEMS-Virtual-File-Space-ZCG-ARCHITECTURE%20repo%3AKeddeh1/SERVERSPACE%20repo%3AKeddeh1/SERVERSPACE-EXTERNAL%20repo%3AKeddeh1/SYSTEMS-SERVICES-FOR-DEPLOYMENT-QUEUE%20repo%3AKeddeh1/Virtual-File-Space-ZCG-ARCHITECTURE%20repo%3AKeddeh1/braink-foundary-schema%20repo%3AKeddeh1/keddeh.com%20is%3Apr%20is%3Aopen"
+  }
+}

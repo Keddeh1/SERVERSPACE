@@ -1,0 +1,5 @@
+# Source ownership declarations; enforced review requires verified branch rules.
+/web-estate/ @Keddeh1
+/docs/planning/ @Keddeh1
+/scripts/planning/ @Keddeh1
+/.github/ @Keddeh1

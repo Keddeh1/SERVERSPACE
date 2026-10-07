@@ -1,0 +1,44 @@
+{
+  "owner": "Keddeh1",
+  "title": "KEDDEH Enterprise Engineering Programme",
+  "native_project_id": null,
+  "status": "integration-denied",
+  "blocker": "https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/28",
+  "fields": [
+    "Status",
+    "Priority",
+    "Batch",
+    "Repository",
+    "Gate",
+    "Evidence URL",
+    "Evidence scope",
+    "Start date",
+    "Target date",
+    "Device target",
+    "Physical capacity"
+  ],
+  "views": [
+    {
+      "name": "Delivery",
+      "layout": "BOARD_LAYOUT"
+    },
+    {
+      "name": "Qualification",
+      "layout": "TABLE_LAYOUT"
+    },
+    {
+      "name": "Failures and access",
+      "layout": "TABLE_LAYOUT"
+    },
+    {
+      "name": "Repository families",
+      "layout": "TABLE_LAYOUT"
+    },
+    {
+      "name": "Roadmap",
+      "layout": "ROADMAP_LAYOUT"
+    }
+  ],
+  "dates": "unset pending owner scheduling",
+  "api_schema": "createProjectV2View confirmed by GraphQL introspection; no fabricated native IDs"
+}

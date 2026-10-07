@@ -1,0 +1,1292 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Keddeh//Governed Programme Tasks//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Keddeh programme — undated tasks
+X-WR-TIMEZONE:Australia/Adelaide
+BEGIN:VTODO
+UID:programme-step-1@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:1. Establish the versioned 100-step plan and completion contract
+STATUS:COMPLETED
+PERCENT-COMPLETE:100
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/1
+ 7
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-2@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:2. Verify all nine repository identities\, local revisions and rem
+ ote tips
+STATUS:COMPLETED
+PERCENT-COMPLETE:100
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/1
+ 7
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-1@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-3@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:3. Verify qualified executable and wheel digests in all nine launc
+ hers
+STATUS:COMPLETED
+PERCENT-COMPLETE:100
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/1
+ 7
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-2@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-4@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:4. Verify fourteen owner-source custody identities and private dis
+ tribution
+STATUS:COMPLETED
+PERCENT-COMPLETE:100
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/1
+ 7
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-3@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-5@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:5. Read current health and topology from all nine running families
+STATUS:COMPLETED
+PERCENT-COMPLETE:100
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/1
+ 7
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-4@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-6@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:6. Measure bilateral cycle progression and retained pending intent
+STATUS:COMPLETED
+PERCENT-COMPLETE:100
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/1
+ 7
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-5@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-7@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:7. Verify owner gateway and VFS unauthenticated request rejection
+STATUS:COMPLETED
+PERCENT-COMPLETE:100
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/1
+ 7
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-6@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-8@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:8. Independently hash every family cached VFS package
+STATUS:COMPLETED
+PERCENT-COMPLETE:100
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/1
+ 7
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-7@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-9@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:9. Validate controlled-document hashes and release evidence bindin
+ gs
+STATUS:COMPLETED
+PERCENT-COMPLETE:100
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/1
+ 7
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-8@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-10@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:10. Capture actual dependency\, SQLite\, Docker and Node versions
+STATUS:COMPLETED
+PERCENT-COMPLETE:100
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/1
+ 7
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-9@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-11@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:11. Retrieve and fingerprint primary CPython SQLite transaction do
+ cumentation
+STATUS:COMPLETED
+PERCENT-COMPLETE:100
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/1
+ 8
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-10@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-12@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:12. Retrieve and fingerprint upstream SQLite WAL snapshot implemen
+ tation
+STATUS:COMPLETED
+PERCENT-COMPLETE:100
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/1
+ 8
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-11@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-13@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:13. Map current receipt verification and event-delivery transactio
+ n boundaries
+STATUS:COMPLETED
+PERCENT-COMPLETE:100
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/1
+ 8
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-12@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-14@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:14. Benchmark event polling against controlled receipt-history siz
+ es
+STATUS:COMPLETED
+PERCENT-COMPLETE:100
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/1
+ 8
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-13@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-15@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:15. Exercise historical receipt corruption rejection in an isolate
+ d store
+STATUS:COMPLETED
+PERCENT-COMPLETE:100
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/1
+ 8
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-14@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-16@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:16. Exercise cursor type\, range and subscription monotonicity bou
+ ndaries
+STATUS:COMPLETED
+PERCENT-COMPLETE:100
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/1
+ 8
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-15@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-17@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:17. Reproduce verification-to-delivery race with an isolated concu
+ rrent writer
+STATUS:COMPLETED
+PERCENT-COMPLETE:100
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/1
+ 8
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-16@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-18@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:18. Implement one-snapshot verified event delivery in both VFS rep
+ ositories
+STATUS:COMPLETED
+PERCENT-COMPLETE:100
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/1
+ 8
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-17@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-19@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:19. Run native VFS regressions for tamper\, bounds and concurrent 
+ append
+STATUS:COMPLETED
+PERCENT-COMPLETE:100
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/1
+ 8
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-18@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-20@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:20. Deploy the VFS snapshot fix and observe all family subscriptio
+ ns recover
+STATUS:COMPLETED
+PERCENT-COMPLETE:100
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/1
+ 8
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-19@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-21@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:21. Trace bilateral intent persistence and actor acknowledgement c
+ rash boundaries
+STATUS:COMPLETED
+PERCENT-COMPLETE:100
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/1
+ 9
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-20@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-22@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:22. Specify idempotent cycle finalization and receipt recovery con
+ tract
+STATUS:COMPLETED
+PERCENT-COMPLETE:100
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/1
+ 9
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-21@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-23@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:23. Build isolated crash injection at pre-intent and post-intent b
+ oundaries
+STATUS:COMPLETED
+PERCENT-COMPLETE:100
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/1
+ 9
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-22@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-24@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:24. Inject failure after a register commit before acknowledgement 
+ persistence
+STATUS:COMPLETED
+PERCENT-COMPLETE:100
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/1
+ 9
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-23@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-25@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:25. Verify replay uses the retained nonce without duplicate regist
+ er effects
+STATUS:COMPLETED
+PERCENT-COMPLETE:100
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/1
+ 9
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-24@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-26@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:26. Inject failure after final actor return before namespace recei
+ pt save
+STATUS:COMPLETED
+PERCENT-COMPLETE:100
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/1
+ 9
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-25@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-27@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:27. Implement durable cycle finalization identity and receipt reco
+ nciliation
+STATUS:COMPLETED
+PERCENT-COMPLETE:100
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/1
+ 9
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-26@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-28@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:28. Verify explicit pause survives restart and prevents new cycles
+STATUS:COMPLETED
+PERCENT-COMPLETE:100
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/1
+ 9
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-27@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-29@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:29. Qualify owner-feedback outage and retry recovery without fabri
+ cated samples
+STATUS:COMPLETED
+PERCENT-COMPLETE:100
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/1
+ 9
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-28@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-30@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:30. Promote the bilateral recovery change through wheel and VFS qu
+ alification
+STATUS:COMPLETED
+PERCENT-COMPLETE:100
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/1
+ 9
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-29@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-31@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:31. Research Linux namespaces\, Docker bridge boundaries and resou
+ rce constraints
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 0
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-30@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-32@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:32. Inventory actual upstream and downstream membership for each d
+ omain
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 0
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-31@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-33@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:33. Test root-anchor loss while preserving child-local execution
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 0
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-32@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-34@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:34. Test intermediate-anchor loss and retained child epoch progres
+ sion
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 0
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-33@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-35@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:35. Test acyclic reanchor validation and reject invalid lineage
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 0
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-34@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-36@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:36. Test Docker daemon restart against retained family intent
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 0
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-35@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-37@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:37. Test missing downstream network reconstruction without foreign
+  adoption
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 0
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-36@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-38@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:38. Measure family CPU\, memory\, PID and journal growth under sus
+ tained load
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 0
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-37@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-39@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:39. Implement evidence-led capacity thresholds and graceful admiss
+ ion failure
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 0
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-38@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-40@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:40. Qualify domain capacity and recovery contracts across all nine
+  families
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 0
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-39@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-41@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:41. Audit owner bundle membership against source custody and class
+ ification
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 1
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-40@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-42@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:42. Reconcile process documentation with every managed service ent
+ ry
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 1
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-41@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-43@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:43. Reconcile action and configuration guides with actual user int
+ erfaces
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 1
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-42@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-44@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:44. Expand API inventory to nested handlers and callable source fu
+ nctions
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 1
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-43@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-45@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:45. Build reproducible archive metadata and deterministic compress
+ ion
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 1
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-44@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-46@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:46. Verify two independent package builds have identical qualified
+  inputs
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 1
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-45@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-47@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:47. Create machine-readable dependency and licence inventory prove
+ nance
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 1
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-46@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-48@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:48. Implement package admission rejection for unknown or altered m
+ embers
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 1
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-47@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-49@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:49. Verify clean-room installed-wheel startup with retained source
+  manifests
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 1
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-48@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-50@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:50. Publish the newly qualified package to private VFS and all rep
+ ository families
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 1
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-49@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-51@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:51. Map every customer route to its audience\, primary task and ev
+ idence source
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 2
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-50@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-52@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:52. Research applicable primary accessibility and interaction stan
+ dards
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 2
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-51@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-53@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:53. Audit navigation information hierarchy and product responsibil
+ ity boundaries
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 2
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-52@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-54@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:54. Audit heading order\, accessible names and browser accessibili
+ ty trees
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 2
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-53@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-55@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:55. Exercise keyboard-only traversal of every customer control
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 2
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-54@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-56@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:56. Measure focus visibility\, contrast\, zoom and reduced-motion 
+ behaviour
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 2
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-55@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-57@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:57. Test all routes across declared mobile and desktop viewport ra
+ nges
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 2
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-56@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-58@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:58. Refine research and product copy against attributable current 
+ evidence
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 2
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-57@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-59@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:59. Implement consistent form feedback\, error recovery and regist
+ ration states
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 2
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-58@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-60@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:60. Run complete DOM and journey regressions against final custome
+ r assets
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 2
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-59@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-61@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:61. Trace consented registration inputs\, storage and operator han
+ dling
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 3
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-60@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-62@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:62. Research retention\, data minimisation and applicable disclosu
+ re requirements
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 3
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-61@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-63@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:63. Test duplicate\, conflicting and interrupted registration requ
+ ests
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 3
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-62@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-64@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:64. Test field size limits\, invalid content and cross-origin requ
+ est rejection
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 3
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-63@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-65@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:65. Test rate limit behaviour and recovery without losing valid en
+ quiries
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 3
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-64@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-66@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:66. Implement explicit authorised operator retrieval and audit bou
+ ndaries
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 3
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-65@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-67@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:67. Test 90-day retention deletion and durable receipt treatment
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 3
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-66@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-68@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:68. Implement private backup and restore for registration state
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 3
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-67@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-69@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:69. Verify customer status responses omit owner keys\, identities 
+ and private workbook data
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 3
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-68@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-70@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:70. Qualify the customer-data lifecycle and publish accurate handl
+ ing guidance
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 3
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-69@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-71@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:71. Validate saved repository membership and frozen installation i
+ nstructions
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 4
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-70@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-72@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:72. Qualify startup ordering with VFS first and preserved family i
+ ntent
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 4
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-71@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-73@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:73. Run independently provisioned fresh-task restoration when avai
+ lable
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 4
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-72@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-74@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:74. Recover the exact existing KEDDEH.COM native source when Sites
+  access returns
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 4
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-73@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-75@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:75. Resolve recorded source-quarantine findings without publishing
+  credential values
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 4
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-74@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-76@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:76. Integrate the qualified customer candidate into the existing S
+ ite identity
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 4
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-75@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-77@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:77. Run native serving-router\, build and audience-boundary checks
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 4
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-76@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-78@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:78. Publish through native Sites and record returned deployment ev
+ idence
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 4
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-77@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-79@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:79. Transfer digest-pinned owner originals to Google Drive when it
+ s capability returns
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 4
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-78@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-80@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:80. Verify public TLS and deployment readback from an external per
+ mitted observer
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 4
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-79@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-81@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:81. Review the supplied universal propagation equations and claime
+ d substrate mappings
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 5
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-80@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-82@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:82. Implement overflow-safe continuous sigmoid with explicit param
+ eter units
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 5
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-81@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-83@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:83. Qualify seeded gossip sampling and convergence measurement def
+ initions
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 5
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-82@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-84@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:84. Qualify LIF spike\, delay\, reset and integration-step semanti
+ cs
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 5
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-83@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-85@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:85. Qualify RC delay model assumptions against stated physical app
+ roximation
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 5
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-84@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-86@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:86. Load directed adjacency and GraphML through a bounded validate
+ d parser
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 5
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-85@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-87@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:87. Run seeded topology-noise sweeps with confidence intervals and
+  raw data custody
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 5
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-86@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-88@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:88. Map qualified software propagation outputs into explicit owner
+  register actuation
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 5
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-87@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-89@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:89. Implement optional accessible visual and Web Audio propagation
+  feedback
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 5
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-88@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-90@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:90. Publish reproducible research results with domain-specific lim
+ itations and attribution
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 5
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-89@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-91@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:91. Reconcile cross-repository milestones\, labels\, issues and re
+ lease dependencies
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 6
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-90@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-92@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:92. Provision native Projects views when integration Projects perm
+ ission returns
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 6
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-91@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-93@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:93. Run hosted Actions when billing allows execution and retain jo
+ b readbacks
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 6
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-92@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-94@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:94. Verify branch protection and review enforcement through suppor
+ ted access
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 6
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-93@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-95@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:95. Qualify owner-state and VFS backup restoration on a separate h
+ ost
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 6
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-94@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-96@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:96. Exercise multi-host family failover without shared-host availa
+ bility assumptions
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 6
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-95@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-97@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:97. Obtain independent assessment report identity and resolve its 
+ findings
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 6
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-96@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-98@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:98. Reconcile every customer assertion with final deployment and r
+ esearch evidence
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 6
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-97@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-99@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:99. Promote approved repository and Site releases with tested roll
+ back contracts
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 6
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-98@keddeh.com
+END:VTODO
+BEGIN:VTODO
+UID:programme-step-100@keddeh.com
+DTSTAMP:20261007T092112Z
+SUMMARY:100. Issue final delivery\, residual-risk and continuing operation
+ s record
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:0
+URL:https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/2
+ 6
+DESCRIPTION:Source revision c7a0aecdcb2c5ff1f5ef0b502519a3d6bb29f98b. Due 
+ date unset\; this is a task export\, not an agreed delivery commitment.
+RELATED-TO;RELTYPE=DEPENDS-ON:programme-step-99@keddeh.com
+END:VTODO
+END:VCALENDAR

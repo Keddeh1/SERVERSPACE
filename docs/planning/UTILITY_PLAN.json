@@ -1,0 +1,378 @@
+{
+  "schema": "keddeh.github-utility-plan.v1",
+  "repositories": [
+    "Keddeh1/BRAINK-BETA-TEST",
+    "Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME",
+    "Keddeh1/Keddeh-SYSTEMS-Virtual-File-Space-ZCG-ARCHITECTURE",
+    "Keddeh1/SERVERSPACE",
+    "Keddeh1/SERVERSPACE-EXTERNAL",
+    "Keddeh1/SYSTEMS-SERVICES-FOR-DEPLOYMENT-QUEUE",
+    "Keddeh1/Virtual-File-Space-ZCG-ARCHITECTURE",
+    "Keddeh1/braink-foundary-schema",
+    "Keddeh1/keddeh.com"
+  ],
+  "labels": [
+    {
+      "name": "planning:utility",
+      "color": "5319E7",
+      "description": "Versioned planning, maps, schedules and utility access"
+    },
+    {
+      "name": "gate:access",
+      "color": "B60205",
+      "description": "A specifically tested integration capability is denied"
+    },
+    {
+      "name": "gate:capacity",
+      "color": "D93F0B",
+      "description": "Physical host capacity and resource admission evidence required"
+    },
+    {
+      "name": "gate:independent",
+      "color": "FBCA04",
+      "description": "External independent assessment evidence required"
+    },
+    {
+      "name": "scope:portable-engine",
+      "color": "0052CC",
+      "description": "Canonical HTML KEX compiler and device compatibility"
+    },
+    {
+      "name": "status:queued",
+      "color": "C5DEF5",
+      "description": "Planned requirement awaiting dependency gates"
+    },
+    {
+      "name": "status:in-progress",
+      "color": "1D76DB",
+      "description": "Current implementation or planning work"
+    },
+    {
+      "name": "status:blocked",
+      "color": "B60205",
+      "description": "Specific prerequisite prevents completion"
+    },
+    {
+      "name": "priority:high",
+      "color": "D93F0B",
+      "description": "Required programme or release acceptance gate"
+    }
+  ],
+  "milestones": [
+    {
+      "id": "utilities",
+      "repository": "Keddeh1/SERVERSPACE",
+      "title": "Planning utilities \u2014 verified foundation",
+      "description": "Native records, programme maps, calendar task export, evidence and precise integration access gates. No invented dates or paid activation."
+    },
+    {
+      "id": "portable",
+      "repository": "Keddeh1/SERVERSPACE",
+      "title": "Portable HTML KEX \u2014 canonical toolchain and devices",
+      "description": "One versioned compiler/assembler/loader contract; native source conformance, 32-bit/TV/Android target qualification and rollback."
+    },
+    {
+      "id": "personal-site",
+      "repository": "Keddeh1/SERVERSPACE",
+      "title": "Personal Site \u2014 native integration and release",
+      "description": "Exact project appgprj_6ab6a8a830d8819184bb86039a5ca309, preserved custom audience, runtime adapter, native deployment and outside-in readback."
+    }
+  ],
+  "issues": [
+    {
+      "id": "utilities",
+      "repository": "Keddeh1/SERVERSPACE",
+      "title": "Planning utilities \u2014 complete the zero-cost GitHub control surface",
+      "body": "## Execution contract\n\nRetain exact source revisions, applicable primary sources, executed test/readback results, owner authority and a rollback route. Separate local implementation, native operation, independent assessment and production promotion. Do not include secrets or private audit identities.\n\nThe canonical runtime programme is https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/27. Its source ledger currently records 30 complete steps and next step 31; this issue does not replace it.\n\nAcceptance:\n- [ ] Inventory every applicable native/free programmable utility and actual scope.\n- [ ] Preserve existing issues, milestones, source branches and deliveries across nine families.\n- [ ] Read back native subissues and dependency edges.\n- [ ] Publish versioned vision, roadmap, dependency map and undated calendar tasks.\n- [ ] Provide idempotent API population and readback.\n- [ ] Link exact Project/administration denials to access resolution and usable Git/Issues alternatives.\n- [ ] Keep billable runners, services and billing changes disabled or outside this action.\n",
+      "labels": [
+        "planning:utility",
+        "status:in-progress",
+        "priority:high"
+      ],
+      "milestone": "utilities",
+      "assignees": [
+        "Keddeh1"
+      ]
+    },
+    {
+      "id": "admin-access",
+      "repository": "Keddeh1/SERVERSPACE",
+      "title": "Planning access \u2014 enable Discussions and initialise the Wiki through an authorised route",
+      "body": "## Execution contract\n\nRetain exact source revisions, applicable primary sources, executed test/readback results, owner authority and a rollback route. Separate local implementation, native operation, independent assessment and production promotion. Do not include secrets or private audit identities.\n\nObserved: repository metadata reports admin=true, but PATCH has_discussions returns Resource not accessible by integration. Discussion categories are empty. The Wiki is enabled in metadata but its Git endpoint reports Repository not found. These are separate from native Projects access tracked at https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/issues/28.\n\nAcceptance:\n- [ ] Existing integration has the required repository-administration capability.\n- [ ] Enable Discussions without changing repository visibility or Site audience.\n- [ ] Create bounded Vision, Design decisions and Research questions topics.\n- [ ] Initialise/read back the Wiki through a supported route, preserving existing content.\n- [ ] Link the versioned planning handbook as its source; no separate contradictory plan.\n\nUntil then, docs/planning provides the complete Git-backed handbook and decision log. No PAT values should be pasted into this issue.\n",
+      "labels": [
+        "planning:utility",
+        "gate:access",
+        "status:blocked",
+        "priority:high"
+      ],
+      "milestone": "utilities",
+      "assignees": [
+        "Keddeh1"
+      ]
+    },
+    {
+      "id": "physical-ram",
+      "repository": "Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME",
+      "title": "Capacity requirement \u2014 100 TB physical RAM per admitted server",
+      "body": "## Execution contract\n\nRetain exact source revisions, applicable primary sources, executed test/readback results, owner authority and a rollback route. Separate local implementation, native operation, independent assessment and production promotion. Do not include secrets or private audit identities.\n\nOwner explicitly selected 100 TB of PHYSICAL RAM per server, not VFS address space or persistent disk. Decimal target: 100,000,000,000,000 bytes per server. This extends Batch 4 capacity acceptance, rather than creating a second research programme. Current review container has a 32 GiB cgroup limit.\n\nAcceptance:\n- [ ] Identify the authorised provider/host model and resource budget; do not purchase or enable paid resources from this planning action.\n- [ ] Obtain host-visible and enforceable physical-RAM observations.\n- [ ] Map parent pool and per-service VFS quotas without double counting.\n- [ ] Qualify bounded 32-bit process windows separately from physical host memory.\n- [ ] Test admission failure, memory pressure, eviction, process loss and recovery.\n- [ ] Record actual provisioning/consumption; metadata cannot fabricate RAM.\n",
+      "labels": [
+        "gate:capacity",
+        "planning:utility",
+        "status:blocked",
+        "priority:high"
+      ],
+      "milestone": null,
+      "assignees": [
+        "Keddeh1"
+      ]
+    },
+    {
+      "id": "persistence",
+      "repository": "Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME",
+      "title": "Persistence contract \u2014 transmission, TOT, failover and 0.297 failure envelope",
+      "body": "## Execution contract\n\nRetain exact source revisions, applicable primary sources, executed test/readback results, owner authority and a rollback route. Separate local implementation, native operation, independent assessment and production promotion. Do not include secrets or private audit identities.\n\nThe latest owner-runtime report records durable journals, retained intent, recursive-domain recovery and software phase parameter 0.297. This issue formalises the owner-specified transmission/TOT/resonance requirements against authoritative implementations. It does not dismiss the supplied architecture or infer all-replica recovery from lineage labels.\n\nAcceptance:\n- [ ] Index the exact source definition of TOT and phase/resonance semantics.\n- [ ] Define replica acknowledgement, ordering, fencing and reconstruction contracts.\n- [ ] Test process crash, network partition, replay and simultaneous memory loss.\n- [ ] Distinguish surviving RAM replicas from recovery after every copy is lost.\n- [ ] Bind observations to source/generation and obtain independent target assessment.\n- [ ] Reuse current governor/VFS functions; avoid a competing implementation.\n",
+      "labels": [
+        "planning:utility",
+        "gate:independent",
+        "status:queued",
+        "priority:high"
+      ],
+      "milestone": null,
+      "assignees": [
+        "Keddeh1"
+      ]
+    },
+    {
+      "id": "engine-alignment",
+      "repository": "Keddeh1/SERVERSPACE",
+      "title": "Canonical engine integration \u2014 align portable P03 toolchain with the current owner runtime",
+      "body": "## Execution contract\n\nRetain exact source revisions, applicable primary sources, executed test/readback results, owner authority and a rollback route. Separate local implementation, native operation, independent assessment and production promotion. Do not include secrets or private audit identities.\n\nPortable candidate: https://github.com/Keddeh1/SERVERSPACE/tree/codex-aboudy-site-expansion. Current family delivery: https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/pull/16. The portable compiler has 15 source-conformance/rejection checks; the family programme reports a later qualified runtime release. Keep their distinct responsibilities and pin both sources before integration.\n\nAcceptance:\n- [ ] Map compiler, assembler, loader, multiplexer and host-handler interfaces.\n- [ ] Retain exact P03 KEX-IR-1/KEX-ISA-1/KEXE-1 conformance vectors.\n- [ ] Expose one reusable engine package through the HTML wrapper.\n- [ ] Reject unknown adapters, corrupt packages and unauthorised host actions.\n- [ ] Run installed-package and DOM readback against the integrated source.\n- [ ] Confirm source/attribution and a tested rollback without duplicating functions.\n",
+      "labels": [
+        "scope:portable-engine",
+        "status:queued",
+        "priority:high"
+      ],
+      "milestone": "portable",
+      "assignees": [
+        "Keddeh1"
+      ]
+    },
+    {
+      "id": "devices",
+      "repository": "Keddeh1/SERVERSPACE",
+      "title": "Device qualification \u2014 TVs, small Android and 32-bit HTML KEX runners",
+      "body": "## Execution contract\n\nRetain exact source revisions, applicable primary sources, executed test/readback results, owner authority and a rollback route. Separate local implementation, native operation, independent assessment and production promotion. Do not include secrets or private audit identities.\n\nThe current Site package passes ES5 parsing, bounded cooperative jobs and a 64 KiB route budget. Desktop Chromium feature removal is not physical-device acceptance.\n\nAcceptance:\n- [ ] Declare actual supported TV/Android/browser/32-bit targets and input devices.\n- [ ] Exercise remote/keyboard focus, forms, reduced motion and no-JavaScript fallback.\n- [ ] Measure CPU, resident memory, startup, sustained work and recovery.\n- [ ] Test package loading and multiplexer adapter on actual 32-bit targets.\n- [ ] Record firmware/browser revisions, raw results and per-target limitations.\n",
+      "labels": [
+        "scope:portable-engine",
+        "status:queued",
+        "priority:high"
+      ],
+      "milestone": "portable",
+      "assignees": [
+        "Keddeh1"
+      ]
+    },
+    {
+      "id": "personal-promotion",
+      "repository": "Keddeh1/SERVERSPACE",
+      "title": "Personal Site promotion \u2014 native source, audience and runtime binding",
+      "body": "## Execution contract\n\nRetain exact source revisions, applicable primary sources, executed test/readback results, owner authority and a rollback route. Separate local implementation, native operation, independent assessment and production promotion. Do not include secrets or private audit identities.\n\nTarget appgprj_6ab6a8a830d8819184bb86039a5ca309. Tested 14-route source branch: codex-aboudy-site-expansion. Existing recorded custom audience revision 1 must be preserved. Apply APEX and current owner-runtime boundaries; do not substitute KEDDEH.COM or another Site.\n\nAcceptance:\n- [ ] Open exact native source and verify current project/access/version.\n- [ ] Reconcile the candidate with existing source and APEX contracts.\n- [ ] Bind a supported serving adapter for enquiries and owner administration.\n- [ ] Separate Google identity from separately consented Drive/VFS access.\n- [ ] Run native router/build/full DOM and private-data boundary checks.\n- [ ] Publish through the same Site and retain deployment/readback/rollback evidence.\n",
+      "labels": [
+        "planning:utility",
+        "status:blocked",
+        "priority:high"
+      ],
+      "milestone": "personal-site",
+      "assignees": [
+        "Keddeh1"
+      ]
+    }
+  ],
+  "existing": {
+    "programme": [
+      "Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME",
+      27
+    ],
+    "projects-access": [
+      "Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME",
+      28
+    ],
+    "quarantine": [
+      "Keddeh1/SERVERSPACE",
+      2
+    ],
+    "promotion": [
+      "Keddeh1/SYSTEMS-SERVICES-FOR-DEPLOYMENT-QUEUE",
+      5
+    ],
+    "batch-1": [
+      "Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME",
+      17
+    ],
+    "batch-2": [
+      "Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME",
+      18
+    ],
+    "batch-3": [
+      "Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME",
+      19
+    ],
+    "batch-4": [
+      "Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME",
+      20
+    ],
+    "batch-5": [
+      "Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME",
+      21
+    ],
+    "batch-6": [
+      "Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME",
+      22
+    ],
+    "batch-7": [
+      "Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME",
+      23
+    ],
+    "batch-8": [
+      "Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME",
+      24
+    ],
+    "batch-9": [
+      "Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME",
+      25
+    ],
+    "batch-10": [
+      "Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME",
+      26
+    ]
+  },
+  "relationships": [
+    {
+      "kind": "subissue",
+      "from": "programme",
+      "to": "batch-1"
+    },
+    {
+      "kind": "subissue",
+      "from": "programme",
+      "to": "batch-2"
+    },
+    {
+      "kind": "subissue",
+      "from": "programme",
+      "to": "batch-3"
+    },
+    {
+      "kind": "subissue",
+      "from": "programme",
+      "to": "batch-4"
+    },
+    {
+      "kind": "subissue",
+      "from": "programme",
+      "to": "batch-5"
+    },
+    {
+      "kind": "subissue",
+      "from": "programme",
+      "to": "batch-6"
+    },
+    {
+      "kind": "subissue",
+      "from": "programme",
+      "to": "batch-7"
+    },
+    {
+      "kind": "subissue",
+      "from": "programme",
+      "to": "batch-8"
+    },
+    {
+      "kind": "subissue",
+      "from": "programme",
+      "to": "batch-9"
+    },
+    {
+      "kind": "subissue",
+      "from": "programme",
+      "to": "batch-10"
+    },
+    {
+      "kind": "blocked-by",
+      "from": "batch-2",
+      "to": "batch-1"
+    },
+    {
+      "kind": "blocked-by",
+      "from": "batch-3",
+      "to": "batch-2"
+    },
+    {
+      "kind": "blocked-by",
+      "from": "batch-4",
+      "to": "batch-3"
+    },
+    {
+      "kind": "blocked-by",
+      "from": "batch-5",
+      "to": "batch-4"
+    },
+    {
+      "kind": "blocked-by",
+      "from": "batch-6",
+      "to": "batch-5"
+    },
+    {
+      "kind": "blocked-by",
+      "from": "batch-7",
+      "to": "batch-6"
+    },
+    {
+      "kind": "blocked-by",
+      "from": "batch-8",
+      "to": "batch-7"
+    },
+    {
+      "kind": "blocked-by",
+      "from": "batch-9",
+      "to": "batch-8"
+    },
+    {
+      "kind": "blocked-by",
+      "from": "batch-10",
+      "to": "batch-9"
+    },
+    {
+      "kind": "subissue",
+      "from": "utilities",
+      "to": "admin-access"
+    },
+    {
+      "kind": "blocked-by",
+      "from": "utilities",
+      "to": "projects-access"
+    },
+    {
+      "kind": "subissue",
+      "from": "batch-4",
+      "to": "physical-ram"
+    },
+    {
+      "kind": "subissue",
+      "from": "batch-10",
+      "to": "persistence"
+    },
+    {
+      "kind": "subissue",
+      "from": "engine-alignment",
+      "to": "devices"
+    },
+    {
+      "kind": "blocked-by",
+      "from": "personal-promotion",
+      "to": "engine-alignment"
+    }
+  ],
+  "calendar_policy": "undated tasks until owner scheduling; no invented deadlines",
+  "cost_policy": "no billing change, purchase, paid app, new billable host or scheduled runner in this operation"
+}

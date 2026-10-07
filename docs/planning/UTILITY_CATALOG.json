@@ -1,0 +1,117 @@
+[
+  {
+    "utility": "Issues",
+    "status": "active",
+    "evidence": "Canonical 100-step programme plus seven additional requirement/access issues."
+  },
+  {
+    "utility": "Labels",
+    "status": "active",
+    "evidence": "Nine utility/status/priority/capacity labels preserved or added across nine repositories."
+  },
+  {
+    "utility": "Milestones",
+    "status": "active",
+    "evidence": "Three estate milestones added; existing family and programme milestones preserved."
+  },
+  {
+    "utility": "Native subissues",
+    "status": "active",
+    "evidence": "Ten canonical batches attached to the programme; additional requirement children attached."
+  },
+  {
+    "utility": "Native dependencies",
+    "status": "active",
+    "evidence": "Sequential batch edges and explicit access/integration prerequisites created and read back."
+  },
+  {
+    "utility": "Draft pull requests",
+    "status": "active",
+    "evidence": "Personal Site review #8 and queue foundation review #6; existing nine-family deliveries preserved."
+  },
+  {
+    "utility": "Draft release",
+    "status": "active-draft",
+    "evidence": "Review metadata targets exact personal Site source revision; no production publication or asset upload."
+  },
+  {
+    "utility": "Issue search views",
+    "status": "active",
+    "evidence": "Six direct GitHub search views; these are not Projects boards."
+  },
+  {
+    "utility": "Projects board/table/roadmap",
+    "status": "integration-denied",
+    "evidence": "createProjectV2 returns Resource not accessible by integration; canonical issue #28."
+  },
+  {
+    "utility": "Discussions",
+    "status": "integration-denied",
+    "evidence": "Repository settings PATCH denied; current categories empty; estate issue #7."
+  },
+  {
+    "utility": "Wiki",
+    "status": "initialisation-required",
+    "evidence": "Metadata enabled, Git endpoint not found; versioned handbook is available in this branch."
+  },
+  {
+    "utility": "Calendar",
+    "status": "versioned-task-export",
+    "evidence": "100 canonical tasks in RFC5545 VTODO form; no committed dates have been invented."
+  },
+  {
+    "utility": "Vision and dependency maps",
+    "status": "versioned",
+    "evidence": "Git-backed vision, nine-repository map, Mermaid and machine-readable dependency contracts."
+  },
+  {
+    "utility": "Issue/PR templates",
+    "status": "branch-prepared",
+    "evidence": "Governed evidence fields and acceptance/rollback checklists; active after review/merge."
+  },
+  {
+    "utility": "CODEOWNERS",
+    "status": "branch-prepared",
+    "evidence": "Bounded estate and planning source patterns reference the existing owner; enforcement not asserted."
+  },
+  {
+    "utility": "Actions",
+    "status": "billing-blocked",
+    "evidence": "Actual check annotation says account locked due to billing; workflows do not establish hosted success."
+  },
+  {
+    "utility": "Rulesets/branch enforcement",
+    "status": "assessment-only",
+    "evidence": "No paid feature or enforcement change made; assess applicable protections and owner policy first."
+  },
+  {
+    "utility": "Code/security/dependency review",
+    "status": "versioned-review",
+    "evidence": "Evidence/privacy handling and dependency locks linked; no vulnerability-free or certification claim."
+  },
+  {
+    "utility": "Releases/package artifacts",
+    "status": "scoped-draft",
+    "evidence": "Use current Git/VFS custody; do not expose owner bundles or invent successful release uploads."
+  },
+  {
+    "utility": "GitHub Pages",
+    "status": "not-enabled",
+    "evidence": "Preserve native Sites identity and custom audience; no substitute public site or redirect."
+  },
+  {
+    "utility": "Paid apps/runners/storage",
+    "status": "excluded",
+    "evidence": "No billing change, purchase, paid app, model service or additional billable infrastructure activated."
+  },
+  {
+    "utility": "Account/project administration",
+    "status": "integration-denied",
+    "evidence": "Repository admin metadata does not grant the missing integration operation permissions."
+  },
+  {
+    "utility": "Dependabot updates",
+    "status": "branch-prepared",
+    "evidence": "Weekly npm and pinned Actions dependency review; capped at three open PRs per ecosystem. No paid runner or security feature enabled."
+  }
+]
