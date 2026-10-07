@@ -7,3 +7,5 @@
 Batch README directories 01–10 retain each exact canonical requirement and dependency. Evidence paths are reserved until checks actually execute. Native GitHub access gates remain prerequisites for unavailable platform activation; research or runtime progression does not silently bypass the utility gate.
 
 [Per-utility actuation requirements](UTILITY_ACTUATION.md) cover every inventoried GitHub utility and distinguish activation from prepared files.
+
+[Owner relational memory and verified fallback](RELATIONAL_MEMORY.md) implements the newly supplied 64×64 coordinate/VFS field.

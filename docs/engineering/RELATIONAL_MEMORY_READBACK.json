@@ -1,0 +1,19 @@
+{
+  "source_sha256": "f78c15a7b6e303fac9d92fa3ba712811adf22e77565befd4e6b783e1e5dd3b71",
+  "coordinates_and_vfs_bindings_validated": 4096,
+  "relation_bound": 106,
+  "allocated_unbound": 3990,
+  "source_target_transposition": "checked",
+  "runtime_scope": "in-memory relational field resolver; no new host provisioning",
+  "logical_frame_checks": "enforced independently on both candidate paths before digest readback",
+  "original_upload_corruption_injection": "primary state corrupted; coordinate fallback verified",
+  "runtime_suite": "24 passed",
+  "injected_failures": [
+    "primary missing",
+    "primary identity/state corruption",
+    "secondary missing",
+    "transposed secondary",
+    "both paths invalid",
+    "invalid frame with recomputed digest"
+  ]
+}
