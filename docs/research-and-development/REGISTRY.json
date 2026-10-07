@@ -16,7 +16,7 @@
     "scripts/engineering",
     "scripts/planning"
   ],
-  "indexed_artefacts": 115,
+  "indexed_artefacts": 125,
   "artefacts": [
     {
       "path": "AGENTS.md",
@@ -555,6 +555,38 @@
       "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
     },
     {
+      "path": "docs/research-and-development/sectors/SECTOR_EMPIRICAL_BENCHMARKS/incremental-replay-case-study/ANALYSIS.json",
+      "primary_sector": "SECTOR_EMPIRICAL_BENCHMARKS",
+      "document_type": "formal-document-or-record",
+      "sha256": "83d0415028cd892207b801e9eed538825fd3b5c77b396fa8727ceb45cf77947a",
+      "bytes": 3705,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
+      "path": "docs/research-and-development/sectors/SECTOR_EMPIRICAL_BENCHMARKS/incremental-replay-case-study/RAW_DATA.json",
+      "primary_sector": "SECTOR_EMPIRICAL_BENCHMARKS",
+      "document_type": "formal-document-or-record",
+      "sha256": "d6ef7908ce25f82e8927a91cfc1b98e7ea43f17e7818579ee009ee32cbb0abd4",
+      "bytes": 16056,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
+      "path": "docs/research-and-development/sectors/SECTOR_EMPIRICAL_BENCHMARKS/incremental-replay-case-study/README.md",
+      "primary_sector": "SECTOR_EMPIRICAL_BENCHMARKS",
+      "document_type": "formal-document-or-record",
+      "sha256": "94097dd44a1c6c8dc7a4520d27e77a749696320d118b5da02877f2d91b6d5993",
+      "bytes": 3618,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
+      "path": "docs/research-and-development/sectors/SECTOR_EMPIRICAL_BENCHMARKS/incremental-replay-case-study/VERIFICATION.json",
+      "primary_sector": "SECTOR_EMPIRICAL_BENCHMARKS",
+      "document_type": "formal-document-or-record",
+      "sha256": "d9160f498b88ef310b7ca394b51b680d61095eb45b30d8e8f25b069cc490e610",
+      "bytes": 888,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
       "path": "docs/research-and-development/sectors/SECTOR_FOUNDATIONS/README.md",
       "primary_sector": "SECTOR_FOUNDATIONS",
       "document_type": "formal-document-or-record",
@@ -576,6 +608,14 @@
       "document_type": "formal-document-or-record",
       "sha256": "2a0cd08c884f599b18ea769c57c3d8455744caad1cc26b7bcf09cffbe3b9091e",
       "bytes": 1192,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
+      "path": "docs/research-and-development/sectors/SECTOR_MATHEMATICAL_LATTICE/INCREMENTAL_REPLAY_MODEL.md",
+      "primary_sector": "SECTOR_MATHEMATICAL_LATTICE",
+      "document_type": "formal-document-or-record",
+      "sha256": "ca52393c097d6f9e4daec74c6bc129734dd9b60a06dd5c02f573d746700d6e7a",
+      "bytes": 1479,
       "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
     },
     {
@@ -611,6 +651,22 @@
       "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
     },
     {
+      "path": "docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/incremental-replay/README.md",
+      "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
+      "document_type": "formal-document-or-record",
+      "sha256": "bd8b2c4e51675569e5109273883b204fa28e399a452ca2538e5229012b350e61",
+      "bytes": 1837,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
+      "path": "scripts/analysis/analyse_incremental_replay.py",
+      "primary_sector": "SECTOR_EMPIRICAL_BENCHMARKS",
+      "document_type": "implementation-or-test",
+      "sha256": "6fce30b1f572fd6f34dfff3cb0e4f12a78b34ca463681db767fb55acb44e56ca",
+      "bytes": 930,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
       "path": "scripts/analysis/browser_compiler_pilot.cjs",
       "primary_sector": "SECTOR_EMPIRICAL_BENCHMARKS",
       "document_type": "implementation-or-test",
@@ -624,6 +680,14 @@
       "document_type": "implementation-or-test",
       "sha256": "70f205af9b175ad96eec08a76d90eed3680245059c6d6e687a0225a52feab569",
       "bytes": 7352,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
+      "path": "scripts/analysis/incremental_replay_pilot.py",
+      "primary_sector": "SECTOR_EMPIRICAL_BENCHMARKS",
+      "document_type": "implementation-or-test",
+      "sha256": "5e25f57563d81df2eeed31bf2cc008ec93928d059d4e15a18af268a93084e1c1",
+      "bytes": 2740,
       "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
     },
     {
@@ -803,6 +867,14 @@
       "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
     },
     {
+      "path": "web-estate/sites/aboudy-keddeh/runtime/incremental_continuation.py",
+      "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
+      "document_type": "implementation-or-test",
+      "sha256": "a4a3029aa8bc1b6e0936f32c2ab3400fef82bdfc09eb023514279793eb469bdc",
+      "bytes": 4145,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
       "path": "web-estate/sites/aboudy-keddeh/runtime/kex-contract.json",
       "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
       "document_type": "formal-document-or-record",
@@ -904,6 +976,14 @@
       "document_type": "implementation-or-test",
       "sha256": "70cdeafc7c8af42fdf10f5f43a0814c1f41a6274545acd97f34919e5e93a9a3d",
       "bytes": 1741,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
+      "path": "web-estate/sites/aboudy-keddeh/tests/test_incremental_continuation.py",
+      "primary_sector": "SECTOR_EMPIRICAL_BENCHMARKS",
+      "document_type": "implementation-or-test",
+      "sha256": "6a46e9dde20f4a61ccfbba4518ac0577cca43c6e6f2c074673ffc6a6659a576e",
+      "bytes": 4175,
       "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
     },
     {
