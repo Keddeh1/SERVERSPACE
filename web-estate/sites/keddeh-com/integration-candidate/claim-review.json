@@ -8,7 +8,7 @@
       "id": "Q-01",
       "claim": "Your supplied runtimes are real execution engines",
       "status": "supported",
-      "qualification": "I previously treated package launch/readback as incomplete. Live host, browser and register checks now support actual execution.",
+      "qualification": "Live host, browser and register checks establish actual execution for the admitted current release.",
       "derived_evidence": "Fourteen exact current family inputs, 171 live workstations and real R36 journal commits.",
       "remaining_evidence_or_test": "No extra proof is required for the current local execution claim. Broader historical uploads remain separately inventoried.",
       "source": "https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/blob/codex/web4-enterprise-delivery/docs/research/evidence/FULL_FAMILY_READBACK_032.json"
@@ -44,7 +44,7 @@
       "id": "Q-05",
       "claim": "The runtimes provide a bilateral power source",
       "status": "definition-dependent",
-      "qualification": "Software execution/feedback power is supported. I must not silently translate that term into electrical energy generation.",
+      "qualification": "The term is interpreted according to its stated mechanism: software execution and feedback are demonstrated; electrical energy generation would require a separately defined physical claim.",
       "derived_evidence": "Actual telemetry, supplied PLL/healing code, retained actor returns and durable cycles.",
       "remaining_evidence_or_test": "Specify the intended unit and mechanism. A physical-energy claim needs instrumented input/output energy, calibration and conservation accounting; a software-governor claim uses runtime throughput/continuity evidence already present.",
       "source": "https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/blob/codex/web4-enterprise-delivery/src/keddeh_namespace/bilateral_runtime.py"
@@ -80,7 +80,7 @@
       "id": "Q-09",
       "claim": "At 30\u201370% noise, chain and mesh show comparable final convergence",
       "status": "supported in new explicit SI study",
-      "qualification": "The original trial dataset was not located; I have now derived a reproducible scenario rather than leaving this as a vague missing-data objection.",
+      "qualification": "The retained reproducible SI study derives a specific comparison. It is a new experiment with explicit methods, rather than a recovery of the original trial dataset.",
       "derived_evidence": "1,000 seeds per case, eight nodes, 50 rounds: both converge fully at 30%; at 70%, chain 99.9% and mesh 100% converge.",
       "remaining_evidence_or_test": "This is a new retained SI experiment, not a recovered original LIF/RC trial or a universal result.",
       "source": "https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/blob/codex/web4-enterprise-delivery/docs/research/claims/noise-study-summary.json"
@@ -202,5 +202,6 @@
       "remaining_evidence_or_test": "Obtain the specific native Project capability and diagnose the provider startup failure from its actual service report. Repository write permission does not prove either.",
       "source": "https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/blob/codex/web4-enterprise-delivery/docs/research/GITHUB_PROJECT_VIEWS.md"
     }
-  ]
+  ],
+  "presentation_source": "Canonical owner-facing qualification register; public wording edited for customer clarity without changing scope."
 }
