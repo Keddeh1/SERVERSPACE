@@ -1,0 +1,19 @@
+{
+  "runtime_name": "KEDDEH_CUSTOM_RUNTIME",
+  "version": "0.1.0",
+  "branch": "codex",
+  "runtime_mode": "local_custom",
+  "dependency_policy": "no_github_runtime_dependencies",
+  "paths": {
+    "site_root": "sites/keddeh.com",
+    "dns_root": "runtime/dns",
+    "package_root": "packages/html",
+    "runtime_root": "runtime"
+  },
+  "services": [
+    "KEDDEH.COM",
+    "DNS runtime",
+    "HTML package execution",
+    "Custom local bootstrap"
+  ]
+}

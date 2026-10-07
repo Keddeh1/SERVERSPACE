@@ -1,0 +1,28 @@
+# .gitignore
+
+# Local runtime state
+runtime/.state/
+runtime/tmp/
+runtime/logs/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor metadata
+.vscode/
+.idea/
+
+# Node or package manager artifacts are intentionally not used here
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# Local build output
+build/
+dist/
+out/
+
+# Runtime runtime files
+*.pid
+*.sock
