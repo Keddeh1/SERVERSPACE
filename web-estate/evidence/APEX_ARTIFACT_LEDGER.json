@@ -197,7 +197,7 @@
       }
     }
   ],
-  "ledger_entries_sha256": "cc66f2da44aa8fa0bc449187fe3e77a3d03b14eabcc5e4f463e2e4436071cda0",
+  "ledger_entries_sha256": "5adf8f6fc37b21f038f2b6e2eedfd9f186bd55aa97c70d207caf485a416936aa",
   "notes": [
     "Validator --self-test executed successfully with eight cases. The separate node:test harness is committed for repository execution but was not executed in this read-only workspace, so that file remains OBSERVED."
   ]
