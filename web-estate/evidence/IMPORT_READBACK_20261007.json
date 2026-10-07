@@ -1,0 +1,59 @@
+{
+  "schema": "keddeh.web-estate.import-readback.v1",
+  "kex_seed": "6F1DCCF1497AC85CEB81542001100C023C3194FCE33C6869C9FE97BCF24F186B",
+  "created_at": "2026-10-07T01:30:00Z",
+  "evidence_status": "TESTED",
+  "parent_lineage": [
+    "Sites source commits 988804e539ae9b08f8741430643f7985d203d410 and ef5376bc8aed0c0404ac26997bb169a6089ed4de",
+    "GitHub estate commit 5dedb4587f2b8599c64335ff00841f426fbda7ed"
+  ],
+  "destination": {
+    "repository": "Keddeh1/SERVERSPACE",
+    "branch": "web-estate/import-sources-20261007",
+    "path": "web-estate/evidence/IMPORT_READBACK_20261007.json"
+  },
+  "checks": [
+    {
+      "id": "system-estate-tree",
+      "expected_files": 99,
+      "observed_files": 99,
+      "blob_sha_mismatches": 0,
+      "status": "TESTED"
+    },
+    {
+      "id": "personal-tree",
+      "expected_files": 2,
+      "observed_files": 2,
+      "blob_sha_mismatches": 0,
+      "status": "TESTED"
+    },
+    {
+      "id": "registry-parse",
+      "site_count": 4,
+      "external_surface_count": 4,
+      "status": "TESTED"
+    },
+    {
+      "id": "public-secret-gate-system-estate",
+      "high_confidence_matches": 0,
+      "status": "TESTED"
+    },
+    {
+      "id": "public-secret-gate-personal",
+      "high_confidence_matches": 0,
+      "status": "TESTED"
+    },
+    {
+      "id": "keddeh-com-import",
+      "status": "BLOCKED",
+      "reason": "credential-shaped Google API value in two tracked files"
+    },
+    {
+      "id": "runtime-import",
+      "status": "BLOCKED",
+      "reason": "six high-confidence pattern files and owner-control security review required"
+    }
+  ],
+  "deployment_effect": "NONE",
+  "visibility_effect": "NONE"
+}
