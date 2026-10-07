@@ -13,3 +13,5 @@ Batch README directories 01–10 retain each exact canonical requirement and dep
 [Number-line study and executable readback](number-line/README.md) records unit-origin arithmetic, zero/reference typing, conjugated operations, recurrence and context-preserving lineage.
 
 [Context continuation, VFS composition and qualification](CONTINUATION.md) supplies exact arithmetic, predecessor replay and equivalent-path fallback.
+
+[Formal market, economic and environmental assessment](../analysis/html-runtime-market/README.md) contains source attribution, reproducible scenarios and the enterprise pilot plan.

@@ -1,0 +1,95 @@
+{
+  "scope": "illustrative sensitivities, not measured KEX savings; energy and cloud cash models are separate",
+  "measurement_required": [
+    "eligible-workload equivalence",
+    "marginal facility power",
+    "client-device incremental power",
+    "standby draw",
+    "network/sync energy",
+    "regional marginal grid intensity",
+    "actual avoidable invoices"
+  ],
+  "scenarios": [
+    {
+      "scenario": "lower client demand",
+      "assumptions": {
+        "servers_power_reduced": 10,
+        "prior_watts_each": "250",
+        "standby_watts_each": "5",
+        "facility_incremental_factor": "1.3",
+        "additional_verification_server_watts": "300",
+        "average_active_devices": 200,
+        "incremental_watts_per_device": "2",
+        "electricity_price_per_kwh": "0.25",
+        "emissions_kg_per_kwh": "0.4",
+        "annual_hours": 8760
+      },
+      "results": {
+        "server_facility_saving_watts": "2795.0",
+        "endpoint_incremental_watts": "400",
+        "net_saving_watts": "2395.0",
+        "annual_net_saving_kwh": "20980.2",
+        "annual_electricity_saving_currency_units": "5245.050",
+        "annual_operational_emissions_saving_kg": "8392.08",
+        "break_even_incremental_endpoint_watts": "2795.0"
+      }
+    },
+    {
+      "scenario": "moderate client demand",
+      "assumptions": {
+        "servers_power_reduced": 10,
+        "prior_watts_each": "250",
+        "standby_watts_each": "5",
+        "facility_incremental_factor": "1.3",
+        "additional_verification_server_watts": "300",
+        "average_active_devices": 1000,
+        "incremental_watts_per_device": "2",
+        "electricity_price_per_kwh": "0.25",
+        "emissions_kg_per_kwh": "0.4",
+        "annual_hours": 8760
+      },
+      "results": {
+        "server_facility_saving_watts": "2795.0",
+        "endpoint_incremental_watts": "2000",
+        "net_saving_watts": "795.0",
+        "annual_net_saving_kwh": "6964.2",
+        "annual_electricity_saving_currency_units": "1741.050",
+        "annual_operational_emissions_saving_kg": "2785.68",
+        "break_even_incremental_endpoint_watts": "2795.0"
+      }
+    },
+    {
+      "scenario": "higher client demand",
+      "assumptions": {
+        "servers_power_reduced": 10,
+        "prior_watts_each": "250",
+        "standby_watts_each": "5",
+        "facility_incremental_factor": "1.3",
+        "additional_verification_server_watts": "300",
+        "average_active_devices": 1000,
+        "incremental_watts_per_device": "5",
+        "electricity_price_per_kwh": "0.25",
+        "emissions_kg_per_kwh": "0.4",
+        "annual_hours": 8760
+      },
+      "results": {
+        "server_facility_saving_watts": "2795.0",
+        "endpoint_incremental_watts": "5000",
+        "net_saving_watts": "-2205.0",
+        "annual_net_saving_kwh": "-19315.8",
+        "annual_electricity_saving_currency_units": "-4828.950",
+        "annual_operational_emissions_saving_kg": "-7726.32",
+        "break_even_incremental_endpoint_watts": "2795.0"
+      }
+    }
+  ],
+  "cloud_cost_scenario": {
+    "assumed_removed_instances": 10,
+    "assumed_monthly_avoidable_price_each": "150",
+    "assumed_incremental_monthly_delivery_verification_support": "400",
+    "assumed_one_time_integration": "10000",
+    "monthly_net_saving": "1100",
+    "simple_payback_months": "9.090909090909090909090909091"
+  },
+  "checks": "energy accounting and positive/negative scenarios passed"
+}
