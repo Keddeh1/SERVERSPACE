@@ -16,4 +16,11 @@ class LibraryTests(unittest.TestCase):
             (lib.blobs/sha(b'evidence')).write_bytes(b'bad')
             with self.assertRaises(ValueError):lib.get(i)
             self.assertEqual(len(lib.verify()),1);lib.close()
+    def test_packed_carrier_requires_exact_decode_and_digest(self):
+        with tempfile.TemporaryDirectory() as t:
+            p=Path(t)/'paper';p.write_bytes(b'\0'*64);lib=Library(Path(t)/'vfs');i=lib.add(p,'SECTOR_FOUNDATIONS')
+            meta=lib.pack_ab(i,2);self.assertEqual(lib.get_ab(i,2),p.read_bytes())
+            Path(meta['carrier']).write_bytes(b'AB1:0:')
+            with self.assertRaises(ValueError):lib.get_ab(i,2)
+            lib.close()
 if __name__=='__main__':unittest.main()

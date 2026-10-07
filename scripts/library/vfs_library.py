@@ -49,6 +49,22 @@ class Library:
             p=self.blobs/h
             if not p.is_file() or sha(p.read_bytes())!=h:failures.append({'identity':identity,'hash':h})
         return failures
+    def pack_ab(self,identity,depth=1):
+        from ab_codec import cascade,restore
+        raw=self.get(identity);frame=cascade(raw,depth)
+        if restore(frame,depth)!=raw:raise ValueError('cascade verification failed')
+        h=sha(raw);folder=self.root/'ab-carriers';folder.mkdir(exist_ok=True,mode=0o700)
+        target=folder/(h+'.'+str(depth)+'.ab')
+        with open(target,'wb') as f:
+            os.chmod(target,0o600);f.write(frame);f.flush();os.fsync(f.fileno())
+        return {'identity':identity,'raw_sha256':h,'depth':depth,'raw_bytes':len(raw),'packed_bytes':len(frame),'carrier':str(target)}
+    def get_ab(self,identity,depth=1):
+        from ab_codec import restore
+        row=self.db.execute('SELECT hash FROM document WHERE identity=?',(identity,)).fetchone()
+        if row is None:raise KeyError('unknown logical identity')
+        raw=restore((self.root/'ab-carriers'/(row[0]+'.'+str(depth)+'.ab')).read_bytes(),depth)
+        if sha(raw)!=row[0]:raise ValueError('decoded carrier integrity failure')
+        return raw
     def close(self):self.db.close()
 def main():
     p=argparse.ArgumentParser();p.add_argument('--root',type=Path,default=DEFAULT);s=p.add_subparsers(dest='cmd',required=True)

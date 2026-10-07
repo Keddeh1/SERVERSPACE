@@ -1,0 +1,197 @@
+{
+  "definition": "A counts ones; B counts zeros; ASCII count framing AB1",
+  "encryption": false,
+  "all_round_trips_passed": true,
+  "samples": [
+    {
+      "source": "synthetic-zero",
+      "scope": "complete synthetic sample",
+      "input_bytes": 1024,
+      "layer_bytes": [
+        14,
+        114,
+        932
+      ]
+    },
+    {
+      "source": "synthetic-alternation",
+      "scope": "complete synthetic sample",
+      "input_bytes": 1024,
+      "layer_bytes": [
+        16393,
+        131151,
+        1065612
+      ]
+    },
+    {
+      "source": "universal_seed_adapter_and_sectoral_memory_architecture.md",
+      "scope": "first 256 bytes or shorter; not whole-document compression",
+      "input_bytes": 256,
+      "layer_bytes": [
+        2235,
+        17930,
+        145671
+      ]
+    },
+    {
+      "source": "implementation_plan.md",
+      "scope": "first 256 bytes or shorter; not whole-document compression",
+      "input_bytes": 256,
+      "layer_bytes": [
+        2163,
+        17352,
+        140983
+      ]
+    },
+    {
+      "source": "KEX_HCI_GROWTH_RUNTIME_V2_DELIVERY (1).zip",
+      "scope": "first 256 bytes or shorter; not whole-document compression",
+      "input_bytes": 256,
+      "layer_bytes": [
+        2041,
+        16438,
+        133551
+      ]
+    },
+    {
+      "source": "BRAINK_Architectural_Review.md",
+      "scope": "first 256 bytes or shorter; not whole-document compression",
+      "input_bytes": 256,
+      "layer_bytes": [
+        2275,
+        18254,
+        148303
+      ]
+    },
+    {
+      "source": "KEDDEH_64x64_MEMORY_VFS.json",
+      "scope": "first 256 bytes or shorter; not whole-document compression",
+      "input_bytes": 256,
+      "layer_bytes": [
+        1933,
+        15534,
+        126219
+      ]
+    },
+    {
+      "source": "foundational_paper_coordinate_systems_and_measurement_theory.md",
+      "scope": "first 256 bytes or shorter; not whole-document compression",
+      "input_bytes": 256,
+      "layer_bytes": [
+        2229,
+        17890,
+        145355
+      ]
+    },
+    {
+      "source": "KEDDEH_ENGINEERED_COMPUTER_RUNTIME_v1.html",
+      "scope": "first 256 bytes or shorter; not whole-document compression",
+      "input_bytes": 256,
+      "layer_bytes": [
+        2117,
+        17050,
+        138527
+      ]
+    },
+    {
+      "source": "KEX_ADAPTIVE_DISTRIBUTION_ENVIRONMENT.zip",
+      "scope": "first 256 bytes or shorter; not whole-document compression",
+      "input_bytes": 256,
+      "layer_bytes": [
+        1033,
+        8335,
+        67690
+      ]
+    },
+    {
+      "source": "COMPLIANCE_EVIDENCE_CASE_STUDY_v0.6.0.docx",
+      "scope": "first 256 bytes or shorter; not whole-document compression",
+      "input_bytes": 256,
+      "layer_bytes": [
+        1966,
+        15830,
+        128621
+      ]
+    },
+    {
+      "source": "case_study_cross_arithmetic_lattice_and_coordinate_systems.md",
+      "scope": "first 256 bytes or shorter; not whole-document compression",
+      "input_bytes": 256,
+      "layer_bytes": [
+        2173,
+        17442,
+        141715
+      ]
+    },
+    {
+      "source": "case_study_software_engineering_and_systems_architecture.md",
+      "scope": "first 256 bytes or shorter; not whole-document compression",
+      "input_bytes": 256,
+      "layer_bytes": [
+        2231,
+        17874,
+        145223
+      ]
+    },
+    {
+      "source": "Pasted text.txt",
+      "scope": "first 256 bytes or shorter; not whole-document compression",
+      "input_bytes": 256,
+      "layer_bytes": [
+        2131,
+        17080,
+        138771
+      ]
+    },
+    {
+      "source": "KEX_Legal_Process_Workstation_v0.3.0.zip",
+      "scope": "first 256 bytes or shorter; not whole-document compression",
+      "input_bytes": 256,
+      "layer_bytes": [
+        2022,
+        16282,
+        132287
+      ]
+    },
+    {
+      "source": "+_foundational_paper_coordinate_systems_and_measurement_theory.md",
+      "scope": "first 256 bytes or shorter; not whole-document compression",
+      "input_bytes": 256,
+      "layer_bytes": [
+        2229,
+        17890,
+        145355
+      ]
+    },
+    {
+      "source": "KEX_Legal_Process_Accountability_Service_v0.1.0.zip",
+      "scope": "first 256 bytes or shorter; not whole-document compression",
+      "input_bytes": 256,
+      "layer_bytes": [
+        1770,
+        14248,
+        115751
+      ]
+    },
+    {
+      "source": "case_study_empirical_systems_benchmark_and_component_registry.md",
+      "scope": "first 256 bytes or shorter; not whole-document compression",
+      "input_bytes": 256,
+      "layer_bytes": [
+        2173,
+        17422,
+        141555
+      ]
+    },
+    {
+      "source": "KEX_FORWARD_REHYDRATION_RUNTIME.html",
+      "scope": "first 256 bytes or shorter; not whole-document compression",
+      "input_bytes": 256,
+      "layer_bytes": [
+        2129,
+        17132,
+        139193
+      ]
+    }
+  ]
+}

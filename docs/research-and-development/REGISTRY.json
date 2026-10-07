@@ -17,7 +17,7 @@
     "scripts/engineering",
     "scripts/planning"
   ],
-  "indexed_artefacts": 129,
+  "indexed_artefacts": 135,
   "artefacts": [
     {
       "path": "AGENTS.md",
@@ -436,6 +436,22 @@
       "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
     },
     {
+      "path": "docs/research-and-development/sectors/SECTOR_EMPIRICAL_BENCHMARKS/ab-cascade/MEASUREMENTS.json",
+      "primary_sector": "SECTOR_EMPIRICAL_BENCHMARKS",
+      "document_type": "formal-document-or-record",
+      "sha256": "eaa64915b5c99b1e71faf79419dd33fa175f31dabb3c8ed0daa7b571288323f3",
+      "bytes": 4886,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
+      "path": "docs/research-and-development/sectors/SECTOR_EMPIRICAL_BENCHMARKS/ab-cascade/README.md",
+      "primary_sector": "SECTOR_EMPIRICAL_BENCHMARKS",
+      "document_type": "formal-document-or-record",
+      "sha256": "8797f5580bb714c8fa786bb44027b751c0e91edbb947e1551a9dd0f71711e3bc",
+      "bytes": 2233,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
       "path": "docs/research-and-development/sectors/SECTOR_EMPIRICAL_BENCHMARKS/connector-case-study/ANALYSIS.json",
       "primary_sector": "SECTOR_EMPIRICAL_BENCHMARKS",
       "document_type": "formal-document-or-record",
@@ -604,6 +620,14 @@
       "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
     },
     {
+      "path": "docs/research-and-development/sectors/SECTOR_MATHEMATICAL_LATTICE/AB_CASCADE_TRUTH_TABLE.md",
+      "primary_sector": "SECTOR_MATHEMATICAL_LATTICE",
+      "document_type": "formal-document-or-record",
+      "sha256": "c79ff8464d9ad753927322e1d124005f8bc96dfdf93ff5012517857dab715399",
+      "bytes": 1991,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
       "path": "docs/research-and-development/sectors/SECTOR_MATHEMATICAL_LATTICE/CONNECTOR_COST_MODEL.md",
       "primary_sector": "SECTOR_MATHEMATICAL_LATTICE",
       "document_type": "formal-document-or-record",
@@ -732,19 +756,43 @@
       "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
     },
     {
+      "path": "scripts/library/ab_codec.py",
+      "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
+      "document_type": "implementation-or-test",
+      "sha256": "ac3bb508446363fb4e80598f94a406403b5e79e03115bb4660592a876e3bc755",
+      "bytes": 2096,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
+      "path": "scripts/library/measure_ab.py",
+      "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
+      "document_type": "implementation-or-test",
+      "sha256": "0cf45221dd405f8cb764dd68b6b788a811d6811fead59ec4c9d5c9280c125d5a",
+      "bytes": 923,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
+      "path": "scripts/library/test_ab_codec.py",
+      "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
+      "document_type": "implementation-or-test",
+      "sha256": "6e735c3a0e011cc5b789fcef6981ae43d3991501509a0b66350b18b52bca4445",
+      "bytes": 1103,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
       "path": "scripts/library/test_vfs_library.py",
       "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
       "document_type": "implementation-or-test",
-      "sha256": "d5cdbc446518423ecdd7dcdf1336b73217a28f2fa621f1bd76258ad2e65f4f27",
-      "bytes": 1175,
+      "sha256": "1712faca22b89043ea458367145c67528854548cbb21d31a914b769e569e4313",
+      "bytes": 1634,
       "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
     },
     {
       "path": "scripts/library/vfs_library.py",
       "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
       "document_type": "implementation-or-test",
-      "sha256": "31667df75346ee06c63f03fbf07d1369e724799dcf84def47a7bd3f723630d50",
-      "bytes": 4595,
+      "sha256": "a48ce86d2b1747f55967c0d52e903b079417c97e13239b3adb3a123177dd6ab5",
+      "bytes": 5646,
       "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
     },
     {
