@@ -12,11 +12,12 @@
     "web-estate/sites/aboudy-keddeh/tests",
     "web-estate/sites/aboudy-keddeh/dist/assets",
     "scripts/research-and-development",
+    "scripts/library",
     "scripts/analysis",
     "scripts/engineering",
     "scripts/planning"
   ],
-  "indexed_artefacts": 125,
+  "indexed_artefacts": 129,
   "artefacts": [
     {
       "path": "AGENTS.md",
@@ -587,6 +588,14 @@
       "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
     },
     {
+      "path": "docs/research-and-development/sectors/SECTOR_FOUNDATIONS/GOOGLE_DRIVE_SOURCE_COVERAGE.md",
+      "primary_sector": "SECTOR_FOUNDATIONS",
+      "document_type": "formal-document-or-record",
+      "sha256": "c07fb67326a57f5edbfb25027f0f24c0977d87d3fba117d290ac92c8c46ce768",
+      "bytes": 1651,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
       "path": "docs/research-and-development/sectors/SECTOR_FOUNDATIONS/README.md",
       "primary_sector": "SECTOR_FOUNDATIONS",
       "document_type": "formal-document-or-record",
@@ -648,6 +657,14 @@
       "document_type": "formal-document-or-record",
       "sha256": "b9bbf9a93c20b3de3582122d8da57c13bcb368b8980468b94a5a14c4a79a4ea8",
       "bytes": 3735,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
+      "path": "docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/document-library/README.md",
+      "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
+      "document_type": "formal-document-or-record",
+      "sha256": "0b25ccbcf6478be229874a2c00270397972c43c1567797deb3932f11f36d909f",
+      "bytes": 2353,
       "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
     },
     {
@@ -715,6 +732,22 @@
       "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
     },
     {
+      "path": "scripts/library/test_vfs_library.py",
+      "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
+      "document_type": "implementation-or-test",
+      "sha256": "d5cdbc446518423ecdd7dcdf1336b73217a28f2fa621f1bd76258ad2e65f4f27",
+      "bytes": 1175,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
+      "path": "scripts/library/vfs_library.py",
+      "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
+      "document_type": "implementation-or-test",
+      "sha256": "31667df75346ee06c63f03fbf07d1369e724799dcf84def47a7bd3f723630d50",
+      "bytes": 4595,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
       "path": "scripts/planning/populate_utilities.py",
       "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
       "document_type": "implementation-or-test",
@@ -750,8 +783,8 @@
       "path": "scripts/research-and-development/index_research.py",
       "primary_sector": "SECTOR_FOUNDATIONS",
       "document_type": "implementation-or-test",
-      "sha256": "59a4228d384e28f08b6ac549cdf263f53d172186a4169eb885c9d0f89fcbfc21",
-      "bytes": 3479,
+      "sha256": "f012409259b1f4caae8d4239b42f621d89bfdbf8a58bbcde1d836895f0255611",
+      "bytes": 3497,
       "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
     },
     {

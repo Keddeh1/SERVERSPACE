@@ -9,7 +9,7 @@ DEST=ROOT/'docs/research-and-development'
 SECTORS=['SECTOR_FOUNDATIONS','SECTOR_MATHEMATICAL_LATTICE','SECTOR_SYSTEMS_ARCHITECTURE','SECTOR_EMPIRICAL_BENCHMARKS']
 PATHS=['docs/engineering','docs/analysis','docs/planning','docs/research-and-development/sectors',
        'web-estate/sites/aboudy-keddeh/research','web-estate/sites/aboudy-keddeh/runtime',
-       'web-estate/sites/aboudy-keddeh/tests','web-estate/sites/aboudy-keddeh/dist/assets','scripts/research-and-development','scripts/analysis','scripts/engineering','scripts/planning']
+       'web-estate/sites/aboudy-keddeh/tests','web-estate/sites/aboudy-keddeh/dist/assets','scripts/research-and-development','scripts/library','scripts/analysis','scripts/engineering','scripts/planning']
 
 
 def sector(path):
