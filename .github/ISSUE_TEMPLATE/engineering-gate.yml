@@ -1,0 +1,41 @@
+name: Governed engineering or release gate
+description: Record a bounded requirement, attribution, evidence and acceptance gate.
+title: "Gate — "
+body:
+  - type: markdown
+    attributes:
+      value: "Do not paste credentials, private allowlists or workbook data. Keep local execution, independent assessment and production status separate."
+  - type: textarea
+    id: requirement
+    attributes:
+      label: Requirement and owner boundary
+      description: State the outcome, system that owns it and exact target/source identity.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Attribution and existing work
+      description: Link authoritative sources, current issues/PRs and exact revisions before proposing another implementation.
+    validations:
+      required: true
+  - type: dropdown
+    id: evidence_scope
+    attributes:
+      label: Current evidence scope
+      options:
+        - Requirement only
+        - Source inspected
+        - Local actor execution
+        - Separate local readback
+        - Independent external assessment
+        - Native deployment readback
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance, dependencies and recovery
+      description: Include tests that can fail, blockers, rollback and capacity units. Requested memory is not provisioned memory.
+    validations:
+      required: true
