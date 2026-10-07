@@ -1,0 +1,2157 @@
+[
+  {
+    "route": "/",
+    "title": "Runtime systems that keep their context.",
+    "controls": [
+      {
+        "tag": "a",
+        "target": "#main",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/platform",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/architecture",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/research",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/enterprise",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/platform",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/architecture",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/research",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/enterprise",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/products/braink",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/products/kex",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/products/illlm",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/architecture",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/research",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/enterprise",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/contact",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/privacy",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      }
+    ],
+    "functions": [
+      "navigation",
+      "attributed-content",
+      "interest-registration"
+    ]
+  },
+  {
+    "route": "/platform",
+    "title": "An execution estate, not a single interface.",
+    "controls": [
+      {
+        "tag": "a",
+        "target": "#main",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/platform",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/architecture",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/research",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/enterprise",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/platform",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/architecture",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/research",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/enterprise",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/products/braink",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/products/kex",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/products/illlm",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/enterprise",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/contact",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/privacy",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      }
+    ],
+    "functions": [
+      "navigation",
+      "attributed-content",
+      "interest-registration"
+    ]
+  },
+  {
+    "route": "/architecture",
+    "title": "Every child owns a domain.",
+    "controls": [
+      {
+        "tag": "a",
+        "target": "#main",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/platform",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/architecture",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/research",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/enterprise",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/platform",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/architecture",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/research",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/enterprise",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/contact",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/privacy",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      }
+    ],
+    "functions": [
+      "navigation",
+      "attributed-content",
+      "interest-registration"
+    ]
+  },
+  {
+    "route": "/products/braink",
+    "title": "Execution with a returned account of its outcome.",
+    "controls": [
+      {
+        "tag": "a",
+        "target": "#main",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/platform",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/architecture",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/research",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/enterprise",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/platform",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/architecture",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/research",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/enterprise",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/architecture",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/contact",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/privacy",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      }
+    ],
+    "functions": [
+      "navigation",
+      "attributed-content",
+      "interest-registration"
+    ]
+  },
+  {
+    "route": "/products/kex",
+    "title": "A runtime boundary with an explicit lineage.",
+    "controls": [
+      {
+        "tag": "a",
+        "target": "#main",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/platform",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/architecture",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/research",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/enterprise",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/platform",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/architecture",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/research",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/enterprise",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/research",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/contact",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/privacy",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      }
+    ],
+    "functions": [
+      "navigation",
+      "attributed-content",
+      "interest-registration"
+    ]
+  },
+  {
+    "route": "/products/illlm",
+    "title": "Meaning with local context and provenance.",
+    "controls": [
+      {
+        "tag": "a",
+        "target": "#main",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/platform",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/architecture",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/research",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/enterprise",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/platform",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/architecture",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/research",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/enterprise",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/contact",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/privacy",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      }
+    ],
+    "functions": [
+      "navigation",
+      "attributed-content",
+      "interest-registration"
+    ]
+  },
+  {
+    "route": "/research",
+    "title": "Models, hypotheses and testable boundaries.",
+    "controls": [
+      {
+        "tag": "a",
+        "target": "#main",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/platform",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/architecture",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/research",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/enterprise",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/platform",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/architecture",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/research",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/enterprise",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/contact",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/privacy",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      }
+    ],
+    "functions": [
+      "navigation",
+      "attributed-content",
+      "interest-registration"
+    ]
+  },
+  {
+    "route": "/evidence",
+    "title": "Every claim has a scope and a source.",
+    "controls": [
+      {
+        "tag": "a",
+        "target": "#main",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/platform",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/architecture",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/research",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/enterprise",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/platform",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/architecture",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/research",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/enterprise",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "button",
+        "target": null,
+        "id": "live-refresh",
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/contact",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/privacy",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      }
+    ],
+    "functions": [
+      "navigation",
+      "attributed-content",
+      "interest-registration",
+      "runtime-readback",
+      "claim-register"
+    ]
+  },
+  {
+    "route": "/developers",
+    "title": "Start with a bounded, attributed function.",
+    "controls": [
+      {
+        "tag": "a",
+        "target": "#main",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/platform",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/architecture",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/research",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/enterprise",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/platform",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/architecture",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/research",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/enterprise",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/downloads/runtime-package.whl",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/tree/codex/web4-enterprise-delivery/docs/package",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/contact",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/privacy",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      }
+    ],
+    "functions": [
+      "navigation",
+      "attributed-content",
+      "interest-registration"
+    ]
+  },
+  {
+    "route": "/enterprise",
+    "title": "Define the workload. Define the evidence.",
+    "controls": [
+      {
+        "tag": "a",
+        "target": "#main",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/platform",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/architecture",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/research",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/enterprise",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/platform",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/architecture",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/research",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/enterprise",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/contact",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/architecture",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/contact",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/privacy",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      }
+    ],
+    "functions": [
+      "navigation",
+      "attributed-content",
+      "interest-registration"
+    ]
+  },
+  {
+    "route": "/contact",
+    "title": "A useful conversation starts with your context.",
+    "controls": [
+      {
+        "tag": "a",
+        "target": "#main",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/platform",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/architecture",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/research",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/enterprise",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/platform",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/architecture",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/research",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/enterprise",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "form",
+        "target": null,
+        "id": "interest-form",
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/privacy",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "button",
+        "target": null,
+        "id": null,
+        "type": "submit"
+      },
+      {
+        "tag": "a",
+        "target": "/",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/contact",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/privacy",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      }
+    ],
+    "functions": [
+      "navigation",
+      "attributed-content",
+      "interest-registration"
+    ]
+  },
+  {
+    "route": "/interest",
+    "title": "Bring your use case into focus.",
+    "controls": [
+      {
+        "tag": "a",
+        "target": "#main",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/platform",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/architecture",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/research",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/enterprise",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/platform",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/architecture",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/research",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/enterprise",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "form",
+        "target": null,
+        "id": "interest-form",
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/privacy",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "button",
+        "target": null,
+        "id": null,
+        "type": "submit"
+      },
+      {
+        "tag": "a",
+        "target": "/",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/contact",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/privacy",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      }
+    ],
+    "functions": [
+      "navigation",
+      "attributed-content",
+      "interest-registration"
+    ]
+  },
+  {
+    "route": "/privacy",
+    "title": "Enquiry privacy, in plain language.",
+    "controls": [
+      {
+        "tag": "a",
+        "target": "#main",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/platform",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/architecture",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/research",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/enterprise",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/platform",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/architecture",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/research",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/enterprise",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/interest",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/contact",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/contact",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/privacy",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/evidence",
+        "id": null,
+        "type": null
+      },
+      {
+        "tag": "a",
+        "target": "/developers",
+        "id": null,
+        "type": null
+      }
+    ],
+    "functions": [
+      "navigation",
+      "attributed-content",
+      "interest-registration"
+    ]
+  }
+]
