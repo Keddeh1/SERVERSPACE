@@ -81,7 +81,7 @@ processors is an explicit owner requirement, not a result of emulating a narrow
 desktop viewport or removing modern browser globals.
 
 `kex-engine.js` adapts the resident P03 chain into a bounded ES5 package. Its
-conformance fixture preserves the exact original compiler script and source
+conformance fixture preserves the original compiler code (outer blank lines normalised) and source
 custody hash. KEX instruction lines are the admitted frontend in this portable
 package; other source languages require separately qualified frontends. Opcode
 and word format match the owner model. Numerical operands exceeding 24 bits are

@@ -5,5 +5,7 @@
   "model_script_id": "p03-compiler-chain",
   "model_text_sha256": "df3f4c54229d6e17dd00de9995f5e47c41bf49c458cc6fac83c491a884260c85",
   "adaptation": "ES5 bounded frontend/assembler/package/loader; execution dispatch requires caller-admitted handlers",
-  "checksum_role": "loader byte-integrity only; not a signature or persistence proof"
+  "checksum_role": "loader byte-integrity only; not a signature or persistence proof",
+  "reference_fixture_sha256": "695c7e5eaf11b9dfbd4717715146a443fb3640d0623e36ebd850f8c342ed8f77",
+  "reference_fixture_normalization": "outer blank lines removed; original source script hash preserved separately"
 }

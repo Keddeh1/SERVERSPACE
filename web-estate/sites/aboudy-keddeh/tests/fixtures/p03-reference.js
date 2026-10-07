@@ -1,5 +1,3 @@
-
-
 (()=>{
   "use strict";
   const MODEL=JSON.parse(document.getElementById('p03-compiler-chain').textContent);
@@ -89,4 +87,3 @@
   }
   globalThis.KEXCompilerChain=Object.freeze({model:MODEL,proof:PROOF,frontendCompile,validateIR,lowerIR,isaEncode,isaDecode,packageKEXE,load,buildAndLoad,selectTarget,nextPlan:NEXT});
 })();
-
