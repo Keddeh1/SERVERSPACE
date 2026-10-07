@@ -1,0 +1,299 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://keddeh.systems/schemas/apex/conversion-experiment.schema.json",
+  "title": "Keddeh APEX conversion experiment contract",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "experiment_id",
+    "site_id",
+    "pre_registered",
+    "hypothesis",
+    "audience",
+    "allocation_unit",
+    "variants",
+    "primary_metric",
+    "guardrails",
+    "sample_size_plan",
+    "runtime",
+    "stopping_rule",
+    "instrumentation_version",
+    "decision_rule",
+    "evidence_status"
+  ],
+  "properties": {
+    "schema": {
+      "const": "kex.apex-conversion-experiment.v1"
+    },
+    "experiment_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]{2,63}$"
+    },
+    "site_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "pre_registered": {
+      "const": true
+    },
+    "hypothesis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "user_problem",
+        "change",
+        "expected_effect",
+        "because"
+      ],
+      "properties": {
+        "user_problem": {
+          "type": "string",
+          "minLength": 10
+        },
+        "change": {
+          "type": "string",
+          "minLength": 10
+        },
+        "expected_effect": {
+          "type": "string",
+          "minLength": 10
+        },
+        "because": {
+          "type": "string",
+          "minLength": 10
+        }
+      }
+    },
+    "audience": {
+      "type": "object",
+      "required": [
+        "inclusion",
+        "exclusion"
+      ],
+      "properties": {
+        "inclusion": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "exclusion": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "allocation_unit": {
+      "enum": [
+        "visitor",
+        "account",
+        "session",
+        "organisation"
+      ]
+    },
+    "variants": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "allocation",
+          "description"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "allocation": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "exclusiveMaximum": 1
+          },
+          "description": {
+            "type": "string",
+            "minLength": 5
+          }
+        }
+      }
+    },
+    "primary_metric": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "numerator",
+        "denominator",
+        "direction",
+        "practical_threshold"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "numerator": {
+          "type": "string"
+        },
+        "denominator": {
+          "type": "string"
+        },
+        "direction": {
+          "enum": [
+            "increase",
+            "decrease"
+          ]
+        },
+        "practical_threshold": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      }
+    },
+    "guardrails": {
+      "type": "array",
+      "minItems": 4,
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "category",
+          "failure_rule"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "category": {
+            "enum": [
+              "accessibility",
+              "privacy",
+              "complaints",
+              "claim-truth",
+              "lead-quality",
+              "fulfilment",
+              "performance",
+              "security"
+            ]
+          },
+          "failure_rule": {
+            "type": "string",
+            "minLength": 5
+          }
+        }
+      }
+    },
+    "sample_size_plan": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "method",
+        "alpha",
+        "power",
+        "minimum_detectable_effect",
+        "baseline_source",
+        "calculated_per_variant"
+      ],
+      "properties": {
+        "method": {
+          "type": "string",
+          "minLength": 5
+        },
+        "alpha": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "maximum": 0.2
+        },
+        "power": {
+          "type": "number",
+          "minimum": 0.5,
+          "exclusiveMaximum": 1
+        },
+        "minimum_detectable_effect": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "baseline_source": {
+          "type": "string",
+          "minLength": 3
+        },
+        "calculated_per_variant": {
+          "type": "integer",
+          "minimum": 2
+        }
+      }
+    },
+    "runtime": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "minimum_days",
+        "start_condition",
+        "end_condition"
+      ],
+      "properties": {
+        "minimum_days": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "start_condition": {
+          "type": "string",
+          "minLength": 3
+        },
+        "end_condition": {
+          "type": "string",
+          "minLength": 3
+        }
+      }
+    },
+    "stopping_rule": {
+      "type": "string",
+      "minLength": 20
+    },
+    "instrumentation_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "decision_rule": {
+      "type": "object",
+      "required": [
+        "adopt",
+        "reject",
+        "inconclusive",
+        "guardrail_veto"
+      ],
+      "properties": {
+        "adopt": {
+          "type": "string",
+          "minLength": 10
+        },
+        "reject": {
+          "type": "string",
+          "minLength": 10
+        },
+        "inconclusive": {
+          "type": "string",
+          "minLength": 10
+        },
+        "guardrail_veto": {
+          "const": true
+        }
+      }
+    },
+    "evidence_status": {
+      "enum": [
+        "OBSERVED",
+        "SOURCE_VERIFIED",
+        "TESTED",
+        "INFERRED",
+        "UNTESTED",
+        "FAILED",
+        "UNSUPPORTED",
+        "SUPERSEDED"
+      ]
+    }
+  }
+}
