@@ -1,0 +1,179 @@
+{
+  "schema": "kex.apex-source-register.v1",
+  "as_of": "2026-10-07",
+  "kex_seed": "819CEFC420D453B5F974083E5662D423E3D293A0EF68258EA8624F832D23AA13",
+  "interpretation_rule": "Official public pages verify edition, scope or guidance only. Where ISO normative text is not licensed in this repository, controls are Keddeh operational criteria informed by the published scope; they are not reproduced ISO clauses.",
+  "sources": [
+    {
+      "id": "ISO-9241-11-2018",
+      "authority": "ISO",
+      "title": "Ergonomics of human-system interaction — Part 11: Usability: Definitions and concepts",
+      "url": "https://www.iso.org/standard/63500.html",
+      "edition": "2018",
+      "role": "usability outcomes in a stated context of use",
+      "verification": "SOURCE_VERIFIED_SCOPE_ONLY"
+    },
+    {
+      "id": "ISO-9241-210-2019",
+      "authority": "ISO",
+      "title": "Human-centred design for interactive systems",
+      "url": "https://committee.iso.org/standard/77520.html",
+      "edition": "2019",
+      "role": "human-centred lifecycle and evaluation",
+      "verification": "SOURCE_VERIFIED_SCOPE_ONLY"
+    },
+    {
+      "id": "ISO-9241-110-2020",
+      "authority": "ISO",
+      "title": "Interaction principles",
+      "url": "https://www.iso.org/standard/75258.html",
+      "edition": "2020",
+      "role": "general interaction principles independent of technology",
+      "verification": "SOURCE_VERIFIED_SCOPE_ONLY"
+    },
+    {
+      "id": "ISO-9241-112-2025",
+      "authority": "ISO",
+      "title": "Principles for the presentation of information",
+      "url": "https://www.iso.org/standard/87518.html",
+      "edition": "2025",
+      "role": "perception and understanding of presented information",
+      "verification": "SOURCE_VERIFIED_SCOPE_ONLY"
+    },
+    {
+      "id": "ISO-9241-161-2025",
+      "authority": "ISO",
+      "title": "Visual user-interface elements",
+      "url": "https://committee.iso.org/standard/85790.html",
+      "edition": "2025",
+      "role": "selection, use and dependencies of visual interface elements",
+      "verification": "SOURCE_VERIFIED_SCOPE_ONLY"
+    },
+    {
+      "id": "ISO-IEC-25010-2023",
+      "authority": "ISO/IEC",
+      "title": "Product quality model",
+      "url": "https://committee.iso.org/standard/78176.html",
+      "edition": "2023",
+      "role": "software and information-technology product quality model",
+      "verification": "SOURCE_VERIFIED_SCOPE_ONLY"
+    },
+    {
+      "id": "WCAG-2.2",
+      "authority": "W3C",
+      "title": "Web Content Accessibility Guidelines 2.2",
+      "url": "https://www.w3.org/TR/WCAG22/",
+      "edition": "Recommendation updated 2024-12-12",
+      "role": "testable web-content accessibility success criteria",
+      "verification": "SOURCE_VERIFIED"
+    },
+    {
+      "id": "WCAG-EM-2.0",
+      "authority": "W3C Accessibility Guidelines Working Group",
+      "title": "Website Accessibility Conformance Evaluation Methodology 2.0",
+      "url": "https://www.w3.org/TR/wcag-em-2/",
+      "edition": "Group Note 2026-07-23",
+      "role": "evaluation scope, sampling, complete processes and reporting",
+      "verification": "SOURCE_VERIFIED_NOTE"
+    },
+    {
+      "id": "ATAG-2.0",
+      "authority": "W3C",
+      "title": "Authoring Tool Accessibility Guidelines 2.0",
+      "url": "https://www.w3.org/TR/ATAG20/",
+      "edition": "Recommendation 2015-09-24",
+      "role": "accessible authoring tools and accessible-output support",
+      "verification": "SOURCE_VERIFIED"
+    },
+    {
+      "id": "GOVUK-SERVICE-STANDARD",
+      "authority": "UK Government Digital Service",
+      "title": "Service Standard",
+      "url": "https://www.gov.uk/service-manual/service-standard",
+      "role": "user needs, whole service, accessibility, privacy, measurement and reliable operation",
+      "verification": "SOURCE_VERIFIED"
+    },
+    {
+      "id": "GOVUK-QUESTION-PAGES",
+      "authority": "UK Government Digital Service",
+      "title": "Question pages",
+      "url": "https://design-system.service.gov.uk/patterns/question-pages/",
+      "role": "one focused question per page as a starting pattern",
+      "verification": "SOURCE_VERIFIED"
+    },
+    {
+      "id": "GOVUK-CHECK-ANSWERS",
+      "authority": "UK Government Digital Service",
+      "title": "Check answers",
+      "url": "https://design-system.service.gov.uk/patterns/check-answers/",
+      "role": "review and correction before submission",
+      "verification": "SOURCE_VERIFIED"
+    },
+    {
+      "id": "GOVUK-ERROR-SUMMARY",
+      "authority": "UK Government Digital Service",
+      "title": "Error summary",
+      "url": "https://design-system.service.gov.uk/components/error-summary/",
+      "role": "linked error summary plus field-level error",
+      "verification": "SOURCE_VERIFIED"
+    },
+    {
+      "id": "OAIC-APP3",
+      "authority": "Office of the Australian Information Commissioner",
+      "title": "APP 3 Collection of solicited personal information",
+      "url": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-3-app-3-collection-of-solicited-personal-information",
+      "edition": "updated 2026-05-13",
+      "role": "necessity, lawful and fair collection",
+      "verification": "SOURCE_VERIFIED"
+    },
+    {
+      "id": "OAIC-APP5",
+      "authority": "Office of the Australian Information Commissioner",
+      "title": "APP 5 Notification of collection",
+      "url": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-5-app-5-notification-of-the-collection-of-personal-information",
+      "role": "notice at or before collection and required notice matters",
+      "verification": "SOURCE_VERIFIED"
+    },
+    {
+      "id": "ACCC-CLAIMS",
+      "authority": "Australian Competition and Consumer Commission",
+      "title": "False or misleading claims",
+      "url": "https://www.accc.gov.au/business/advertising-and-promotions/false-or-misleading-claims",
+      "role": "truthful, accurate and provable website claims",
+      "verification": "SOURCE_VERIFIED"
+    },
+    {
+      "id": "ACMA-SPAM",
+      "authority": "Australian Communications and Media Authority",
+      "title": "Avoid sending spam",
+      "url": "https://www.acma.gov.au/avoid-sending-spam",
+      "role": "marketing consent, sender identity, records and unsubscribe",
+      "verification": "SOURCE_VERIFIED"
+    },
+    {
+      "id": "WEB-VITALS",
+      "authority": "Google Chrome team",
+      "title": "Web Vitals",
+      "url": "https://web.dev/articles/vitals",
+      "edition": "updated 2024-10-31",
+      "role": "field performance thresholds and measurement",
+      "verification": "SOURCE_VERIFIED"
+    },
+    {
+      "id": "NIST-DOE",
+      "authority": "US National Institute of Standards and Technology",
+      "title": "Engineering Statistics Handbook — experimental design",
+      "url": "https://www.itl.nist.gov/div898/handbook/pri/section1/pri11.htm",
+      "role": "preplanned objective, factors, responses and valid conclusions",
+      "verification": "SOURCE_VERIFIED"
+    },
+    {
+      "id": "NIST-SAMPLE-SIZE",
+      "authority": "US National Institute of Standards and Technology",
+      "title": "Engineering Statistics Handbook — sample sizes required",
+      "url": "https://www.itl.nist.gov/div898/handbook/prc/section2/prc222.htm",
+      "role": "sample-size assumptions including error risks and detectable effect",
+      "verification": "SOURCE_VERIFIED"
+    }
+  ]
+}
