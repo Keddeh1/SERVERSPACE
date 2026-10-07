@@ -14,7 +14,8 @@
     ],
     "derived_lineage": [
       "New market-frontage prototype authored for this workstream",
-      "No recovered CasePath page design, copy, source tree or deployment was used"
+      "No recovered CasePath page design, copy, source tree or deployment was used",
+      "Private delivery-brief builder derived from the selected offering, engagement stage and delivery constraint"
     ]
   },
   "source_provenance": [
@@ -34,7 +35,7 @@
   "files": [
     {
       "path": "app/page.tsx",
-      "sha256": "044d8008e49356366efdacc2c7c210ba96e5ed4cce18f18a509408f4344510b9"
+      "sha256": "0f4eaa40311b3a8df6f0c0eb80355a53f15e1516035de42b6a43bc7af891d243"
     },
     {
       "path": "app/layout.tsx",
@@ -42,7 +43,7 @@
     },
     {
       "path": "app/globals.css",
-      "sha256": "b06bc8278d4aeb40b01157d4b1d4fb0508d3b34431f399343e9baf86dafac38e"
+      "sha256": "fb75491fdf7498a2762fe107163601d3c1c5fd4d4c203a1e18c4d372c279750a"
     },
     {
       "path": "public/favicon.svg",
@@ -71,16 +72,21 @@
     "mobile_visual_render": "UNTESTED",
     "webmcp_runtime": "UNTESTED",
     "accessibility_structure": "TESTED",
-    "contrast": "TESTED"
+    "contrast": "TESTED",
+    "lint": "TESTED",
+    "static_contract": "TESTED",
+    "intake_interaction": "UNTESTED",
+    "deployed_readback": "UNTESTED"
   },
   "destination": {
     "system": "OpenAI Sites",
     "project_id": "appgprj_6aa7e48116b881919cac82f2764ee9ca",
     "audience": "owner_private",
-    "status": "deployment_pending_at_manifest_creation"
+    "status": "private_v2_deployment_pending"
   },
   "unresolved_claims": [
     "This artifact does not resolve the historical May-to-July CasePath origin-write actuator or authorship chain",
     "The supplied KEX OpenAPI server URL is a placeholder and was not tested as a live production endpoint"
-  ]
+  ],
+  "updated_at": "2026-10-07T21:51:11.218Z"
 }

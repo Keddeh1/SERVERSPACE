@@ -2,11 +2,14 @@
 
 import {
   Archive,
+  ArrowRight,
   Boxes,
   Braces,
   Check,
   ChevronRight,
   CircuitBoard,
+  Clipboard,
+  ClipboardCheck,
   Database,
   FlaskConical,
   Globe2,
@@ -48,6 +51,9 @@ type Outcome = {
   systems: string[];
   steps: { system: string; action: string }[];
 };
+
+type EngagementStage = "new-undertaking" | "existing-website" | "ready-to-build";
+type DeliveryConstraint = "clarity" | "conversion" | "delivery";
 
 type WebMcpTool = {
   name: string;
@@ -262,6 +268,48 @@ const domains: { id: Domain; label: string }[] = [
   { id: "evidence", label: "Evidence" },
 ];
 
+const engagementStages: { id: EngagementStage; label: string; detail: string; nextAction: string }[] = [
+  {
+    id: "new-undertaking",
+    label: "New undertaking",
+    detail: "The offer or audience is still being shaped.",
+    nextAction: "Frame the visitor, proposition and required action before implementation.",
+  },
+  {
+    id: "existing-website",
+    label: "Existing website",
+    detail: "A live surface needs to be understood or improved.",
+    nextAction: "Audit the live frontage and source estate, then isolate the highest-friction path.",
+  },
+  {
+    id: "ready-to-build",
+    label: "Ready to build",
+    detail: "The direction is approved and needs executable delivery.",
+    nextAction: "Lock the frontage contract and implement the smallest deployable slice.",
+  },
+];
+
+const deliveryConstraints: { id: DeliveryConstraint; label: string; detail: string; evidence: string }[] = [
+  {
+    id: "clarity",
+    label: "Clarify the offer",
+    detail: "Visitors cannot quickly understand the value or difference.",
+    evidence: "Current offer, target visitor and available proof.",
+  },
+  {
+    id: "conversion",
+    label: "Improve conversion",
+    detail: "Interest is present, but the next action is weak or unclear.",
+    evidence: "Primary action, failure point and existing intake path.",
+  },
+  {
+    id: "delivery",
+    label: "Make delivery real",
+    detail: "The concept exists, but source, runtime or release are disconnected.",
+    evidence: "Source location, runtime target and release authority.",
+  },
+];
+
 const waitForPaint = () =>
   new Promise<void>((resolve) => requestAnimationFrame(() => requestAnimationFrame(() => resolve())));
 
@@ -269,6 +317,9 @@ export default function Home() {
   const [domain, setDomain] = useState<Domain>("all");
   const [selectedId, setSelectedId] = useState("frontage-foundry");
   const [outcomeId, setOutcomeId] = useState("market-frontage");
+  const [stageId, setStageId] = useState<EngagementStage>("new-undertaking");
+  const [constraintId, setConstraintId] = useState<DeliveryConstraint>("clarity");
+  const [copyState, setCopyState] = useState<"idle" | "copied" | "failed">("idle");
 
   const filteredSystems = useMemo(
     () => systems.filter((system) => domain === "all" || system.domain === domain),
@@ -276,6 +327,19 @@ export default function Home() {
   );
   const selectedSystem = systems.find((system) => system.id === selectedId) ?? systems[1];
   const activeOutcome = outcomes.find((outcome) => outcome.id === outcomeId) ?? outcomes[0];
+  const activeStage = engagementStages.find((stage) => stage.id === stageId) ?? engagementStages[0];
+  const activeConstraint = deliveryConstraints.find((constraint) => constraint.id === constraintId) ?? deliveryConstraints[0];
+  const entrySystem = systems.find((system) => system.id === activeOutcome.systems[0]) ?? systems[0];
+  const deliveryBrief = [
+    "KEDDEH SYSTEMS / DELIVERY BRIEF",
+    `Outcome: ${activeOutcome.title}`,
+    `Stage: ${activeStage.label}`,
+    `Priority: ${activeConstraint.label}`,
+    `Entry system: ${entrySystem.name}`,
+    `First action: ${activeStage.nextAction}`,
+    `Evidence to bring: ${activeConstraint.evidence}`,
+    `System path: ${activeOutcome.steps.map((step) => step.system).join(" → ")}`,
+  ].join("\n");
 
   const applyDomain = (nextDomain: Domain) => {
     setDomain(nextDomain);
@@ -289,6 +353,17 @@ export default function Home() {
     setOutcomeId(outcome.id);
     setDomain("all");
     setSelectedId(outcome.systems[0]);
+    setCopyState("idle");
+  };
+
+  const copyDeliveryBrief = async () => {
+    try {
+      if (!navigator.clipboard) throw new Error("Clipboard unavailable");
+      await navigator.clipboard.writeText(deliveryBrief);
+      setCopyState("copied");
+    } catch {
+      setCopyState("failed");
+    }
   };
 
   useEffect(() => {
@@ -373,6 +448,7 @@ export default function Home() {
           <a href="#offerings">Offerings</a>
           <a href="#estate-explorer">System estate</a>
           <a href="#delivery-path">Delivery path</a>
+          <a href="#intake">Start</a>
         </nav>
         <span className="private-badge"><ShieldCheck size={15} aria-hidden="true" /> Private prototype</span>
       </header>
@@ -385,6 +461,10 @@ export default function Home() {
             <p className="opening-lede">
               Explore how Keddeh Systems composes experience, delivery, control and evidence systems into a working undertaking—without collapsing one foundry into another.
             </p>
+            <div className="opening-actions">
+              <a className="action-primary" href="#intake">Build a delivery brief <ArrowRight size={17} aria-hidden="true" /></a>
+              <a className="action-secondary" href="#estate-explorer">Explore the estate</a>
+            </div>
             <div className="opening-proof" aria-label="Prototype principles">
               <span><Check size={16} aria-hidden="true" /> Concrete outputs</span>
               <span><Check size={16} aria-hidden="true" /> Named ownership</span>
@@ -548,6 +628,95 @@ export default function Home() {
           </ol>
         </section>
 
+        <section className="intake" id="intake" aria-labelledby="intake-title">
+          <div className="intake-heading">
+            <p className="kicker">DELIVERY BRIEF BUILDER</p>
+            <h2 id="intake-title">Turn intent into a bounded first move</h2>
+            <p>Choose three conditions. The frontage returns an explicit entry system, evidence request and delivery path. Nothing is transmitted from this private prototype.</p>
+          </div>
+
+          <div className="intake-layout">
+            <form className="intake-form" onSubmit={(event) => event.preventDefault()}>
+              <fieldset>
+                <legend><span>01</span> What outcome do you need?</legend>
+                <div className="intake-options">
+                  {outcomes.map((outcome) => (
+                    <label className="intake-option" key={outcome.id}>
+                      <input
+                        type="radio"
+                        name="outcome"
+                        value={outcome.id}
+                        checked={outcome.id === outcomeId}
+                        onChange={() => applyOutcome(outcome.id)}
+                      />
+                      <span><strong>{outcome.title}</strong><small>{outcome.description}</small></span>
+                    </label>
+                  ))}
+                </div>
+              </fieldset>
+
+              <fieldset>
+                <legend><span>02</span> What state is the work in?</legend>
+                <div className="intake-options">
+                  {engagementStages.map((stage) => (
+                    <label className="intake-option" key={stage.id}>
+                      <input
+                        type="radio"
+                        name="stage"
+                        value={stage.id}
+                        checked={stage.id === stageId}
+                        onChange={() => { setStageId(stage.id); setCopyState("idle"); }}
+                      />
+                      <span><strong>{stage.label}</strong><small>{stage.detail}</small></span>
+                    </label>
+                  ))}
+                </div>
+              </fieldset>
+
+              <fieldset>
+                <legend><span>03</span> What is blocking progress?</legend>
+                <div className="intake-options">
+                  {deliveryConstraints.map((constraint) => (
+                    <label className="intake-option" key={constraint.id}>
+                      <input
+                        type="radio"
+                        name="constraint"
+                        value={constraint.id}
+                        checked={constraint.id === constraintId}
+                        onChange={() => { setConstraintId(constraint.id); setCopyState("idle"); }}
+                      />
+                      <span><strong>{constraint.label}</strong><small>{constraint.detail}</small></span>
+                    </label>
+                  ))}
+                </div>
+              </fieldset>
+            </form>
+
+            <aside className="intake-result" aria-labelledby="brief-title">
+              <div className="result-topline"><span>QUALIFIED STARTING POINT</span><span>LOCAL / NOT SUBMITTED</span></div>
+              <p className="result-label">Recommended entry system</p>
+              <h3 id="brief-title">{entrySystem.name}</h3>
+              <p className="result-summary">{activeStage.nextAction}</p>
+              <dl>
+                <div><dt>Outcome</dt><dd>{activeOutcome.title}</dd></div>
+                <div><dt>Evidence to bring</dt><dd>{activeConstraint.evidence}</dd></div>
+                <div><dt>System path</dt><dd>{activeOutcome.steps.map((step) => step.system).join(" → ")}</dd></div>
+              </dl>
+              <label className="brief-copy">
+                <span>Portable delivery brief</span>
+                <textarea readOnly value={deliveryBrief} rows={8} onFocus={(event) => event.currentTarget.select()} />
+              </label>
+              <button type="button" className="copy-button" onClick={copyDeliveryBrief}>
+                {copyState === "copied" ? <ClipboardCheck size={18} aria-hidden="true" /> : <Clipboard size={18} aria-hidden="true" />}
+                {copyState === "copied" ? "Brief copied" : "Copy delivery brief"}
+              </button>
+              <p className="copy-status" role="status" aria-live="polite">
+                {copyState === "failed" ? "Clipboard access was unavailable. Select the brief above and copy it manually." : copyState === "copied" ? "Ready to paste into the next authorized workstream." : "No personal details are requested or stored."}
+              </p>
+            </aside>
+          </div>
+        </section>
+
         <section className="execution-band" aria-label="KEX execution contract summary">
           <div><Boxes size={22} aria-hidden="true" /><span><small>KEX CONTROL CONTRACT / V6</small><strong>26 specified operations</strong></span></div>
           <div className="execution-flow" aria-label="Execution sequence">
@@ -565,7 +734,7 @@ export default function Home() {
           <span><strong>KEDDEH SYSTEMS</strong><small>ENGINEER · AUTOMATE · SCALE</small></span>
         </div>
         <p>Private market-frontage prototype · System boundaries preserved</p>
-        <p className="source-scope">Source scope: Keddeh Systems vocabulary and supplied KEX contract. Recovered CasePath page design and copy were not used.</p>
+        <p className="source-scope">Source scope: Keddeh Systems vocabulary and supplied KEX contract. The delivery brief is generated in the browser and is not transmitted or stored by this prototype.</p>
       </footer>
     </>
   );
