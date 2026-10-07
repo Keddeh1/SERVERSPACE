@@ -1,0 +1,33 @@
+{
+  "schema": "keddeh.frontage-claims.v1",
+  "claims": [
+    {
+      "id": "C-01",
+      "claim": "Owner runtimes execute as persistent cloud families",
+      "status": "locally deployed",
+      "scope": "cloud-host evaluation; public Site publication is separate",
+      "source": "https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/blob/codex/web4-enterprise-delivery/docs/OWNER_ENVIRONMENT.md"
+    },
+    {
+      "id": "C-02",
+      "claim": "A child domain retains state across intermediate anchor loss",
+      "status": "locally tested",
+      "scope": "independent virtual network namespaces on one physical host",
+      "source": "https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/blob/codex/web4-enterprise-delivery/scripts/verify_owner_domains.py"
+    },
+    {
+      "id": "C-03",
+      "claim": "Package updates are mirrored through durable VFS subscriptions",
+      "status": "locally deployed and byte-verified across nine families",
+      "scope": "hash-verified caches and receipt cursors; promotion remains explicit",
+      "source": "https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/blob/codex/web4-enterprise-delivery/docs/research/evidence/VFS_RELEASE_032.json"
+    },
+    {
+      "id": "C-04",
+      "claim": "0.297 governs the supplied software oscillator model",
+      "status": "research implementation",
+      "scope": "software angular-frequency parameter; not an electrical power or universal physical validation claim",
+      "source": "https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/blob/codex/web4-enterprise-delivery/docs/OWNER_SOURCE_MANIFEST.json"
+    }
+  ]
+}

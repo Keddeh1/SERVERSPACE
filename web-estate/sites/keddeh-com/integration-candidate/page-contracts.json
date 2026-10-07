@@ -1,0 +1,346 @@
+{
+  "schema": "keddeh.customer-page-contracts.v1",
+  "owner_attribution": "KEDDEH Systems owner-supplied concepts and runtimes; integration and UX changes recorded by Git revision",
+  "source_revision": "8317dbc112557a667e9dc0a0cb748585094fab51",
+  "pages": [
+    {
+      "route": "/",
+      "topic": "Runtime evaluation",
+      "fit": "For teams investigating state continuity, runtime control or reproducible execution evidence.",
+      "inputs": "Describe one workload, its current environment and the failure you need to recover from.",
+      "evaluation": "An evaluation brief can connect your required outcome to a named runtime, measured result and acceptance boundary.",
+      "source_revision": "8317dbc112557a667e9dc0a0cb748585094fab51",
+      "source": "https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/blob/8317dbc112557a667e9dc0a0cb748585094fab51/docs/architecture/SYSTEM_ARCHITECTURE.md",
+      "claim_references": [
+        "Q-01",
+        "Q-02",
+        "Q-03",
+        "Q-16"
+      ],
+      "source_disclosures": 3,
+      "customer_boundary": "Interest enquiry only; no owner token or automatic service access",
+      "acceptance": [
+        "named navigation destination",
+        "source disclosure expands",
+        "topic/context survives enquiry journey",
+        "consent remains explicit",
+        "keyboard and mobile usable",
+        "server failure preserves entered data"
+      ]
+    },
+    {
+      "route": "/platform",
+      "topic": "Runtime evaluation",
+      "fit": "For architects choosing where execution, semantic context, observation and retained artifacts belong.",
+      "inputs": "Identify which component owns an action, its state, its returned evidence and its access boundary.",
+      "evaluation": "Use a responsibility map to evaluate BRAINK execution, KEX routing and IL-LLM context separately, then inspect their integration.",
+      "source_revision": "8317dbc112557a667e9dc0a0cb748585094fab51",
+      "source": "https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/blob/8317dbc112557a667e9dc0a0cb748585094fab51/docs/architecture/SYSTEM_ARCHITECTURE.md",
+      "claim_references": [
+        "Q-01",
+        "Q-14",
+        "Q-16"
+      ],
+      "source_disclosures": 2,
+      "customer_boundary": "Interest enquiry only; no owner token or automatic service access",
+      "acceptance": [
+        "named navigation destination",
+        "source disclosure expands",
+        "topic/context survives enquiry journey",
+        "consent remains explicit",
+        "keyboard and mobile usable",
+        "server failure preserves entered data"
+      ]
+    },
+    {
+      "route": "/architecture",
+      "topic": "Enterprise deployment",
+      "fit": "For operations teams assessing services that retain state while a parent network anchor changes.",
+      "inputs": "Provide the expected recovery interval, downstream responsibilities and failure-domain assumptions.",
+      "evaluation": "Compare pre-failure state, flywheel continuity and reanchor readbacks against your acceptance criteria.",
+      "source_revision": "8317dbc112557a667e9dc0a0cb748585094fab51",
+      "source": "https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/blob/8317dbc112557a667e9dc0a0cb748585094fab51/docs/architecture/SYSTEM_ARCHITECTURE.md",
+      "claim_references": [
+        "Q-02",
+        "Q-03",
+        "Q-04",
+        "Q-13"
+      ],
+      "source_disclosures": 4,
+      "customer_boundary": "Interest enquiry only; no owner token or automatic service access",
+      "acceptance": [
+        "named navigation destination",
+        "source disclosure expands",
+        "topic/context survives enquiry journey",
+        "consent remains explicit",
+        "keyboard and mobile usable",
+        "server failure preserves entered data"
+      ]
+    },
+    {
+      "route": "/products/braink",
+      "topic": "Runtime evaluation",
+      "fit": "For operators who need to see what an admitted action changed and how an interrupted action recovered.",
+      "inputs": "Bring one action, its authority boundary and the receipt or state transition you need to inspect.",
+      "evaluation": "Evaluate an action-to-receipt journey with original actuator output, observer readback and retained evidence.",
+      "source_revision": "8317dbc112557a667e9dc0a0cb748585094fab51",
+      "source": "https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/blob/8317dbc112557a667e9dc0a0cb748585094fab51/docs/package/actions/commit/README.md",
+      "claim_references": [
+        "Q-01",
+        "Q-02",
+        "Q-18"
+      ],
+      "source_disclosures": 3,
+      "customer_boundary": "Interest enquiry only; no owner token or automatic service access",
+      "acceptance": [
+        "named navigation destination",
+        "source disclosure expands",
+        "topic/context survives enquiry journey",
+        "consent remains explicit",
+        "keyboard and mobile usable",
+        "server failure preserves entered data"
+      ]
+    },
+    {
+      "route": "/products/kex",
+      "topic": "Runtime evaluation",
+      "fit": "For engineers investigating lineage, routing and state across nested execution domains.",
+      "inputs": "Specify the child service, its upstream dependency and the state that must remain after reanchoring.",
+      "evaluation": "Inspect actual namespace membership, epochs and retained downstream identity against the intended service topology.",
+      "source_revision": "8317dbc112557a667e9dc0a0cb748585094fab51",
+      "source": "https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/blob/8317dbc112557a667e9dc0a0cb748585094fab51/docs/package/actions/domains/README.md",
+      "claim_references": [
+        "Q-03",
+        "Q-04",
+        "Q-06",
+        "Q-13"
+      ],
+      "source_disclosures": 3,
+      "customer_boundary": "Interest enquiry only; no owner token or automatic service access",
+      "acceptance": [
+        "named navigation destination",
+        "source disclosure expands",
+        "topic/context survives enquiry journey",
+        "consent remains explicit",
+        "keyboard and mobile usable",
+        "server failure preserves entered data"
+      ]
+    },
+    {
+      "route": "/products/illlm",
+      "topic": "Developer integration",
+      "fit": "For teams exploring source-attributed definitions and semantic interfaces within the supplied estate.",
+      "inputs": "Describe your permitted data, the semantic task and the source context that should accompany an output.",
+      "evaluation": "Agree a bounded interface and evidence requirement before selecting or extending the admitted semantic tools.",
+      "source_revision": "8317dbc112557a667e9dc0a0cb748585094fab51",
+      "source": "https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/blob/8317dbc112557a667e9dc0a0cb748585094fab51/docs/package/actions/estate/README.md",
+      "claim_references": [
+        "Q-16",
+        "Q-20"
+      ],
+      "source_disclosures": 3,
+      "customer_boundary": "Interest enquiry only; no owner token or automatic service access",
+      "acceptance": [
+        "named navigation destination",
+        "source disclosure expands",
+        "topic/context survives enquiry journey",
+        "consent remains explicit",
+        "keyboard and mobile usable",
+        "server failure preserves entered data"
+      ]
+    },
+    {
+      "route": "/research",
+      "topic": "Research collaboration",
+      "fit": "For researchers comparing graph topology, delays, activation and continuity under explicit assumptions.",
+      "inputs": "Bring the graph, noise process, resource budget, units and result you want compared.",
+      "evaluation": "Retain methods, seeded trials and uncertainty alongside the result so the comparison can be rerun.",
+      "source_revision": "8317dbc112557a667e9dc0a0cb748585094fab51",
+      "source": "https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/blob/8317dbc112557a667e9dc0a0cb748585094fab51/docs/research/claims/noise-study-summary.json",
+      "claim_references": [
+        "Q-06",
+        "Q-07",
+        "Q-08",
+        "Q-09",
+        "Q-10"
+      ],
+      "source_disclosures": 5,
+      "customer_boundary": "Interest enquiry only; no owner token or automatic service access",
+      "acceptance": [
+        "named navigation destination",
+        "source disclosure expands",
+        "topic/context survives enquiry journey",
+        "consent remains explicit",
+        "keyboard and mobile usable",
+        "server failure preserves entered data"
+      ]
+    },
+    {
+      "route": "/evidence",
+      "topic": "Research collaboration",
+      "fit": "For technical reviewers evaluating the scope, origin and reproducibility of a result.",
+      "inputs": "Identify the claim reference and the result or source revision you want to examine.",
+      "evaluation": "Separate execution, readback, qualification and external assessment, and resolve the next evidence test explicitly.",
+      "source_revision": "8317dbc112557a667e9dc0a0cb748585094fab51",
+      "source": "https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/blob/8317dbc112557a667e9dc0a0cb748585094fab51/docs/research/claims/CLAIM_REVIEW.md",
+      "claim_references": [
+        "Q-18",
+        "Q-21",
+        "Q-22"
+      ],
+      "source_disclosures": 4,
+      "customer_boundary": "Interest enquiry only; no owner token or automatic service access",
+      "acceptance": [
+        "named navigation destination",
+        "source disclosure expands",
+        "topic/context survives enquiry journey",
+        "consent remains explicit",
+        "keyboard and mobile usable",
+        "server failure preserves entered data"
+      ]
+    },
+    {
+      "route": "/developers",
+      "topic": "Developer integration",
+      "fit": "For developers connecting a bounded function to the owner estate without crossing customer and operator authority.",
+      "inputs": "Describe the interface, input/output shape, state ownership and retry requirements.",
+      "evaluation": "Use the process, action and configuration contracts to specify a testable integration and release identity.",
+      "source_revision": "8317dbc112557a667e9dc0a0cb748585094fab51",
+      "source": "https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/blob/8317dbc112557a667e9dc0a0cb748585094fab51/docs/package/README.md",
+      "claim_references": [
+        "Q-01",
+        "Q-14",
+        "Q-17",
+        "Q-20"
+      ],
+      "source_disclosures": 3,
+      "customer_boundary": "Interest enquiry only; no owner token or automatic service access",
+      "acceptance": [
+        "named navigation destination",
+        "source disclosure expands",
+        "topic/context survives enquiry journey",
+        "consent remains explicit",
+        "keyboard and mobile usable",
+        "server failure preserves entered data"
+      ]
+    },
+    {
+      "route": "/enterprise",
+      "topic": "Enterprise deployment",
+      "fit": "For teams assessing deployment ownership, data custody, recovery and operational control.",
+      "inputs": "Provide your workload, environment, data classification, operators and recovery expectations.",
+      "evaluation": "Define an evaluation scope and acceptance record, then determine the infrastructure and agreement needed for promotion.",
+      "source_revision": "8317dbc112557a667e9dc0a0cb748585094fab51",
+      "source": "https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/blob/8317dbc112557a667e9dc0a0cb748585094fab51/docs/architecture/STANDARDIZATION_AUDIT.md",
+      "claim_references": [
+        "Q-12",
+        "Q-13",
+        "Q-17",
+        "Q-20"
+      ],
+      "source_disclosures": 2,
+      "customer_boundary": "Interest enquiry only; no owner token or automatic service access",
+      "acceptance": [
+        "named navigation destination",
+        "source disclosure expands",
+        "topic/context survives enquiry journey",
+        "consent remains explicit",
+        "keyboard and mobile usable",
+        "server failure preserves entered data"
+      ]
+    },
+    {
+      "route": "/contact",
+      "topic": "General enquiry",
+      "fit": "For questions about an evaluation, a prior registration or an attributed technical result.",
+      "inputs": "Include the relevant page or registration reference and the question you want reviewed. Keep secrets out of the form.",
+      "evaluation": "A successful submission returns a durable reference for the private enquiry record; follow-up remains an owner review action.",
+      "source_revision": "8317dbc112557a667e9dc0a0cb748585094fab51",
+      "source": "https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/blob/8317dbc112557a667e9dc0a0cb748585094fab51/src/keddeh_namespace/frontage_service.py",
+      "claim_references": [
+        "Q-20"
+      ],
+      "source_disclosures": 2,
+      "customer_boundary": "Interest enquiry only; no owner token or automatic service access",
+      "acceptance": [
+        "named navigation destination",
+        "source disclosure expands",
+        "topic/context survives enquiry journey",
+        "consent remains explicit",
+        "keyboard and mobile usable",
+        "server failure preserves entered data"
+      ]
+    },
+    {
+      "route": "/interest",
+      "topic": "Runtime evaluation",
+      "fit": "For runtime, enterprise, research and developer enquiries.",
+      "inputs": "Describe the intended outcome, current environment, constraints and evidence you would use to judge success. Keep credentials and sensitive datasets out of the form.",
+      "evaluation": "Your selected topic and consented enquiry are recorded privately. Registration does not create service access or an operational agreement.",
+      "source_revision": "8317dbc112557a667e9dc0a0cb748585094fab51",
+      "source": "https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/blob/8317dbc112557a667e9dc0a0cb748585094fab51/src/keddeh_namespace/frontage_service.py",
+      "claim_references": [
+        "Q-20"
+      ],
+      "source_disclosures": 1,
+      "customer_boundary": "Interest enquiry only; no owner token or automatic service access",
+      "acceptance": [
+        "named navigation destination",
+        "source disclosure expands",
+        "topic/context survives enquiry journey",
+        "consent remains explicit",
+        "keyboard and mobile usable",
+        "server failure preserves entered data"
+      ]
+    },
+    {
+      "route": "/privacy",
+      "topic": "General enquiry",
+      "fit": "For visitors deciding what to share and how an enquiry will be handled.",
+      "inputs": "Share only the contact information and context needed for owner review. Use your registration reference when asking about an earlier enquiry.",
+      "evaluation": "The versioned consent applies to enquiry handling. Retention maintenance removes stored enquiries older than 90 days.",
+      "source_revision": "8317dbc112557a667e9dc0a0cb748585094fab51",
+      "source": "https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/blob/8317dbc112557a667e9dc0a0cb748585094fab51/src/keddeh_namespace/frontage_service.py",
+      "claim_references": [
+        "Q-20"
+      ],
+      "source_disclosures": 3,
+      "customer_boundary": "Interest enquiry only; no owner token or automatic service access",
+      "acceptance": [
+        "named navigation destination",
+        "source disclosure expands",
+        "topic/context survives enquiry journey",
+        "consent remains explicit",
+        "keyboard and mobile usable",
+        "server failure preserves entered data"
+      ]
+    },
+    {
+      "route": "/research/claim-review",
+      "topic": "Research collaboration",
+      "fit": "For reviewers comparing an architectural assertion with retained implementation or trial evidence.",
+      "inputs": "Include the Q-reference, intended interpretation and the measurement that would resolve the question.",
+      "evaluation": "Map existing owner evidence first; then specify a reproducible test with units, resources, acceptance criteria and retained outputs.",
+      "source_revision": "8317dbc112557a667e9dc0a0cb748585094fab51",
+      "source": "https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/blob/8317dbc112557a667e9dc0a0cb748585094fab51/docs/research/claims/DERIVATION_WORKLIST.md",
+      "claim_references": [
+        "Q-01",
+        "Q-08",
+        "Q-09",
+        "Q-10",
+        "Q-15",
+        "Q-19"
+      ],
+      "source_disclosures": 3,
+      "customer_boundary": "Interest enquiry only; no owner token or automatic service access",
+      "acceptance": [
+        "named navigation destination",
+        "source disclosure expands",
+        "topic/context survives enquiry journey",
+        "consent remains explicit",
+        "keyboard and mobile usable",
+        "server failure preserves entered data"
+      ]
+    }
+  ]
+}
