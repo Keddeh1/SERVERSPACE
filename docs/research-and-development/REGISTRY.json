@@ -20,7 +20,7 @@
   "artefacts": [
     {
       "path": "AGENTS.md",
-      "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
+      "primary_sector": "SECTOR_FOUNDATIONS",
       "document_type": "formal-document-or-record",
       "sha256": "3fd53f95292de65228d8cdff1a88196ae66ea548bf292b94caf47677bc09ff58",
       "bytes": 1211,
@@ -420,7 +420,7 @@
     },
     {
       "path": "docs/research-and-development/RESEARCH_PROTOCOL.md",
-      "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
+      "primary_sector": "SECTOR_FOUNDATIONS",
       "document_type": "formal-document-or-record",
       "sha256": "40aaa35ca4ed444424ed3652d6e53ede07b8c9f0786acf59964d9de5251d68b9",
       "bytes": 1655,
@@ -676,7 +676,7 @@
     },
     {
       "path": "scripts/research-and-development/analyse_connector_case.py",
-      "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
+      "primary_sector": "SECTOR_EMPIRICAL_BENCHMARKS",
       "document_type": "implementation-or-test",
       "sha256": "2eee477a2e2356ed0cd5a04a437aeb5a08c6054a5ac6d3f1a6fa634a6d8c4413",
       "bytes": 3245,
@@ -684,10 +684,10 @@
     },
     {
       "path": "scripts/research-and-development/index_research.py",
-      "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
+      "primary_sector": "SECTOR_FOUNDATIONS",
       "document_type": "implementation-or-test",
-      "sha256": "d14c0b831de396803d787096af4c82e4d6ae600cec12d9aebc1fa8dd9b66727b",
-      "bytes": 3330,
+      "sha256": "59a4228d384e28f08b6ac549cdf263f53d172186a4169eb885c9d0f89fcbfc21",
+      "bytes": 3479,
       "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
     },
     {

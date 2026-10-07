@@ -16,6 +16,8 @@ def sector(path):
     text=str(path).lower();name=path.name.lower()
     for value in SECTORS:
         if value.lower() in text:return value
+    if name in {'agents.md','research_protocol.md','index_research.py'}:return SECTORS[0]
+    if name=='analyse_connector_case.py':return SECTORS[3]
     if '/tests/' in text or '/scripts/analysis/' in '/'+text or any(v in name for v in ['readback','verification','pilot','scenarios','ray-readback']):
         return SECTORS[3]
     if any(v in name for v in ['source','custody','inventory','decision','action_plan','utility','project_configuration']) or 'docs/planning' in text:

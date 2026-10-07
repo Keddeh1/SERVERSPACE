@@ -4,6 +4,7 @@ Canonical artefacts retain their locations. SHA-256 readbacks are in [REGISTRY.j
 
 ## SECTOR_FOUNDATIONS
 
+- [AGENTS.md](../../AGENTS.md)
 - [docs/analysis/html-runtime-market/SOURCE_REGISTER.json](../../docs/analysis/html-runtime-market/SOURCE_REGISTER.json)
 - [docs/engineering/ACTION_PLAN.json](../../docs/engineering/ACTION_PLAN.json)
 - [docs/engineering/OWNER_DELIVERY_INVENTORY.json](../../docs/engineering/OWNER_DELIVERY_INVENTORY.json)
@@ -21,7 +22,9 @@ Canonical artefacts retain their locations. SHA-256 readbacks are in [REGISTRY.j
 - [docs/planning/UTILITY_CATALOG.json](../../docs/planning/UTILITY_CATALOG.json)
 - [docs/planning/UTILITY_PLAN.json](../../docs/planning/UTILITY_PLAN.json)
 - [docs/planning/VISION.md](../../docs/planning/VISION.md)
+- [docs/research-and-development/RESEARCH_PROTOCOL.md](../../docs/research-and-development/RESEARCH_PROTOCOL.md)
 - [docs/research-and-development/sectors/SECTOR_FOUNDATIONS/README.md](../../docs/research-and-development/sectors/SECTOR_FOUNDATIONS/README.md)
+- [scripts/research-and-development/index_research.py](../../scripts/research-and-development/index_research.py)
 - [web-estate/sites/aboudy-keddeh/research/kex-compiler-custody.json](../../web-estate/sites/aboudy-keddeh/research/kex-compiler-custody.json)
 - [web-estate/sites/aboudy-keddeh/research/resource-grid-requirements.json](../../web-estate/sites/aboudy-keddeh/research/resource-grid-requirements.json)
 - [web-estate/sites/aboudy-keddeh/research/sources.json](../../web-estate/sites/aboudy-keddeh/research/sources.json)
@@ -37,7 +40,6 @@ Canonical artefacts retain their locations. SHA-256 readbacks are in [REGISTRY.j
 
 ## SECTOR_SYSTEMS_ARCHITECTURE
 
-- [AGENTS.md](../../AGENTS.md)
 - [README.md](../../README.md)
 - [docs/analysis/html-runtime-market/ENERGY_MANAGEMENT.md](../../docs/analysis/html-runtime-market/ENERGY_MANAGEMENT.md)
 - [docs/analysis/html-runtime-market/README.md](../../docs/analysis/html-runtime-market/README.md)
@@ -55,7 +57,6 @@ Canonical artefacts retain their locations. SHA-256 readbacks are in [REGISTRY.j
 - [docs/engineering/batch-09/README.md](../../docs/engineering/batch-09/README.md)
 - [docs/engineering/batch-10/README.md](../../docs/engineering/batch-10/README.md)
 - [docs/research-and-development/README.md](../../docs/research-and-development/README.md)
-- [docs/research-and-development/RESEARCH_PROTOCOL.md](../../docs/research-and-development/RESEARCH_PROTOCOL.md)
 - [docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/README.md](../../docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/README.md)
 - [docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/connectors/EXPERIMENT_DESIGN.md](../../docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/connectors/EXPERIMENT_DESIGN.md)
 - [docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/connectors/README.md](../../docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/connectors/README.md)
@@ -63,8 +64,6 @@ Canonical artefacts retain their locations. SHA-256 readbacks are in [REGISTRY.j
 - [scripts/planning/populate_utilities.py](../../scripts/planning/populate_utilities.py)
 - [scripts/planning/render_utilities.py](../../scripts/planning/render_utilities.py)
 - [scripts/planning/verify_utilities.py](../../scripts/planning/verify_utilities.py)
-- [scripts/research-and-development/analyse_connector_case.py](../../scripts/research-and-development/analyse_connector_case.py)
-- [scripts/research-and-development/index_research.py](../../scripts/research-and-development/index_research.py)
 - [web-estate/sites/aboudy-keddeh/dist/assets/contact.js](../../web-estate/sites/aboudy-keddeh/dist/assets/contact.js)
 - [web-estate/sites/aboudy-keddeh/dist/assets/kex-engine.js](../../web-estate/sites/aboudy-keddeh/dist/assets/kex-engine.js)
 - [web-estate/sites/aboudy-keddeh/dist/assets/kex-wrapper.js](../../web-estate/sites/aboudy-keddeh/dist/assets/kex-wrapper.js)
@@ -118,6 +117,7 @@ Canonical artefacts retain their locations. SHA-256 readbacks are in [REGISTRY.j
 - [scripts/analysis/enterprise_pilot.py](../../scripts/analysis/enterprise_pilot.py)
 - [scripts/analysis/remote_connector_pilot.py](../../scripts/analysis/remote_connector_pilot.py)
 - [scripts/analysis/runtime_impact.py](../../scripts/analysis/runtime_impact.py)
+- [scripts/research-and-development/analyse_connector_case.py](../../scripts/research-and-development/analyse_connector_case.py)
 - [web-estate/sites/aboudy-keddeh/tests/dom.cjs](../../web-estate/sites/aboudy-keddeh/tests/dom.cjs)
 - [web-estate/sites/aboudy-keddeh/tests/engine.cjs](../../web-estate/sites/aboudy-keddeh/tests/engine.cjs)
 - [web-estate/sites/aboudy-keddeh/tests/fixtures/p03-reference.js](../../web-estate/sites/aboudy-keddeh/tests/fixtures/p03-reference.js)
