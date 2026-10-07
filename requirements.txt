@@ -1,0 +1,4 @@
+# SERVERSPACE dependency policy
+# This runtime intentionally avoids GitHub-hosted dependency packages.
+# Execution is based on Python stdlib plus local runtime modules and manifests.
+

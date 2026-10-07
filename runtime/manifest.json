@@ -1,0 +1,21 @@
+{
+  "service": "serverspace_unified_runtime",
+  "status": "formalized",
+  "platform": "SERVERSPACE",
+  "runtime_model": "custom_local",
+  "custom_runtime": true,
+  "github_dependencies": false,
+  "stdlib_only": true,
+  "services": {
+    "web": {"protocol": "https", "port": 443, "state": "ready"},
+    "redirect": {"protocol": "http", "port": 80, "state": "ready"},
+    "dns": {"protocol": "udp", "port": 5300, "state": "ready"}
+  },
+  "architecture": {
+    "kex": "state_geometry",
+    "braink": "execution_fabric",
+    "il_llm": "semantic_substrate",
+    "frost": "threshold_signatures",
+    "mesh": "phase_lock_topology"
+  }
+}
