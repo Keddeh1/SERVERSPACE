@@ -30,7 +30,7 @@ def main():
     files={ROOT/'README.md',ROOT/'AGENTS.md',DEST/'README.md',DEST/'RESEARCH_PROTOCOL.md'}
     for base in PATHS:
         for p in (ROOT/base).rglob('*'):
-            if p.is_file() and p.suffix.lower() in {'.md','.json','.py','.js','.cjs','.ics'} and '__pycache__' not in p.parts:
+            if p.is_file() and p.suffix.lower() in {'.md','.json','.py','.js','.cjs','.ics','.html','.pdf','.xml','.png'} and '__pycache__' not in p.parts:
                 files.add(p)
     rows=[]
     for p in sorted(files):

@@ -1,0 +1,32 @@
+{
+  "document_id": "KEX-RD-VFS-FAULT-20261008-001",
+  "date": "2026-10-08 Australia/Adelaide",
+  "version": "0.1",
+  "status": "engineering draft; local test evidence",
+  "author": "Codex analytical drafting; A. Keddeh originating architecture",
+  "publisher": "Keddeh Systems",
+  "rights_holder": "A. Keddeh",
+  "licence_profile": "report reserved rights; underlying code existing MIT",
+  "classification": "owner engineering draft, synthetic fixtures",
+  "repository": "Keddeh1/BRAINK-BETA-TEST",
+  "source_revision": "6ee65bc57d92baa2f717b83de1d396c7a104da70",
+  "tests_passed": 38,
+  "command": ".venv/bin/python -m pytest -o addopts='' tests vfs_server/tests",
+  "source_sha256": {
+    "vfs_server/store.py": "87fe6b81ea210eb04a1c2368423324863375edd742e8166ef0d7a8d94b6d93a6",
+    "vfs_server/backup.py": "2c62ae92ebfc697295a279125e15468d531a5c21090b85621c684615fcaa7a79",
+    "braink/runtime/executor.py": "22b4fa830b929c18cd98af940c5acf0eb2c6cb02d302ff81b0831da6e466c857",
+    "vfs_server/tests/test_faults_concurrency.py": "0dbb5c21dff6c46a9c657c64972478701629c168ef254744e842880182c64963",
+    "tests/unit/test_executor.py": "fb6b3bed9f5fcbe5ee18dbe0c785d1eb25adc8f4a6d1345fd329cb0259ca1d24"
+  },
+  "production_deployed": false,
+  "independent_approval": null,
+  "physical_power_loss_tested": false,
+  "exact_publishing_template_available": false,
+  "current_wheel_build_passed": true,
+  "current_installed_binding_backup_executor_smoke_passed": true,
+  "wheel_sha256": "f630497eb96cb0336a02b83843f8ee2442e36837f2cc9036fd81d02370df27d5",
+  "rendered_pages": 3,
+  "all_rendered_pages_visually_inspected": true,
+  "render_content_footer_overlap": false
+}
