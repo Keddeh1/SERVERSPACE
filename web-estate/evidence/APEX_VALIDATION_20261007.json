@@ -1,0 +1,82 @@
+{
+  "schema": "kex.apex-validation-result.v1",
+  "kex_seed": "44F2AE7A4AE0BE987266B3778050FBCA46A249EBF46DCCB76334353F86DDBD46",
+  "tested_at": "2026-10-07T02:45:00Z",
+  "repository": "Keddeh1/SERVERSPACE",
+  "branch": "web-estate/apex-design-workflow-20261007",
+  "parent_branch": "web-estate/import-sources-20261007",
+  "validator": {
+    "path": "web-estate/tools/validate-apex-contract.mjs",
+    "commit": "78b8132bd27e175c2c2bbc68a3de37545c8a420e",
+    "runtime": "Node.js v24.19.0",
+    "source_readback": "GitHub contents API branch readback"
+  },
+  "self_test": {
+    "passed": true,
+    "count": 8,
+    "cases": [
+      "unit-valid-intake",
+      "unit-valid-art",
+      "unit-valid-experiment",
+      "collision-field-id",
+      "boundary-responsive-overlap",
+      "property-allocation-partitions",
+      "replay-canonical-hash",
+      "safety-preselected-marketing"
+    ]
+  },
+  "documents": [
+    {
+      "path": "web-estate/examples/customer-intake.reference.json",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "canonical_sha256": "8786f544e87d722623be39b08623cb4f8f035acb33ee454ac298fcf6c5e2309d"
+    },
+    {
+      "path": "web-estate/examples/art-direction.reference.json",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "canonical_sha256": "8f3b0aa1fdcac9911606ff035467ce63cc79096082a8b011b82412f2e3a1cf9a"
+    },
+    {
+      "path": "web-estate/examples/conversion-experiment.reference.json",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "canonical_sha256": "645c4d68123f6d0eb870fb6e9cc2bbbdf07e5cf4c18a1ffa4e05902825d98f6a"
+    },
+    {
+      "path": "web-estate/contracts/APEX_CONTROL_MATRIX.json",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "canonical_sha256": "57ccd230c5d1d9288a381fd306c9d2f0ad9bdb327931cf4b10069e13a28e09de",
+      "cross_reference": "all control source ids resolved against APEX_SOURCE_REGISTER.json"
+    },
+    {
+      "path": "web-estate/evidence/APEX_SOURCE_REGISTER.json",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "canonical_sha256": "af5097cc2e23fa13264c22462ab9a6927ee6c63d39de83a09f84f464a29eedfb"
+    }
+  ],
+  "result": "TESTED",
+  "scope": "Structural validation, deterministic invariants and source-reference integrity only.",
+  "exclusions": [
+    "No website was changed or deployed.",
+    "No representative-user usability study has been run.",
+    "No WCAG conformance claim has been made.",
+    "No ISO certification or full normative clause audit has been performed.",
+    "No legal compliance determination has been made.",
+    "The reference experiment has not been activated and its provisional sample size must be recalculated from an observed baseline."
+  ],
+  "next_validation": [
+    "Instantiate the contracts for one bounded KEDDEH.COM journey after the public-source credential quarantine is resolved.",
+    "Implement the coded journey in Website Foundry.",
+    "Run complete-process accessibility, responsive, performance, usability and submission-recovery tests.",
+    "Promote only an exact passing build and perform outside-in readback."
+  ]
+}
