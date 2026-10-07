@@ -10,8 +10,21 @@
     "es5_and_transfer_budget": "passed",
     "python_runtime_tests": 15
   },
-  "dom": "pending_current_run",
+  "dom": {
+    "status": "passed",
+    "pages": 14,
+    "localLinksClicked": 262,
+    "externalActionsInspected": 4,
+    "accessibilityScans": 14,
+    "form": "fixture persisted",
+    "wrapper": "modes, queue limits, cooperative work and remote keys checked",
+    "degradedFeatures": "fetch/Worker/BigInt/WebAssembly absent",
+    "hardware32BitVerified": false,
+    "nativePublicationVerified": false,
+    "chromiumSandbox": false
+  },
   "physical_32bit_device_verified": false,
   "physical_100tb_ram_provisioned": false,
-  "memory_vfs_binding_implemented": false
+  "memory_vfs_binding_implemented": false,
+  "dom_initial_attempt": "Chromium SUID sandbox launch failed; supported SITE_BROWSER_SANDBOX=0 option used for isolated local fixture with external requests blocked."
 }
