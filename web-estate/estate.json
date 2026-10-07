@@ -8,7 +8,7 @@
     "visibility": "public",
     "branch": "web-estate/import-sources-20261007"
   },
-  "evidence_status": "OBSERVED",
+  "evidence_status": "TESTED",
   "source_policy": "Owner-controlled Sites/Git source only; public URLs are readback evidence and never import authority.",
   "boundaries": {
     "frontage_foundry": "Experience contract, information architecture, interaction and accessibility intent.",
@@ -35,8 +35,9 @@
         "revision": 1,
         "external_visitors": 0
       },
-      "source_import_status": "READY_FOR_PUBLIC_SCAN",
-      "evidence_status": "SOURCE_VERIFIED"
+      "source_import_status": "IMPORTED",
+      "evidence_status": "SOURCE_VERIFIED",
+      "import_commit": "42d512eeca3c9c84deb8762ec4585f9378419378"
     },
     {
       "id": "system-estate",
@@ -54,8 +55,9 @@
         "revision": 1,
         "external_visitors": 0
       },
-      "source_import_status": "READY_FOR_PUBLIC_SCAN",
-      "evidence_status": "SOURCE_VERIFIED"
+      "source_import_status": "IMPORTED",
+      "evidence_status": "SOURCE_VERIFIED",
+      "import_commit": "99cf85ae48d52603ea6fb47631dc291ea31f1396"
     },
     {
       "id": "keddeh-com",
@@ -74,8 +76,12 @@
         "revision": 2,
         "external_visitors": 0
       },
-      "source_import_status": "READY_FOR_PUBLIC_SCAN",
-      "evidence_status": "SOURCE_VERIFIED"
+      "source_import_status": "BLOCKED_PUBLIC_CREDENTIAL_REVIEW",
+      "evidence_status": "SOURCE_VERIFIED",
+      "blocked_paths": [
+        "source/KEDDEH-Storage.html",
+        "dist/server/apps.mjs"
+      ]
     },
     {
       "id": "keddeh-runtime",
@@ -95,7 +101,9 @@
       },
       "source_import_status": "BLOCKED_PUBLIC_SECURITY_REVIEW",
       "evidence_status": "SOURCE_VERIFIED",
-      "note": "Description says owner-private operational control plane while current access is public. Source is quarantined from this public repository pending explicit security review."
+      "note": "Description says owner-private operational control plane while current access is public. Source is quarantined from this public repository pending explicit security review.",
+      "high_confidence_pattern_file_count": 6,
+      "sensitive_field_file_count": 91
     }
   ],
   "external_surfaces": [
@@ -160,5 +168,6 @@
     "Verify whether casepath.co.uk, claimpath.ai and braink.ai are current Keddeh-owned deployments.",
     "Review Keddeh Systems Runtime public access against its owner-private description before mirroring source.",
     "Install and verify a GitHub-to-Sites publication path before treating this repository as a deployment actuator."
-  ]
+  ],
+  "updated_at": "2026-10-07T01:24:00Z"
 }
