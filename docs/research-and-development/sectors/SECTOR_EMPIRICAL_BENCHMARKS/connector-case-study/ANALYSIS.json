@@ -1,0 +1,251 @@
+{
+  "research_id": "RND-CONNECTOR-001",
+  "final_sessions": 48,
+  "final_pairs": 24,
+  "operations_per_session": 64,
+  "control": "B=1 uses equivalent delivery paths",
+  "analysis": "paired per-round ratios; descriptive percentile bootstrap; no general p-value or p99 claim",
+  "inference_limits": [
+    "six pairs per size",
+    "one shared host",
+    "loopback transport",
+    "local storage profile",
+    "session-final vs per-event acknowledgement contract",
+    "not a browser/whole-enterprise measurement"
+  ],
+  "all_final_heads_equal": true,
+  "results": [
+    {
+      "batch_size": 1,
+      "receiver_replay_operations_source_model": 6112,
+      "requests_per_session": 64,
+      "source_sha256": "65a95861a4c93e869bb36d44b8b28c80642384086c82b4c4c251dd3a8cd87c31",
+      "observed_medians": {
+        "per-event": {
+          "wall_ns": 771008718.0,
+          "client_cpu_ns": 283114351.5,
+          "server_cpu_ns": 350546024.5,
+          "server_peak_rss_kib": 15960.0,
+          "requests": 64.0,
+          "json_payload_bytes": 64059.0
+        },
+        "batched": {
+          "wall_ns": 772857111.0,
+          "client_cpu_ns": 303826060.0,
+          "server_cpu_ns": 341185969.5,
+          "server_peak_rss_kib": 16024.0,
+          "requests": 64.0,
+          "json_payload_bytes": 64059.0
+        }
+      },
+      "wall_ratio": {
+        "paired_ratios": [
+          1.2096911154382222,
+          1.0156232785464279,
+          1.0345041392079415,
+          1.1431510684708381,
+          1.1682453046938786,
+          0.5819718813684064
+        ],
+        "paired_median_ratio": 1.0888276038393898,
+        "descriptive_95_percentile_bootstrap_interval": [
+          0.7987975799574172,
+          1.1889682100660504
+        ],
+        "resamples": 10000,
+        "seed": 20261008
+      },
+      "receiver_cpu_ratio": {
+        "paired_ratios": [
+          1.4952271297088553,
+          1.1306450729106796,
+          0.9840264169123966,
+          1.2812660607123225,
+          1.2260025767251646,
+          0.4942507319544472
+        ],
+        "paired_median_ratio": 1.1783238248179222,
+        "descriptive_95_percentile_bootstrap_interval": [
+          0.7391385744334219,
+          1.388246595210589
+        ],
+        "resamples": 10000,
+        "seed": 20261008
+      }
+    },
+    {
+      "batch_size": 4,
+      "receiver_replay_operations_source_model": 1504,
+      "requests_per_session": 16,
+      "source_sha256": "8a970118fe4fa6a8b798e765a71edd5c81c1782af840694fdf9b68fb2ef0b2df",
+      "observed_medians": {
+        "per-event": {
+          "wall_ns": 584234695.0,
+          "client_cpu_ns": 240697513.5,
+          "server_cpu_ns": 230768183.5,
+          "server_peak_rss_kib": 16024.0,
+          "requests": 64.0,
+          "json_payload_bytes": 64059.0
+        },
+        "batched": {
+          "wall_ns": 272770511.5,
+          "client_cpu_ns": 132141071.0,
+          "server_cpu_ns": 97981131.5,
+          "server_peak_rss_kib": 15896.0,
+          "requests": 16.0,
+          "json_payload_bytes": 40347.0
+        }
+      },
+      "wall_ratio": {
+        "paired_ratios": [
+          2.1652008859005085,
+          1.318924033274826,
+          2.78521562350637,
+          1.8664679734171574,
+          2.1828733995416023,
+          2.2988322212170456
+        ],
+        "paired_median_ratio": 2.1740371427210556,
+        "descriptive_95_percentile_bootstrap_interval": [
+          1.5926960033459916,
+          2.542023922361708
+        ],
+        "resamples": 10000,
+        "seed": 20261008
+      },
+      "receiver_cpu_ratio": {
+        "paired_ratios": [
+          1.8331348952171063,
+          1.7848097084903616,
+          6.257287622034049,
+          1.5645894442830597,
+          2.165868243696492,
+          3.6658474065398114
+        ],
+        "paired_median_ratio": 1.999501569456799,
+        "descriptive_95_percentile_bootstrap_interval": [
+          1.6746995763867107,
+          4.96156751428693
+        ],
+        "resamples": 10000,
+        "seed": 20261008
+      }
+    },
+    {
+      "batch_size": 16,
+      "receiver_replay_operations_source_model": 352,
+      "requests_per_session": 4,
+      "source_sha256": "092eff3c4e0f32d630facac57773c42b695b8c00f322467e7493c32cee8eb02e",
+      "observed_medians": {
+        "per-event": {
+          "wall_ns": 547475062.0,
+          "client_cpu_ns": 236123328.0,
+          "server_cpu_ns": 221782219.0,
+          "server_peak_rss_kib": 16024.0,
+          "requests": 64.0,
+          "json_payload_bytes": 64059.0
+        },
+        "batched": {
+          "wall_ns": 128835479.0,
+          "client_cpu_ns": 104682910.0,
+          "server_cpu_ns": 19337604.0,
+          "server_peak_rss_kib": 15896.0,
+          "requests": 4.0,
+          "json_payload_bytes": 34419.0
+        }
+      },
+      "wall_ratio": {
+        "paired_ratios": [
+          4.183088731690829,
+          3.626834358865133,
+          4.4103403956100085,
+          3.878157626430768,
+          4.21211071214417,
+          8.971770818531763
+        ],
+        "paired_median_ratio": 4.1975997219175,
+        "descriptive_95_percentile_bootstrap_interval": [
+          3.75249599264795,
+          6.6910556070708855
+        ],
+        "resamples": 10000,
+        "seed": 20261008
+      },
+      "receiver_cpu_ratio": {
+        "paired_ratios": [
+          12.000330878098016,
+          8.636123004944999,
+          16.835500977865046,
+          9.882222580662296,
+          6.5212974354813165,
+          20.228853748723548
+        ],
+        "paired_median_ratio": 10.941276729380156,
+        "descriptive_95_percentile_bootstrap_interval": [
+          7.578710220213157,
+          18.532177363294295
+        ],
+        "resamples": 10000,
+        "seed": 20261008
+      }
+    },
+    {
+      "batch_size": 64,
+      "receiver_replay_operations_source_model": 64,
+      "requests_per_session": 1,
+      "source_sha256": "0a2939467460a53a3927e86682a237f34b6c4bd951af2f7fc893c8f7d4f4d05d",
+      "observed_medians": {
+        "per-event": {
+          "wall_ns": 746629283.5,
+          "client_cpu_ns": 398855149.0,
+          "server_cpu_ns": 237040504.0,
+          "server_peak_rss_kib": 15960.0,
+          "requests": 64.0,
+          "json_payload_bytes": 64059.0
+        },
+        "batched": {
+          "wall_ns": 165182805.5,
+          "client_cpu_ns": 158067762.0,
+          "server_cpu_ns": 5482621.5,
+          "server_peak_rss_kib": 16024.0,
+          "requests": 1.0,
+          "json_payload_bytes": 32937.0
+        }
+      },
+      "wall_ratio": {
+        "paired_ratios": [
+          5.298227913065269,
+          6.110660827654052,
+          6.828994800000426,
+          4.2126504131172275,
+          4.336273455993177,
+          3.170502067000487
+        ],
+        "paired_median_ratio": 4.817250684529223,
+        "descriptive_95_percentile_bootstrap_interval": [
+          3.691576240058857,
+          6.469827813827239
+        ],
+        "resamples": 10000,
+        "seed": 20261008
+      },
+      "receiver_cpu_ratio": {
+        "paired_ratios": [
+          36.160710609930334,
+          35.88167802167596,
+          62.59308035053849,
+          51.93217238847425,
+          47.084357996111514,
+          31.50926858589573
+        ],
+        "paired_median_ratio": 41.62253430302093,
+        "descriptive_95_percentile_bootstrap_interval": [
+          33.695473303785846,
+          57.26262636950637
+        ],
+        "resamples": 10000,
+        "seed": 20261008
+      }
+    }
+  ]
+}

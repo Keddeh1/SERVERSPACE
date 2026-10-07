@@ -1,0 +1,17 @@
+{
+  "runtime_tests_passed": 49,
+  "final_paired_sessions": 48,
+  "pairs_per_batch_size": 6,
+  "batch_sizes": [
+    1,
+    4,
+    16,
+    64
+  ],
+  "all_heads_and_event_sets_matched": true,
+  "source_model_instrumentation_passed": true,
+  "preliminary_records_retained_but_excluded": true,
+  "analysis_script_sha256": "2eee477a2e2356ed0cd5a04a437aeb5a08c6054a5ac6d3f1a6fa634a6d8c4413",
+  "physical_joules_measured": false,
+  "independent_host_replication": false
+}

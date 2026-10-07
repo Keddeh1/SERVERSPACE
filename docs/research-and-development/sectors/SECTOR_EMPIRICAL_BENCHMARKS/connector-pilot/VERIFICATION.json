@@ -1,0 +1,37 @@
+{
+  "schema": "kex.formal-rnd-verification.v1",
+  "research_id": "RND-CONNECTOR-001",
+  "runtime_tests_passed": 49,
+  "connector_tests": 10,
+  "pipeline_scope": "local replay/transport qualification",
+  "production_or_energy_actuation": false,
+  "source_sha256": {
+    "web-estate/sites/aboudy-keddeh/runtime/context_connector.py": "1818dd3e313da8381ea3b488d6a552213ea40ebc7c12bf6da5ec67be6dfded19",
+    "web-estate/sites/aboudy-keddeh/tests/test_context_connector.py": "a8a1b192853505f5aecfc5f7c284d34d73459ce391aebb5d7ab4a5c1cb1a3bd2",
+    "scripts/analysis/remote_connector_pilot.py": "870ac96eb7c5afd6e1508e66596f1a96f7fcf6ec97856b098e604b3ba8812e52"
+  },
+  "source_definitions": [
+    "docs/engineering/number-line/SOURCE_REGISTER.json",
+    "docs/engineering/OWNER_DELIVERY_INVENTORY.json"
+  ],
+  "counterexamples_rejected": [
+    "rehashed false vector",
+    "wrong energy field",
+    "stale destination",
+    "reordered lineage",
+    "forged retry",
+    "invalid head types",
+    "oversized event list"
+  ],
+  "accepted_handoff": "explicitly registered solar-to-grid relation; stable continuation identity and predecessor lineage",
+  "replay_cost_instrumentation": {
+    "events": 64,
+    "counts_verified": {
+      "1": 6112,
+      "4": 1504,
+      "16": 352,
+      "64": 64
+    },
+    "test": "test_source_derived_replay_cost_model"
+  }
+}

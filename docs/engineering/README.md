@@ -15,3 +15,5 @@ Batch README directories 01–10 retain each exact canonical requirement and dep
 [Context continuation, VFS composition and qualification](CONTINUATION.md) supplies exact arithmetic, predecessor replay and equivalent-path fallback.
 
 [Formal market, economic and environmental assessment](../analysis/html-runtime-market/README.md) contains source attribution, reproducible scenarios and the enterprise pilot plan.
+
+[Formal R&D filing](../research-and-development/README.md) indexes canonical technical artefacts by sector. New [contextual connector qualification](../research-and-development/sectors/SECTOR_EMPIRICAL_BENCHMARKS/connector-pilot/README.md) preserves complete local samples.
