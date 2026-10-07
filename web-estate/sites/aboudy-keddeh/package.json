@@ -1,0 +1,17 @@
+{
+  "name": "aboudy-keddeh-site-validation",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "build": "python3 build.py",
+    "test:dom": "node tests/dom.cjs",
+    "test:runtime": "python3 -B -m unittest discover -s tests -p 'test_*.py' -v",
+    "test:wrapper": "node tests/wrapper.cjs",
+    "test:engine": "node tests/engine.cjs"
+  },
+  "devDependencies": {
+    "acorn": "8.15.0",
+    "axe-core": "4.10.3",
+    "playwright": "1.55.1"
+  }
+}

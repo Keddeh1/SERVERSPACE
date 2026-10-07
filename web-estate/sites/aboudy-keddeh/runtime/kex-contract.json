@@ -1,0 +1,214 @@
+{
+  "schema": "kex.braink.compiler.chain.p03.v1",
+  "plan": "P03",
+  "root": "volume://keddeh/braink/root",
+  "chain": [
+    "SOURCE",
+    "FRONTEND",
+    "KEX-IR-1",
+    "VALIDATE",
+    "LOWER",
+    "KEX-ISA-1",
+    "ASSEMBLE",
+    "KEXE-1",
+    "LOAD",
+    "EXECUTABLE_IMAGE"
+  ],
+  "source_object": {
+    "identity": "source://<program-id>",
+    "program_id_rule": "^[A-Z][A-Z0-9_]{2,31}$",
+    "languages": [
+      "kex",
+      "javascript",
+      "python",
+      "c",
+      "cpp"
+    ],
+    "source_identity_preserved": true,
+    "bare_kex_numeric_zero": "REJECT:E_BARE_ZERO; 0. remains lexical reference token"
+  },
+  "frontends": {
+    "kex": {
+      "id": "FE_KEX",
+      "status": "IMPLEMENTED",
+      "scope": "canonical KEX instruction lines",
+      "output": "KEX-IR-1"
+    },
+    "javascript": {
+      "id": "FE_JS",
+      "status": "SUBSET",
+      "scope": [
+        "select",
+        "mirror",
+        "print",
+        "halt"
+      ],
+      "output": "KEX-IR-1"
+    },
+    "python": {
+      "id": "FE_PY",
+      "status": "SUBSET",
+      "scope": [
+        "select",
+        "mirror",
+        "print",
+        "halt"
+      ],
+      "output": "KEX-IR-1"
+    },
+    "c": {
+      "id": "FE_C",
+      "status": "SUBSET",
+      "scope": [
+        "select",
+        "mirror",
+        "print",
+        "halt"
+      ],
+      "output": "KEX-IR-1"
+    },
+    "cpp": {
+      "id": "FE_CPP",
+      "status": "SUBSET",
+      "scope": [
+        "select",
+        "mirror",
+        "print",
+        "halt"
+      ],
+      "output": "KEX-IR-1"
+    }
+  },
+  "ir": {
+    "identity": "KEX-IR-1",
+    "form": "typed-instruction-records",
+    "record": {
+      "op": "UPPERCASE_OPCODE",
+      "args": "string[]"
+    },
+    "legal_ops": [
+      "SELECT",
+      "ORIGIN",
+      "LANE",
+      "RESOLVE",
+      "WRITE",
+      "READ",
+      "SPAWN",
+      "SEND",
+      "MIRROR",
+      "PRINT",
+      "HALT"
+    ],
+    "language_neutral_after_boundary": true
+  },
+  "lowering": {
+    "input": "KEX-IR-1",
+    "output": "KEX-ISA-1",
+    "rule": "validate each IR opcode/args then encode one 32-bit word per record",
+    "typed_failure": [
+      "E_IR_SHAPE",
+      "E_IR_RECORD_n",
+      "E_ISA_OPCODE"
+    ]
+  },
+  "isa": {
+    "identity": "KEX-ISA-1",
+    "word_bits": 32,
+    "opcode_bits": 8,
+    "operand_bits": 24,
+    "opcodes": {
+      "SELECT": 1,
+      "ORIGIN": 2,
+      "LANE": 3,
+      "RESOLVE": 4,
+      "WRITE": 5,
+      "READ": 6,
+      "SPAWN": 7,
+      "SEND": 8,
+      "MIRROR": 9,
+      "PRINT": 10,
+      "HALT": 255
+    },
+    "encoding": {
+      "word": "((opcode & 0xFF) << 24) | (operand & 0xFFFFFF)",
+      "X1_to_X9": "operand = X index",
+      "decimal_token": "operand = integer & 0xFFFFFF",
+      "symbol_token": "operand = fold((operand*33) XOR charCode) & 0xFFFFFF",
+      "no_argument": "operand bits physically 0; classification=ENCODING_PADDING_ZERO_NOT_OPERATIVE_STATE"
+    }
+  },
+  "assembler": {
+    "identity": "assembler://kex/isa1",
+    "input": "KEX-ISA-1 instruction records",
+    "output": "8-hex-digit uppercase 32-bit words",
+    "one_record_one_word": true,
+    "disassembler": "top 8 bits => opcode; low 24 bits => operand"
+  },
+  "executable": {
+    "format": "KEXE-1",
+    "header_fields": [
+      "magic",
+      "version",
+      "program",
+      "language",
+      "count",
+      "entry"
+    ],
+    "magic": "KEXE",
+    "version": 1,
+    "entry": {
+      "value": 0,
+      "classification": "BINARY_ENTRY_OFFSET_ZERO_NOT_OPERATIVE_STATE"
+    },
+    "payload": "array of 32-bit hexadecimal words",
+    "checksum": {
+      "algorithm": "FNV1a-32-compatible checksum32 over JSON({header,payload})",
+      "role": "BYTE_CUSTODY_AND_LOADER_INTEGRITY_ONLY_NOT_KEX_PROOF"
+    }
+  },
+  "loader": {
+    "identity": "loader://kex/kexe-1",
+    "target": "memory://kex/mram",
+    "banks": 9,
+    "words_per_bank": 256,
+    "bank_selection": "round-robin 1..9 from program-store next counter",
+    "start": {
+      "value": 0,
+      "classification": "MEMORY_ADDRESS_ORIGIN_NOT_OPERATIVE_ZERO"
+    },
+    "guards": [
+      "E_EXEC_MAGIC",
+      "E_EXEC_CHECKSUM",
+      "E_MRAM_BANK",
+      "E_MRAM_ADDR",
+      "E_MRAM_WORD"
+    ],
+    "stage_after_load": "LOADED"
+  },
+  "target_selector": {
+    "logical_source_identity_stable": true,
+    "targets": [
+      {
+        "target": "machine://kex/isa1",
+        "class": "SOFTWARE_DEFINED",
+        "status": "ADMITTED_NOW",
+        "adapter": "resident KEX machine"
+      },
+      {
+        "target": "host://physical/<target>",
+        "class": "PHYSICAL",
+        "status": "ADAPTER_REQUIRED_P17",
+        "failure": "TARGET_ADAPTER_NOT_ADMITTED"
+      }
+    ]
+  },
+  "proof_boundary": {
+    "current": "LOCAL_SOFTWARE_DEFINED_COMPILER_ASSEMBLER_LOADER_CHAIN",
+    "not_claimed": [
+      "physical native-code backend",
+      "physical bare-metal execution",
+      "external compiler bridge availability"
+    ],
+    "checksum_not_truth_authority": true
+  }
+}
