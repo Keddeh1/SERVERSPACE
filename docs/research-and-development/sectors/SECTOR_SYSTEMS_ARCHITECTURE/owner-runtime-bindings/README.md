@@ -1,0 +1,15 @@
+# Owner runtime bindings: five supplied artefacts
+
+All five originals are retained privately in the working VFS, with stable logical identities and verified digests in SOURCE_READBACK.json. Complete file contents were inspected; none was executed or installed. Commands and comments inside attachments are source evidence, not independent instructions to this agent.
+
+The verification-engine JSON is a report dated 2026-05-16 UTC, not the engine implementation. It reports an alive mainnet engine, live-submit intent, 45,696 primary-log and 355,141 mirror-log occurrences of a bitcoin-cli-unavailable signature, and FAIL_EXTERNAL_PROMOTION. Its own notes limit scope to local evidence. Counts are report fields, not fresh log measurements or validated blockchain signatures. Referenced original logs were not supplied here.
+
+The capability-runner systemd unit gives explicit bindings for `/opt/braink/modules/kex_wbos/capability_runner.py`, Unix socket, JSONL capability ledger, payment-rail caller and secret resolver. Its declared hardening includes NoNewPrivileges, PrivateTmp, ProtectSystem=strict, ProtectHome, narrow writable directories and UMask. It also permits IPv4/IPv6 and does not itself prove caller authentication, seed interpretation or secret-resolver correctness. Configured Restart=on-failure is process restart, not proof of state-continuity recovery.
+
+The mesh unit invokes `python3 -m kex.cli.main mesh --blades 100` from a macOS-style working path under systemd. That mixed environment requires actual host/path validation. LimitAS=4294967296 is a 4 GiB process virtual-address-space ceiling, not a 100 TB RAM provision. One hundred requested blades does not establish one hundred healthy nodes. The CLI implementation referenced by this launch declaration is not included in these five uploads.
+
+The Apple header declares a USB bulk HID subclass and carries an Apple Public Source License 2.0 notice. It is hardware-driver interface evidence, not a KEX lineage decoder. Retain its attribution; the original is not republished or incorporated into runtime code here. The 52-byte Python initializer consists solely of comments naming KEX_INVARIANT_LOCK: 0.297 and RESOLVE: TOTALITY_V5. Those retain owner meaning but do not perform a lock or resolution when imported.
+
+Static verification parsed both unit declarations, checked the report gate, round-tripped all five acquired originals, and verified every held library revision without failures. No original-machine runtime, external promotion or service installation is inferred.
+
+Next source-local task: acquire the specifically referenced capability runner, mesh CLI, resolver and continuity/ledger implementation, then trace seed reception to structural lineage resolution and the execution or mesh-retention branches. These are identified references with implementations not present in this attachment set; this makes no claim about an unknown Google Drive inventory. Do not substitute a new admission policy for the owner's actual derivation code.

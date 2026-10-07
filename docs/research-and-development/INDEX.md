@@ -66,6 +66,7 @@ Canonical artefacts retain their locations. SHA-256 readbacks are in [REGISTRY.j
 - [docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/connectors/README.md](../../docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/connectors/README.md)
 - [docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/document-library/README.md](../../docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/document-library/README.md)
 - [docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/incremental-replay/README.md](../../docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/incremental-replay/README.md)
+- [docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/owner-runtime-bindings/README.md](../../docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/owner-runtime-bindings/README.md)
 - [scripts/engineering/qualify_continuation.py](../../scripts/engineering/qualify_continuation.py)
 - [scripts/library/ab_codec.py](../../scripts/library/ab_codec.py)
 - [scripts/library/measure_ab.py](../../scripts/library/measure_ab.py)
