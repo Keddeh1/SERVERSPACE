@@ -1,0 +1,21 @@
+{
+  "schema": "keddeh.site-source.v1",
+  "site_project_id": "appgprj_6aa503aa595481919d947eef56f2556f",
+  "source_commit": "a0e4a81f01f0c4f4e94cbc08857b37a274f88250",
+  "archive_sha256": "2829682f208282afed277f788642fedd0c31b3a70e92cf295b0ac6b0db5f55f0",
+  "tracked_file_count": 348,
+  "imported_file_count": 0,
+  "import_status": "BLOCKED_PUBLIC_SECURITY_REVIEW",
+  "evidence_status": "SOURCE_VERIFIED",
+  "high_confidence_pattern_file_count": 6,
+  "sensitive_field_file_count": 91,
+  "blocked_paths": [
+    "braink/cloud-resident-runtime.cjs",
+    "braink/serverspace-derived/firebase-applet-config.json",
+    "braink/serverspace-owner.html",
+    "carriers/keddeh-braink-v76.html",
+    "lib/resident-carrier.ts",
+    "lib/serverspace-owner.ts"
+  ],
+  "note": "Values intentionally omitted. Site description is owner-private while current Sites access is public."
+}
