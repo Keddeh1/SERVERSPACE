@@ -18,9 +18,9 @@
     {
       "id": "C-03",
       "claim": "Package updates are mirrored through durable VFS subscriptions",
-      "status": "implemented; deployment qualification in progress",
+      "status": "locally deployed and byte-verified across nine families",
       "scope": "hash-verified caches and receipt cursors; promotion remains explicit",
-      "source": "https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/blob/codex/web4-enterprise-delivery/src/keddeh_namespace/vfs_subscription.py"
+      "source": "https://github.com/Keddeh1/KEDDEH-SOVEREIGN-NAMESPACE-RUNTIME/blob/codex/web4-enterprise-delivery/docs/research/evidence/VFS_RELEASE_032.json"
     },
     {
       "id": "C-04",

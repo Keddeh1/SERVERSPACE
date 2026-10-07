@@ -148,6 +148,18 @@
         "attributed-content",
         "interest-registration"
       ]
+    },
+    {
+      "path": "/research/claim-review",
+      "title": "Claims, evidence and the next test.",
+      "file": "research/claim-review/index.html",
+      "audience": "customer",
+      "functions": [
+        "claim-review",
+        "source-attribution",
+        "research-interest",
+        "navigation"
+      ]
     }
   ]
 }
