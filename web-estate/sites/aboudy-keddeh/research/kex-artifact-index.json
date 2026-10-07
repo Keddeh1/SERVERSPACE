@@ -1,0 +1,45 @@
+[
+  {
+    "file": "kex_html_linux_carrier.zip",
+    "sha256": "2f45e96c5bb5bb20726d03138b2ecb8d14109eff449120b459ca6c68f3c64e31",
+    "members": 4,
+    "selected_paths": [
+      "kex_html_linux_carrier/README.md",
+      "kex_html_linux_carrier/manifest.json"
+    ],
+    "executed": false
+  },
+  {
+    "file": "KEDDEH_BRAINK_V76_RESIDENT_ENGINEERING_RESEARCH_VM(1).html",
+    "sha256": "7f6e4ce0a41d3ba8823984533f41479be77efa7656f3e016f591af6e49c13fec",
+    "bytes": 5122943,
+    "static_observations": {
+      "userspace_emulator_marker": false,
+      "broadcast_channel": false,
+      "kex_isa_marker": true
+    },
+    "executed": false
+  },
+  {
+    "file": "BRAINK_POSIX_HTTP4055_MULTIPLEXED_R36_20260930.zip",
+    "sha256": "8718fc7486d73559a3562482245b0fe00acc322b165980c14f1fd03ff3164552",
+    "members": 10,
+    "selected_paths": [
+      "READY_FIFO_MULTIPLEXED_EVIDENCE.json",
+      "MULTIPLEXED_PROBE_EVIDENCE.json",
+      "FIFO_MULTIPLEXED_PROBE_EVIDENCE.json"
+    ],
+    "executed": false
+  },
+  {
+    "file": "kex_linux_terminal_mesh_patched.html",
+    "sha256": "ced343b1c54d81b38c74f07d08a7dbc853a56e467dcbb83138a512c97b9cb2c7",
+    "bytes": 28766,
+    "static_observations": {
+      "userspace_emulator_marker": true,
+      "broadcast_channel": true,
+      "kex_isa_marker": false
+    },
+    "executed": false
+  }
+]

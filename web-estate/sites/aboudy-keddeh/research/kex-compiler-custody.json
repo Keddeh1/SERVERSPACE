@@ -1,0 +1,9 @@
+{
+  "artifact_sha256": "7f6e4ce0a41d3ba8823984533f41479be77efa7656f3e016f591af6e49c13fec",
+  "script_id": "p03-compiler-runtime",
+  "script_sha256": "db6750ec9d2b63fc4a8b2350b30292c2d654306eadee7d9d599abb531619f929",
+  "model_script_id": "p03-compiler-chain",
+  "model_text_sha256": "df3f4c54229d6e17dd00de9995f5e47c41bf49c458cc6fac83c491a884260c85",
+  "adaptation": "ES5 bounded frontend/assembler/package/loader; execution dispatch requires caller-admitted handlers",
+  "checksum_role": "loader byte-integrity only; not a signature or persistence proof"
+}

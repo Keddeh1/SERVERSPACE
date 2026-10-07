@@ -1,0 +1,21 @@
+{
+  "owner_requested_bytes_per_server": 100000000000000,
+  "unit": "decimal bytes",
+  "backing_kind": "physical-ram",
+  "service_assignments": {},
+  "provisioned": false,
+  "required_adapters": [
+    "capacity admission",
+    "durable per-service quotas",
+    "authenticated VFS routing",
+    "project isolation",
+    "lineage readback",
+    "32-bit windowed runner qualification"
+  ],
+  "owner_confirmed": true,
+  "persistence_protocols": {
+    "TOT": "specification_required",
+    "0.297-resonance": "specification_required",
+    "RAM_replication": "failure_envelope_must_be_verified"
+  }
+}

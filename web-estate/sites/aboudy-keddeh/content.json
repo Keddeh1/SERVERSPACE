@@ -1,0 +1,460 @@
+{
+  "/": {
+    "title": "Aboudy Keddeh — Systems Architect",
+    "eyebrow": "Systems architecture · Keddeh Systems",
+    "heading": "Give complex systems clear authority.",
+    "intro": "I’m Aboudy Keddeh. My work explores governed execution, connected knowledge and evidence that helps people understand what changed, why it changed and how to recover.",
+    "sections": [
+      [
+        "Architecture with distinct responsibilities",
+        "BRAINK, IL‑LLM, KEX, KEX DNA and execution engines are treated as separate responsibilities. Explore their architecture briefs, their evidence boundaries and the questions each should answer."
+      ],
+      [
+        "A practical starting point",
+        "Bring a release workflow, a runtime integration or a research problem. A useful first conversation identifies the decision owner, the current failure points and the evidence needed to evaluate an improvement."
+      ],
+      [
+        "Scope you can inspect",
+        "This portfolio distinguishes architecture direction from implemented engineering. The evidence page links exact source records and explains which results were observed locally. Availability and integration are discussed against your requirements."
+      ]
+    ],
+    "cards": [
+      [
+        "Explore the work",
+        "/work/",
+        "Understand the system responsibilities and where they connect."
+      ],
+      [
+        "How I approach a build",
+        "/approach/",
+        "Move from an intended outcome to bounded changes and observed evidence."
+      ],
+      [
+        "Review the evidence",
+        "/evidence/",
+        "Inspect sources, test scope and remaining deployment dependencies."
+      ],
+      [
+        "Device compatibility",
+        "/compatibility/",
+        "Explore the HTML KEX wrapper, lightweight mode and TV navigation."
+      ],
+      [
+        "Website foundry",
+        "/foundry/",
+        "Explore the proposed business-to-build journey and VisitUsAt address model."
+      ]
+    ]
+  },
+  "/work/": {
+    "title": "Work — Aboudy Keddeh",
+    "eyebrow": "The work",
+    "heading": "Connected systems. Clear boundaries.",
+    "intro": "The architecture separates execution, meaning, structure, lineage and specialised engines so that composition does not erase ownership.",
+    "sections": [
+      [
+        "Choose the responsibility, then the interface",
+        "Start with the outcome you need. A semantic problem and a release-control problem require different contracts, even when they share a user journey."
+      ],
+      [
+        "From architecture to an integration decision",
+        "Use these briefs to frame questions. A specific integration needs an inspected interface, an explicit target, failure handling and evidence for that target; a product name alone does not establish readiness."
+      ]
+    ],
+    "cards": [
+      [
+        "BRAINK",
+        "/work/braink/",
+        "Governed execution and the authority to change state."
+      ],
+      [
+        "IL‑LLM",
+        "/work/il-llm/",
+        "Meaning, relationships and domain reasoning."
+      ],
+      [
+        "KEX",
+        "/work/kex/",
+        "State, identity, addressing and structural connections."
+      ],
+      [
+        "KEX DNA",
+        "/work/kex-dna/",
+        "A distinct architecture brief for lineage and composition questions."
+      ],
+      [
+        "Engines",
+        "/work/engines/",
+        "Bounded operations behind explicit interfaces."
+      ]
+    ]
+  },
+  "/work/braink/": {
+    "title": "BRAINK — Governed execution",
+    "eyebrow": "01 / Execution",
+    "heading": "Make the authority to change explicit.",
+    "intro": "The existing portfolio describes BRAINK as a governed runtime: determine what may change, perform the transition and retain evidence that can be checked independently.",
+    "sections": [
+      [
+        "The customer problem",
+        "When automation crosses services, the difficult question is often who may act and what counts as success. A useful review makes the actor, requested change, target and recovery path explicit."
+      ],
+      [
+        "The architecture responsibility",
+        "BRAINK’s execution responsibility is distinct from IL‑LLM’s semantic responsibility and KEX’s structural responsibility. Interfaces must preserve that separation when a larger workflow combines them."
+      ],
+      [
+        "Relevant engineering",
+        "The deployment-queue source demonstrates evidence-bound lifecycle proposals and authenticated decision fixtures. Those are bounded engineering references, not proof that every BRAINK runtime is deployed or independently assessed."
+      ],
+      [
+        "Questions for an integration review",
+        "Which transitions are allowed? How are keys enrolled and revoked? What observable effects establish completion? Who can restore the previous state? These questions determine the interface and acceptance checks."
+      ],
+      [
+        "A considered next step",
+        "Describe a concrete transition and its present failure modes. An enquiry can help define a bounded evaluation; it does not initiate production changes."
+      ]
+    ]
+  },
+  "/work/il-llm/": {
+    "title": "IL‑LLM — Meaning and reasoning",
+    "eyebrow": "02 / Meaning",
+    "heading": "Keep meaning visible as systems connect.",
+    "intro": "The existing portfolio describes IL‑LLM as a semantic layer for terms, relationships, domain knowledge and the reasoning needed to traverse them.",
+    "sections": [
+      [
+        "The customer problem",
+        "Teams may use the same word for different concepts, or different words for the same thing. A semantic review records definitions, relationships and provenance before a model output is allowed to drive an action."
+      ],
+      [
+        "The architecture responsibility",
+        "IL‑LLM concerns meaning and reasoning. It is not presented here as the authority that grants execution permission. An execution decision still needs its own governed contract."
+      ],
+      [
+        "An evaluation worth conducting",
+        "Identify a bounded domain, representative questions and expected source-backed answers. Test ambiguous terms, conflicting evidence and unavailable context alongside successful cases."
+      ],
+      [
+        "Evidence boundaries",
+        "This page attributes the responsibility definition to the imported owner portfolio. No accuracy score, deployed model endpoint, training-data licence or production availability is asserted."
+      ],
+      [
+        "Prepare a useful enquiry",
+        "Bring sample terminology and the decisions it informs. Avoid sending confidential documents through the contact form; an appropriate exchange route can be agreed separately."
+      ]
+    ]
+  },
+  "/work/kex/": {
+    "title": "KEX — Structure and identity",
+    "eyebrow": "03 / Structure",
+    "heading": "Give state and identity a stable structure.",
+    "intro": "The existing portfolio describes KEX as the underlying model for state, identity, addressing and the mechanics connecting the larger system.",
+    "sections": [
+      [
+        "The customer problem",
+        "Connected components need to agree on what an identifier names, what a state means and which version an observation describes. An integration review makes those agreements explicit."
+      ],
+      [
+        "The architecture responsibility",
+        "KEX concerns structural identity and connection. It remains distinct from semantic interpretation and execution authority; a shared identifier must not silently grant permission."
+      ],
+      [
+        "Relevant engineering",
+        "The owner namespace repository contains strict observations, deterministic encoding and chain verification against an externally retained head digest. These modules are useful implementation references; they are not claimed to be the complete KEX specification."
+      ],
+      [
+        "Failure cases to examine",
+        "Changed source bytes, reused identifiers, stale observations, incomplete chains and unknown fields deserve explicit rejection rules. Recovery must retain the identity of the source being restored."
+      ],
+      [
+        "Frame the next discussion",
+        "Describe the state or identity boundary you need to connect, the systems that own it and the evidence available today."
+      ]
+    ]
+  },
+  "/work/kex-dna/": {
+    "title": "KEX DNA — Composition brief",
+    "eyebrow": "Distinct architecture responsibility",
+    "heading": "Trace the parts behind a composed system.",
+    "intro": "KEX DNA is kept as a distinct topic in the responsibility map. This brief frames lineage and composition questions for review; it does not assert an implemented KEX DNA interface.",
+    "sections": [
+      [
+        "Why this brief is separate",
+        "A system’s structural model and the lineage of a particular build are different questions. Treating them separately makes it possible to ask what was composed, from which inputs and under which constraints."
+      ],
+      [
+        "A useful customer question",
+        "Can an operator trace a composed result to named inputs, their versions and the contracts preserved between them? A review can identify the records needed to answer that question."
+      ],
+      [
+        "Relevant engineering patterns",
+        "The queue’s attributed function contracts, deterministic source manifests and downstream dependency reports demonstrate bounded composition practices. They provide discussion material, not evidence of a deployed KEX DNA product."
+      ],
+      [
+        "Define the contract before claiming the capability",
+        "An interface needs an owner, input and output definitions, invariants, failure variations and a verification method. A formal KEX DNA mapping should be confirmed against its authoritative source before integration."
+      ],
+      [
+        "What to bring",
+        "Bring an example build or dependency chain whose lineage is hard to explain. The first objective is an inspectable responsibility map and acceptance criteria."
+      ]
+    ]
+  },
+  "/work/engines/": {
+    "title": "Engines — Bounded operations",
+    "eyebrow": "Operations with explicit contracts",
+    "heading": "Give each engine one accountable job.",
+    "intro": "Specialised engines should expose bounded operations with clear inputs, outputs, authority and failure behaviour. This page describes an evaluation approach, not a catalogue of deployed engine services.",
+    "sections": [
+      [
+        "The customer problem",
+        "A large workflow can hide which component owns a result. Engine boundaries make it easier to test an operation, understand a failed dependency and decide whether a retry is safe."
+      ],
+      [
+        "Keep the responsibilities distinct",
+        "A reasoning engine can propose a result; an execution engine needs authority to act; a verifier observes effects. The architecture should preserve these differences instead of labelling all three as one capability."
+      ],
+      [
+        "Relevant implementation references",
+        "The queue source separates record readers, graph analysis, signatures, lifecycle proposals and service management. Each family has an attributed contract and variation tests before composition."
+      ],
+      [
+        "Design for the uncomfortable cases",
+        "Test malformed input, concurrent requests, stale state, altered evidence, interrupted operations and unavailable dependencies. A response should describe a useful recovery action without exposing private data."
+      ],
+      [
+        "Prepare a bounded evaluation",
+        "Choose one operation, its owner and an observable acceptance condition. Record resource limits and the recovery path before connecting it to a larger build."
+      ]
+    ]
+  },
+  "/approach/": {
+    "title": "Approach — From intent to evidence",
+    "eyebrow": "How I build",
+    "heading": "From intent to evidence.",
+    "intro": "Start with the outcome and its owner. Derive small governed functions, test their variations, then compose them while checking that their guarantees survive.",
+    "sections": [
+      [
+        "1. Define the decision",
+        "Name the customer goal, actor, permitted change, target and evidence of completion. Document constraints and assumptions before implementing an interface."
+      ],
+      [
+        "2. Research and attribute",
+        "Use primary documentation and exact source revisions. Keep design hypotheses separate from observed implementation and independent assessment. Attribute customer-facing statements to the right kind of evidence."
+      ],
+      [
+        "3. Harden the small functions",
+        "Specify input, output, failure and ownership contracts. Test successful cases alongside malformed input, changed evidence, timing boundaries and recovery behaviour."
+      ],
+      [
+        "4. Compose and read back",
+        "Build the larger journey from those functions, then test through the actual interface and runtime. Browser interactions, server responses and restored source should agree."
+      ],
+      [
+        "5. Preserve a recovery path",
+        "Retain exact source identity, bounded release records and a tested restore route. Local execution, independent assessment and production publication remain separate decisions."
+      ]
+    ]
+  },
+  "/evidence/": {
+    "title": "Evidence — Sources and capability scope",
+    "eyebrow": "Attribution and scope",
+    "heading": "Claims should lead somewhere inspectable.",
+    "intro": "The source register separates owner architecture descriptions, observed local engineering and capabilities that still require target-specific verification.",
+    "sections": [
+      [
+        "Owner portfolio source",
+        "The responsibility descriptions for BRAINK, IL‑LLM and KEX come from the imported personal Site revision. They describe architecture direction, not measured product performance."
+      ],
+      [
+        "Deployment-queue engineering",
+        "The queue foundation passed 63 tests and fresh source recovery in the development environment on 7 October 2026. Its read-only service and interest-storage primitive were tested locally. These results do not establish a production Site deployment or independent assessment."
+      ],
+      [
+        "Namespace engineering",
+        "The inspected namespace revision passed 73 tests in the development environment. Its stored integration reports are repository evidence; their complete live runtime was not rerun as part of this portfolio build."
+      ],
+      [
+        "Commercial and availability boundaries",
+        "No customer numbers, savings, uptime, model accuracy, certification or response-time guarantee are asserted. The architecture briefs are starting points for requirements-led enquiries."
+      ],
+      [
+        "Source register",
+        "Exact source links appear below. Website interaction contracts and validation results are recorded with this change. External source links open in the same tab so the visitor retains control."
+      ]
+    ]
+  },
+  "/contact/": {
+    "title": "Contact — Discuss a bounded build",
+    "eyebrow": "Start a conversation",
+    "heading": "Bring the problem. Define the next useful step.",
+    "intro": "Describe a deployment-evidence problem, runtime integration or governed research question. Keep the first enquiry concise and free of secrets or confidential documents.",
+    "sections": [
+      [
+        "What makes a useful enquiry",
+        "Tell me the outcome you want, the systems involved and the uncertainty you need to resolve. An enquiry is a request for discussion, not an order, deployment instruction or promised engagement."
+      ],
+      [
+        "What happens after submission",
+        "When registration is available, the form returns a reference confirming storage. It does not claim an email was sent or promise a response time. You can also use the email link below."
+      ],
+      [
+        "Your information",
+        "Name and email are required for an enquiry. Organisation and message are optional. Marketing permission is separate and unchecked. Review the privacy notice before submitting."
+      ]
+    ]
+  },
+  "/privacy/": {
+    "title": "Privacy — Enquiry information",
+    "eyebrow": "Enquiry privacy notice · portfolio-enquiry-v1",
+    "heading": "A small enquiry should ask for little data.",
+    "intro": "This notice describes the enquiry flow prepared for this portfolio. Availability is checked before the form accepts submissions. It is not a statement that native hosted storage has already been provisioned.",
+    "sections": [
+      [
+        "Purpose and fields",
+        "Name, email, selected enquiry topic, optional organisation and optional message are used to review and respond to an enquiry. Do not send passwords, tokens, sensitive personal information or confidential documents."
+      ],
+      [
+        "Consent and marketing",
+        "The form requires confirmation that you have read this notice. Permission for occasional relevant updates is separate, optional and unchecked; submitting an enquiry does not enrol you for marketing. No mail delivery or mailing-list integration is currently asserted."
+      ],
+      [
+        "Storage and retention",
+        "The reviewed runtime stores enquiries in an owner-private database, with a receipt and a 90-day deletion deadline. Expired records are purged by the runtime. Production activation requires owner review of this notice, storage and operator process."
+      ],
+      [
+        "Access and erasure",
+        "Contact aboudy@keddeh.com to request access, correction or deletion. Include your registration reference where available. Identity should be confirmed privately before contact data is disclosed or changed."
+      ],
+      [
+        "Website access and third parties",
+        "The existing Site audience policy is preserved. Linked GitHub source pages and email applications operate under their own policies. No analytics or advertising scripts are added by this build."
+      ],
+      [
+        "Notice changes",
+        "Submissions bind the exact notice revision portfolio-enquiry-v1. A changed notice must be reviewed and assigned a new revision before new submissions are accepted."
+      ]
+    ]
+  },
+  "/work/casepath/": {
+    "title": "CasePath — Product direction",
+    "eyebrow": "Selected direction",
+    "heading": "Make information easier to navigate.",
+    "intro": "The original portfolio describes CasePath as a public-facing case information and guidance experience. This page preserves that direction without asserting that a particular external deployment is current.",
+    "sections": [
+      [
+        "The customer question",
+        "Can a visitor understand the information available, its source and the next useful action without mistaking guidance for a guaranteed outcome? A review should begin with that journey."
+      ],
+      [
+        "A considerate information experience",
+        "Use plain language, visible attribution and clear scope. Separate information from advice and make uncertainty, errors and escalation routes understandable."
+      ],
+      [
+        "Current evidence boundary",
+        "The estate registry does not establish owned source and current deployment for every historical CasePath domain. The original external link is therefore replaced by this integrated brief rather than presented as verified availability."
+      ],
+      [
+        "A useful next discussion",
+        "Describe the information journey and its audience. Any domain-specific guidance requires authoritative sources and appropriate expert review before customer-facing claims are published."
+      ]
+    ]
+  },
+  "/compatibility/": {
+    "title": "HTML KEX wrapper — Device compatibility",
+    "eyebrow": "HTML KEX runtime wrapper",
+    "heading": "A lighter layer between visitor and runtime.",
+    "intro": "The wrapper keeps the portfolio readable first, then adds bounded browser computation and input adaptation. Lightweight mode is designed for constrained browsers, small Android devices and TV navigation.",
+    "sections": [
+      [
+        "Adapt to the host without assuming its identity",
+        "Feature detection checks available browser functions. A small display or reduced-data preference selects a lighter presentation; you can override it. The wrapper does not infer processor architecture from a browser name."
+      ],
+      [
+        "Keep computation bounded",
+        "Cooperative jobs advance in small steps, with a queue limit and a time budget between yields. Each step must itself be bounded: JavaScript cannot pre-empt a callback that blocks. There is no background polling or automatic mesh startup on this portfolio."
+      ],
+      [
+        "TV and keyboard navigation",
+        "Use Tab and Shift+Tab across the page. Left and Right move between main navigation links; Home and End select the first or last link. Enter follows a link. Input fields retain normal editing keys and navigation never traps focus."
+      ],
+      [
+        "32-bit multiplexer target",
+        "The owner specifies operation on 32-bit processors through the Keddeh multiplexer as a system requirement. This wrapper does not require BigInt, WebAssembly, SharedArrayBuffer or a worker. Actual 32-bit, TV and low-end Android hardware qualification is still required; desktop tests do not establish it."
+      ],
+      [
+        "Preserve runtime authority",
+        "This browser layer does not expose shell actuation, private workbook data or owner credentials. Connecting an existing HTML carrier or multiplexer requires its exact admitted interface, explicit authorization and target readbacks."
+      ],
+      [
+        "Choose a mode",
+        "Automatic mode selects a conservative profile from browser features and preferences. Lightweight mode removes decorative work and keeps computation budgets small. Standard mode retains the normal visual presentation."
+      ],
+      [
+        "Encryption and protocol compatibility",
+        "The owner’s cryptographic architecture is a separate evaluation topic. Connections require documented algorithms, threat models, authenticated endpoints and managed keys. Claims of stronger security or better performance require defined comparisons, test vectors and independent analysis; lightweight hardware support must be checked against the selected cryptographic implementation."
+      ],
+      [
+        "One governed toolchain",
+        "The packaged KEX engine compiles bounded KEX instruction lines into the owner KEX-IR-1 and KEX-ISA-1 word format, packages KEXE-1 images and validates them before dispatch. The HTML wrapper schedules that same runner. Host operations require explicitly admitted handlers. Source-based conformance tests compare its words and package checksum with the resident P03 compiler; this is a reusable software toolchain, not a native hardware compiler or proof of persistent memory."
+      ]
+    ]
+  },
+  "/foundry/": {
+    "title": "Website foundry — VisitUsAt journey",
+    "eyebrow": "Enterprise build direction",
+    "heading": "From a business name to a governed website build.",
+    "intro": "A proposed foundry journey combines an HTML runtime template, customer administration, permitted storage and a versioned publishing path. The website foundry is a product direction; this portfolio does not claim those hosted adapters are already active.",
+    "sections": [
+      [
+        "1. Start with the business",
+        "Ask for the business name, sector and intended customer action. Keep the full business name visible in the title and content, even when its network address needs a shorter or encoded label."
+      ],
+      [
+        "2. Select a bounded template",
+        "A sector template should include page structure, attributed claims, accessible interactions and a customer/admin boundary. Domain-specific assertions require authoritative sources and appropriate review, rather than generic generated promises."
+      ],
+      [
+        "3. Choose a registration or namespace route",
+        "Customers can request registration of a desired public domain, or choose the owner-operated namespace and authoritative server service. VisitUsAt.<full-business-name>, TellMeAbout.<name>, WhatIs.<name> and WhoIs.<name> are proposed namespace patterns. The customer name remains visible in full; an explicit encoding contract handles spaces, punctuation and international characters. Resolver configuration and discovery determine which clients can resolve an independently operated namespace. Operating it does not by itself place its names in the public DNS root."
+      ],
+      [
+        "4. Serve with authenticated encryption",
+        "Both delivery routes can be designed for full HTTPS. Registered domains can use publicly trusted certificates; an independent namespace can use its own certificate authority with trust provisioned to participating clients. Certificate issuance, name validation, renewal and revocation are separate operational responsibilities. The reviewed runtime includes a TLS adapter; no public certificate issuance or native publication is claimed here."
+      ],
+      [
+        "4. Connect identity and storage",
+        "Google sign-in establishes an identity; it does not automatically grant Drive access. A customer must separately consent to the scoped Drive integration. A VFS adapter must map permitted files, handle revoked access and keep tokens outside the browser and public source."
+      ],
+      [
+        "5. Keep the admin workspace separate",
+        "Administrators need authenticated membership checks, project-scoped permissions and an audit record. Signing in is not enough to grant tenant administration or access to another customer’s files."
+      ],
+      [
+        "6. Compose nodes and lineage",
+        "Additional nodes need admitted identities, resource bounds and observed health. Mesh lineage should bind exact source and target generations. Node count alone does not prove resilience or independent failure domains."
+      ],
+      [
+        "7. Bound cache and cookie state",
+        "Active cache banks need per-customer keys, byte quotas, expiry and eviction rules. Authentication cookies need appropriate security attributes and logout behaviour. Private data must not enter shared public caches."
+      ],
+      [
+        "8. Publish and read back",
+        "A release needs a complete source identity, build and interaction checks, an authorised actuator, domain/TLS binding and a live readback. Faster delivery is a design objective, not a measured performance claim here."
+      ],
+      [
+        "A useful first evaluation",
+        "Choose one sector and one end-to-end customer journey. Define template inputs, storage consent, admin roles, an address under a controlled domain and observable publication acceptance before adding more tenants."
+      ],
+      [
+        "Resource grid and physical RAM target",
+        "The owner requests 100 TB of physical RAM per server, with each service receiving a governed VFS allocation inside the grid. This is a physical-capacity requirement, not a virtual address-space allocation. A segmented VFS can expose large extents through small 32-bit process windows. Server capacity, quotas and failure recovery must be measured separately; no 100 TB host has been provisioned by this portfolio build."
+      ],
+      [
+        "Failover across DNS and the service grid",
+        "Common service templates can define admitted identities, resource bounds, fresh health observations, committed generations and failover rules across DNS, namespace, VFS and website services. RAM-backed replication can support continuity while qualified replicas remain available. Recovery after loss of all replicas requires a separately demonstrated mechanism. TOT and 0.297 resonance are owner-specified protocol topics awaiting their authoritative specification and failure-case qualification."
+      ]
+    ]
+  }
+}
