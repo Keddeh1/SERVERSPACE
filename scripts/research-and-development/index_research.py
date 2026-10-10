@@ -30,13 +30,13 @@ def main():
     files={ROOT/'README.md',ROOT/'AGENTS.md',DEST/'README.md',DEST/'RESEARCH_PROTOCOL.md'}
     for base in PATHS:
         for p in (ROOT/base).rglob('*'):
-            if p.is_file() and p.suffix.lower() in {'.md','.json','.py','.js','.cjs','.ics','.html','.pdf','.xml','.png'} and '__pycache__' not in p.parts:
+            if p.is_file() and p.suffix.lower() in {'.md','.json','.py','.js','.mjs','.cjs','.ics','.html','.pdf','.xml','.png'} and '__pycache__' not in p.parts:
                 files.add(p)
     rows=[]
     for p in sorted(files):
         relative=p.relative_to(ROOT);raw=p.read_bytes()
         rows.append({'path':str(relative),'primary_sector':sector(relative),
-            'document_type':'implementation-or-test' if p.suffix.lower() in {'.py','.js','.cjs'} else 'formal-document-or-record',
+            'document_type':'implementation-or-test' if p.suffix.lower() in {'.py','.js','.mjs','.cjs'} else 'formal-document-or-record',
             'sha256':hashlib.sha256(raw).hexdigest(),'bytes':len(raw),
             'evidence_rule':'Consult source scope/result; filing alone confers no qualification.'})
     data={'schema':'kex.formal-rnd-register.v1','filing_method':'canonical source reference plus primary sector; no duplicate authority',

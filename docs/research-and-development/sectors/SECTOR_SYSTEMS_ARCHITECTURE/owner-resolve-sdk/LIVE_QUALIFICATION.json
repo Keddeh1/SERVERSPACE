@@ -1,0 +1,67 @@
+{
+  "schema": "kex.owner-resolve-live-qualification.v1",
+  "scope": "restored owner software on current managed node; loopback only, no external host claim",
+  "source_commit": "754b1de208dce49631023fd1725f3c0096bc6587",
+  "sdk_restart_recovered": true,
+  "identical_receipt_after_restart": true,
+  "startup_withheld_without_substrate": true,
+  "new_commit_rejected_while_substrate_paused": true,
+  "retained_readback_unchanged": true,
+  "instances": [
+    {
+      "url": "http://127.0.0.1:19091/mcp",
+      "identity": "serverspace/resolve-auth-canary",
+      "server": "Keddeh ServerSpace RESOLVE serverspace/resolve-auth-canary",
+      "tools": [
+        "resolve_q32",
+        "read_resolve_receipt"
+      ],
+      "artifact_digest": "5b652d947b81bd176d19c864f67d5d6858c410a77ec61147e9e44fb598092afe",
+      "receipt_chain": {
+        "verified": true,
+        "count": 1,
+        "head": "7ab8da3d86819e0675ff3b4acfbb78a76b931ce883b872605c35fd0eff3b0341"
+      },
+      "durable_replay": true,
+      "conflict_rejected": true,
+      "zero_warrant_rejected": true
+    },
+    {
+      "url": "http://127.0.0.1:19092/mcp",
+      "identity": "serverspace/resolve-replica",
+      "server": "Keddeh ServerSpace RESOLVE serverspace/resolve-replica",
+      "tools": [
+        "resolve_q32",
+        "read_resolve_receipt"
+      ],
+      "artifact_digest": "c75d683795df965b7c975fd2f35a8fe28fc1bbd928e73dcfb388daa1b1dc7d7e",
+      "receipt_chain": {
+        "verified": true,
+        "count": 1,
+        "head": "e2bbd1780adb1e9dab5c7dd4d40f1aef7d687f1114d6e6205f912fe1d30074d7"
+      },
+      "durable_replay": true,
+      "conflict_rejected": true,
+      "zero_warrant_rejected": true
+    },
+    {
+      "url": "http://127.0.0.1:19093/mcp",
+      "identity": "serverspace/resolve-primary",
+      "server": "Keddeh ServerSpace RESOLVE serverspace/resolve-primary",
+      "tools": [
+        "resolve_q32",
+        "read_resolve_receipt"
+      ],
+      "artifact_digest": "6dd464413125ea17dc134b9bd4b33666681396b7046fe0ea018f0c200901f359",
+      "receipt_chain": {
+        "verified": true,
+        "count": 1,
+        "head": "be473a1a14e668376eed74d01c862ec1faed25934dc0e90409321b10b44c4592"
+      },
+      "durable_replay": true,
+      "conflict_rejected": true,
+      "zero_warrant_rejected": true
+    }
+  ],
+  "independent_contexts_retained": true
+}

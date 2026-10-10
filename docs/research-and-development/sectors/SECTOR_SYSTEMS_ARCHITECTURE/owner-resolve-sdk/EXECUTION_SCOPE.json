@@ -1,0 +1,23 @@
+{
+  "scope": "installed and exercised dependencies; version record is not a hashed dependency lock",
+  "python_packages": {
+    "mcp": "1.29.0",
+    "cryptography": "50.0.0",
+    "starlette": "1.6.0"
+  },
+  "javascript_sdk": "1.32.1",
+  "source_commit": "754b1de208dce49631023fd1725f3c0096bc6587",
+  "tests": {
+    "owner_unit_tests": 23,
+    "legacy_sdk_checks": 9,
+    "live_resolve_instances": 3,
+    "faults": [
+      "RESOLVE worker SIGKILL recovery",
+      "owned substrate SIGSTOP rejects new commit",
+      "absent substrate prevents SDK listener startup"
+    ]
+  },
+  "sdk_server_sha256": "51002a37d48d28e7b6e2b526cf90d3de87617b96f0460dcd3f440bcc341de47c",
+  "prior_sdk_server_sha256": "95126c4613e6062e74069eb36b52afac9921f9bfdd2516458ded5e178fb33cb2",
+  "rollout_scope": "owner software restored on this managed node; loopback services only; pre-existing services retained"
+}

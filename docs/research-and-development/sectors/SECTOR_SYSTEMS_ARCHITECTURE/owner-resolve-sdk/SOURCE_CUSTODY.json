@@ -1,0 +1,378 @@
+{
+  "repository": "Keddeh1/BRAINK-BETA-TEST",
+  "commit": "754b1de208dce49631023fd1725f3c0096bc6587",
+  "files": [
+    {
+      "path": "applications/braink-ide-cli-ci/integrations/serverspace-runtime/variants/authenticated/consilience.py",
+      "git_blob": "f7110a9cb15588bc9420908abafbe74960956256",
+      "sha256": "82a16ed71f23639b99dcd4c8cf7f0b41ba769e8131d6f16666ff56ddb143224e",
+      "bytes": 987
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/integrations/serverspace-runtime/variants/authenticated/deploy_resolve.py",
+      "git_blob": "ea245de28f83b2ca60314a9519ac974f552e2b6a",
+      "sha256": "03276ca07b2073abd0e8281964b3f0388ee94c7a41b3ec0afc7f05d86c85a837",
+      "bytes": 3689
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/integrations/serverspace-runtime/variants/authenticated/diagnostic_probe.py",
+      "git_blob": "779b431ffc9097cc30706072983bccb5c7902e25",
+      "sha256": "861921b7176f3873d56cb2304e08bfd2f169f01e0906b9b2829f9b6dd17ada75",
+      "bytes": 5302
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/integrations/serverspace-runtime/variants/authenticated/endpoint-execution-evidence.json",
+      "git_blob": "c452db35a1bc7902bf1833f3f2a175e81e46d01f",
+      "sha256": "e7b13fb9157e6e63eda0b5e4f5f3c85af4a1a9c7491ef936f4148340e3a1bb9a",
+      "bytes": 5337
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/integrations/serverspace-runtime/variants/authenticated/execution-evidence.json",
+      "git_blob": "f1226548657fd52507312e7543dfe5d388121876",
+      "sha256": "24ef198ab4bd0a99c6e7f75483939e17ad333cb6d4cbca25d785a4e91954754c",
+      "bytes": 7856
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/integrations/serverspace-runtime/variants/authenticated/handshake_auth.py",
+      "git_blob": "8b048500a10a4bb5fa0443b2a2dd34061ab49c54",
+      "sha256": "1a4923cf3e939d6a12c0ad2a753c725b329e2605dc5823bd0399d6efa9101e86",
+      "bytes": 2670
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/integrations/serverspace-runtime/variants/authenticated/hci-execution-evidence.json",
+      "git_blob": "5ffd09e1d0304f2b96bcf961eb0463ff38d8aa09",
+      "sha256": "33a1d7129c49eefc6a9e175c8a86e0654f045f0f5be7fdc7e942b8f2e43a9067",
+      "bytes": 2255
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/integrations/serverspace-runtime/variants/authenticated/hci.py",
+      "git_blob": "c5197f693d32112d5777a7c7a9177e9b285748d5",
+      "sha256": "b73d56b5aec7f9a06c7f3abffadcf0a94fd33c93378705bb810414d7770a5aeb",
+      "bytes": 4708
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/integrations/serverspace-runtime/variants/authenticated/owner/stratum_engine.py",
+      "git_blob": "acf2b26e37a3ffeb99a6cbcdd72a30bb3b746c71",
+      "sha256": "035e73f553dc576ba47f52996e803c52f996253f341b7e4db693fac2e4587140",
+      "bytes": 11626
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/integrations/serverspace-runtime/variants/authenticated/promote.py",
+      "git_blob": "8f98f1023749cd86868dc3cdfee354448df4c3e6",
+      "sha256": "89ba45003bf031b0b2ca122fa72de951668a606fbce85cbfa03d8d0310d5677c",
+      "bytes": 3602
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/integrations/serverspace-runtime/variants/authenticated/qualify_hci.py",
+      "git_blob": "34cf2d441b05987c2ccc0b4ce099032f2c1a1195",
+      "sha256": "a5640a2745bc5b4630a4b297a95d3d90cd51a4bfb4946047d3ccb996008c357d",
+      "bytes": 2591
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/integrations/serverspace-runtime/variants/authenticated/qualify_live.py",
+      "git_blob": "f668b399dfbf93b36141227245b28468383cf623",
+      "sha256": "db1912820d0123c151bd97d42e77d3dc74a2ad7a657ab2b3ed3f6fc0cad40318",
+      "bytes": 4034
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/integrations/serverspace-runtime/variants/authenticated/qualify_resolve_mcp.py",
+      "git_blob": "d2e4d349e05b1a70c2622c1b0617b4af801e5ecc",
+      "sha256": "d8b0746f153231e544810b3ac2e888c85e59181360072b10b8e95955e1835d0e",
+      "bytes": 3153
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/integrations/serverspace-runtime/variants/authenticated/qualify_six_phase.py",
+      "git_blob": "6dac55ec09c5fcd068f761a9f5595ef867227638",
+      "sha256": "ba925af81a63b22f6659d4b8fa5416965ccc6a05b632b6222bb5227f9e9d2807",
+      "bytes": 4279
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/integrations/serverspace-runtime/variants/authenticated/reference/integration-map.json",
+      "git_blob": "d2ba71709ef8a963f74fc698f8161e4727b72a96",
+      "sha256": "ca0864f1fbd9e70aa0072fc6ad08b9a9650939723f87e03de000990c4811fe9b",
+      "bytes": 1302
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/integrations/serverspace-runtime/variants/authenticated/resolve_mcp.py",
+      "git_blob": "4155252dc463c55074081a9ae92d42bf5f50f290",
+      "sha256": "59c466e9b30e785204d3759d6bfc95a4ba6b2a380109df5f46dc7fce8746500a",
+      "bytes": 5340
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/integrations/serverspace-runtime/variants/authenticated/six-phase-execution-evidence.json",
+      "git_blob": "6309e65d4514045bab4d82fc63ac45e5022f110f",
+      "sha256": "3045351a55d8487c51b8adfe359cd45e4acf1bb6404ae782f317c458d6e01dda",
+      "bytes": 24777
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/integrations/serverspace-runtime/variants/authenticated/substrate.py",
+      "git_blob": "a5d17135e5750412d6ec47e2d8ed88dd08f7f5d1",
+      "sha256": "b7bc3a5f1b9ace98d407caeecab2cf9c1a6415866d1b12d9f1087d300047a316",
+      "bytes": 12549
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/integrations/serverspace-runtime/variants/authenticated/test_auth.py",
+      "git_blob": "fe8aa522e6349fe623dd23c96ee024e3ebdb8d1c",
+      "sha256": "441ea90bbaa484a9395b01e152ccded5065769e14cdf771696c58f05762822a5",
+      "bytes": 2152
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/integrations/serverspace-runtime/variants/authenticated/test_consilience.py",
+      "git_blob": "4b3aaf1f5b88b66a67a64c7d4586e6ed9fddf6f7",
+      "sha256": "89c9f2021409e605f5ce83d44aa7e7d08a96ccb851f16fb2b3f47b1e43bfa3d2",
+      "bytes": 1264
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/integrations/serverspace-runtime/variants/authenticated/test_diagnostic_probe.py",
+      "git_blob": "d68d739381909de084003f5e7bc07d7a8887bfa4",
+      "sha256": "23dbb5e9e49550ebcf0649099204c5e383a30e569b3d434ac289c4df6d3d1b86",
+      "bytes": 1714
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/integrations/serverspace-runtime/variants/authenticated/test_hci.py",
+      "git_blob": "a31174a6313d75e5abeffdfa85d5e32e7fec7bd7",
+      "sha256": "0a9d1bf5f3e09661b572ca10147782fe6b24a6708b8d285ecaaed81c3f0c4956",
+      "bytes": 2640
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/integrations/serverspace-runtime/variants/authenticated/test_substrate.py",
+      "git_blob": "6d18ea823a22354a7ff282e60e474c03b0ca1639",
+      "sha256": "438a3c8331174041ba7417f5daf3f995a7f390ce696845b7189dae17bb27772d",
+      "bytes": 928
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/integrations/serverspace-runtime/variants/authenticated/website-publication.json",
+      "git_blob": "8d7a6a83566e5df99de8d0fe58eb2ca15ec70d09",
+      "sha256": "6a85fc84d35180c6103927d9d968c1bf42c6b3e8fe6eeaf14aba5ebec012c672",
+      "bytes": 976
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/integrations/serverspace-runtime/variants/authenticated/website-snapshot.json",
+      "git_blob": "757a3315ceb034349788447e771fd749a1dc36c1",
+      "sha256": "7026a58d883f06e2e0722c68fd0f4f06916a28aafa3136d8b94482a5e6e034c7",
+      "bytes": 986
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/__init__.py",
+      "git_blob": "bfcc12f547f01c7842e455715926e727ba6095c4",
+      "sha256": "c9937ac40ec54533655ac7cbd89c05053ab00a0e82e0f33ed1135f096b4696b9",
+      "bytes": 109
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/align.py",
+      "git_blob": "a1a1539035b49d28fa31f4f903f819c9211bebc1",
+      "sha256": "a07882cfe6ba1355a5b25721d7b4d6d8b440844b00390fea0f9388c17c130196",
+      "bytes": 1813
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/automation/__init__.py",
+      "git_blob": "ceaa7006816a94e1d18c08dc3b36f0dd1b398545",
+      "sha256": "7ab28942ff5d51ccf6e0368ab72380ca6a797064a05df05cfc9e3fb8e50ac260",
+      "bytes": 139
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/automation/ceremonies.py",
+      "git_blob": "00835a8ea77022c8f2ee0a78387e97fb155dd014",
+      "sha256": "31d61520635463dce00b5937567bd401bdeb0707683d651014b6b3b05da10510",
+      "bytes": 295
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/automation/context.py",
+      "git_blob": "e1021c0804b352c72e45dab3cb0b363131f4190d",
+      "sha256": "ae36be3ed777f74541981b17d10cfdcef417c7868d6d64258925a9b1fc91119e",
+      "bytes": 6100
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/automation/continuity.py",
+      "git_blob": "c0cbea73a33d4fe64970188f3dbd539e997b2fd8",
+      "sha256": "845098814b3575343a8349790fa1779384899f067abcae7233db33060b2b4e7b",
+      "bytes": 2746
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/automation/delivery.py",
+      "git_blob": "e3f94827930730629d8a1d45fc6b96d7764613b7",
+      "sha256": "091fe818de46387903439f09aa862c25b96773ed7169321df982c9ac809b43fe",
+      "bytes": 3912
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/automation/development.py",
+      "git_blob": "46b29fbd8d64766718b8968ab138190ddfee867e",
+      "sha256": "657bacc387a4dde0dd749b1a2fff76afdecff4c4dac233ece6b294566978e817",
+      "bytes": 2620
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/automation/diagnostics.py",
+      "git_blob": "a24cd97c28be212c5a765f2830b03a4bb3cac80e",
+      "sha256": "48ab0f9eb64887c0c6de0a5c595b0f91853725cca8f3d76bd6a80efb52d8ffa6",
+      "bytes": 1895
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/automation/engine.py",
+      "git_blob": "2368f9c227263af0d65b8462e9c50a8b39d2be09",
+      "sha256": "8ab75044061fed9a167d81562f64ce542cc0b7ffe97d6d32f47728a1cd68daa1",
+      "bytes": 4539
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/automation/evolution.py",
+      "git_blob": "706c5db2fc5facd94e4e195957d4e6cbc5f30307",
+      "sha256": "d4c61a542795616c83c290ff53e0f9bdc02b16d30b458bb2b877efb736408870",
+      "bytes": 1511
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/automation/feedback.py",
+      "git_blob": "fc1563b776fa71f76cf72ab6a261e34c53d901bf",
+      "sha256": "5f21aec6ff297fd1e9892a7d97d15312be6b131692b2f4af87c4ea98a4ea9a26",
+      "bytes": 2497
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/automation/hosts.py",
+      "git_blob": "cab5d7006b40e53a9354d4755018328596b633bc",
+      "sha256": "598973727c342606e46426ce3e4f9f73feedee1995ae0d09cd52fb64e92383b3",
+      "bytes": 2796
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/automation/placement.py",
+      "git_blob": "f0490d77c1256992d7ace1bfcc4498b4ad964664",
+      "sha256": "e36cae627348169aa575529d11fddbeac03d56451a390cb3b06bc6c44fc2b847",
+      "bytes": 2479
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/automation/reconciliation.py",
+      "git_blob": "a7e800b0ef53128a330702be4231eb8075ff8059",
+      "sha256": "8aa8d8f86f9efc90a34a371e36aa8c9cc462749d8b14537ea5d8299a0e95fe54",
+      "bytes": 2994
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/automation/recovery.py",
+      "git_blob": "c4fe9750348827255bc158a3c107ddf967bd80cf",
+      "sha256": "ccf799bbcc19e2192b30e0eaf5384df991f71d02260b695286d108ab7529feab",
+      "bytes": 6153
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/canonical.py",
+      "git_blob": "af02c07247d2263d6694fe43a319efe9f19f2726",
+      "sha256": "0c5a5daf25bff3a054d7f4917cedd07d568758c5dc095c3387be117796b238a0",
+      "bytes": 367
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/indexer.py",
+      "git_blob": "1c938f5d8dbd875353e21a2837ff78b1cbbb9502",
+      "sha256": "c594281d10a3eac068d58441a33f70d1b1a3ad9a7c165bd074f5d2152d5569b4",
+      "bytes": 2212
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/ingest.py",
+      "git_blob": "59276833eb6c3a70077b75c5a9fbed68435cb504",
+      "sha256": "0d3de467c49996bdc27e9b4146f36c5461e6f34b3576b209c3879ae996e0ba9d",
+      "bytes": 5403
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/ledger.py",
+      "git_blob": "2160f6408c754245d87410a2e02a176af690edeb",
+      "sha256": "040d17f40db5a6b251e657a377fa55233769e9d22c7be8283c57a4b79a449390",
+      "bytes": 2212
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/observer_state.py",
+      "git_blob": "9f71efd0d754579f0bb9724d390e8e31772efb8d",
+      "sha256": "edf5e791649c17b58dab8dacab0ec62657b4dc8e3eef6dd4ae9fa4f34c362956",
+      "bytes": 691
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/owner_vfs/__init__.py",
+      "git_blob": "08b798694e03b0acc33e40eed12f60629a3302be",
+      "sha256": "5cbb3716711d74f598f6da85c792b5a19006014192e968ccf432841b323bac20",
+      "bytes": 206
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/owner_vfs/model.py",
+      "git_blob": "f0f50a55dae95252458f9c8a42d7bb575150e791",
+      "sha256": "391d22cfd57fa3d7bc2fd127e461c0c96d64379b19e23c5a3d1154b9f29de70a",
+      "bytes": 740
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/owner_vfs/store.py",
+      "git_blob": "c93f7c5a63e225027a937d2558442e10befed8a4",
+      "sha256": "ca0282f1e370b7d08d566f40e4017964dc910a0b767818aee9214c14c1595695",
+      "bytes": 12607
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/pass_runner.py",
+      "git_blob": "03c3981646fd1c33566dd8d209bd398f6a0ec879",
+      "sha256": "8a57f6d20e9637c004df9dea95098a41a37949c93d2ad68859d7d8460a896584",
+      "bytes": 6530
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/paths.py",
+      "git_blob": "d29a7aa6984322934c64ac51adb24033fe39ef2a",
+      "sha256": "13019323769ccc48136c89e0115e49841ec344b66b3724c1125c91b246840ce3",
+      "bytes": 649
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/plan.py",
+      "git_blob": "942ad6af3d27388899a642228e24a633620874da",
+      "sha256": "347a3299638e1a53808dda740e83cd6ca684e7c951761cd237e87e2add77458c",
+      "bytes": 1489
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/protocol/__init__.py",
+      "git_blob": "47c4e8a8328a6774c365fcc60dad4988ecf4fbd0",
+      "sha256": "11516e509a6f3eb66c887549d8172650c07762d17739bcbb117b30d0fac81fa3",
+      "bytes": 199
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/protocol/binding.py",
+      "git_blob": "994847a9c11bb8dbe01f161f05886426474d112c",
+      "sha256": "2f139c01f2e34eee952f88277d38fafda970a7a95507b40d67ec25faadb60c60",
+      "bytes": 3398
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/protocol/browser.py",
+      "git_blob": "be0c908aff9b181d91d26ce901001508b6ec8b00",
+      "sha256": "6703125c7294d0b0480029dfc9cbecb1d627e07349bf1b1be0d29432e3bda43d",
+      "bytes": 4161
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/protocol/catalogue.py",
+      "git_blob": "a98fa52620c58ec8ef82745e23fe167a8f1aa41e",
+      "sha256": "736a0a60a52acc82f95ed196aef777f7f3f027ed044bf61a59dd3dc3e24a68f7",
+      "bytes": 6995
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/protocol/instances.py",
+      "git_blob": "22b3ebf588242f3c8f3c0d76bd87795987ec0389",
+      "sha256": "75f17a830f07ce6be7000fbbf7366940e6dd0d587c6f4ea3a6e9ec7722952859",
+      "bytes": 10178
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/protocol/mesh.py",
+      "git_blob": "cea4bffb296020e8c6e956c7f6e10d253c0579b1",
+      "sha256": "574e5825e1e803cde82dabbe757be7cf475bdcca6fcefea369d30f6545318938",
+      "bytes": 8160
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/protocol/transport.py",
+      "git_blob": "64724aee84b728d4bf0baaea2f35d03f9fef7dbf",
+      "sha256": "78adf78830d1f75d9345f9d9b40d2b37576a438cd2f5bafc0e129eeec04e226a",
+      "bytes": 4063
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/registry.py",
+      "git_blob": "0501b9d3ecd88fdf8ec0bc77e05a6965355862eb",
+      "sha256": "d45d02f68388ed4250fa14b954f801bcf353e89ccd6e6ed02aec5e8a40e5bf58",
+      "bytes": 2510
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/result.py",
+      "git_blob": "f4ccd3f5d7abffc04d287c9f335c276e45211e6d",
+      "sha256": "69fb56ff9303680a759c053fc59fcd26881fb87db375102f6019f907ffc779e5",
+      "bytes": 1147
+    },
+    {
+      "path": "applications/braink-ide-cli-ci/sectors/core/src/braink_node/storage.py",
+      "git_blob": "09f05d27c2aea30f7e1a112f386bfbdc93a82df8",
+      "sha256": "ed0db0e632722a183060f29ffe12f683b032af174f5b666f087770e5c0078688",
+      "bytes": 563
+    }
+  ]
+}
