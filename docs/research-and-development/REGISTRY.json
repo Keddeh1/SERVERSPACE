@@ -17,7 +17,7 @@
     "scripts/engineering",
     "scripts/planning"
   ],
-  "indexed_artefacts": 157,
+  "indexed_artefacts": 158,
   "artefacts": [
     {
       "path": "AGENTS.md",
@@ -625,6 +625,14 @@
       "document_type": "formal-document-or-record",
       "sha256": "d9160f498b88ef310b7ca394b51b680d61095eb45b30d8e8f25b069cc490e610",
       "bytes": 888,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
+      "path": "docs/research-and-development/sectors/SECTOR_EMPIRICAL_BENCHMARKS/tensor-shell-reconciliation/EVIDENCE.json",
+      "primary_sector": "SECTOR_EMPIRICAL_BENCHMARKS",
+      "document_type": "formal-document-or-record",
+      "sha256": "fda32463854a5b513b5d8a652fb234dbd23b17291427ce4786de10c5e7137f69",
+      "bytes": 3158,
       "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
     },
     {
