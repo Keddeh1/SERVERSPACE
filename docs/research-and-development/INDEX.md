@@ -80,6 +80,7 @@ Canonical artefacts retain their locations. SHA-256 readbacks are in [REGISTRY.j
 - [docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/substrate-bootstrap/REPORT_PAGE_1.png](../../docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/substrate-bootstrap/REPORT_PAGE_1.png)
 - [docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/substrate-bootstrap/REPORT_PAGE_2.png](../../docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/substrate-bootstrap/REPORT_PAGE_2.png)
 - [docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/substrate-bootstrap/REPORT_PAGE_3.png](../../docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/substrate-bootstrap/REPORT_PAGE_3.png)
+- [docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/substrate-bootstrap/ROLLOUT_ACCEPTANCE.json](../../docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/substrate-bootstrap/ROLLOUT_ACCEPTANCE.json)
 - [docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/substrate-bootstrap/STAGING_REVIEW.json](../../docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/substrate-bootstrap/STAGING_REVIEW.json)
 - [scripts/engineering/index_functions.py](../../scripts/engineering/index_functions.py)
 - [scripts/engineering/qualify_continuation.py](../../scripts/engineering/qualify_continuation.py)

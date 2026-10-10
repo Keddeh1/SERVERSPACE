@@ -17,7 +17,7 @@
     "scripts/engineering",
     "scripts/planning"
   ],
-  "indexed_artefacts": 170,
+  "indexed_artefacts": 171,
   "artefacts": [
     {
       "path": "AGENTS.md",
@@ -913,6 +913,14 @@
       "document_type": "formal-document-or-record",
       "sha256": "bc8c0bdbe1e5acdaff93fdd43f4119d6d0165da45041d5147189168569cc0755",
       "bytes": 76477,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
+      "path": "docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/substrate-bootstrap/ROLLOUT_ACCEPTANCE.json",
+      "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
+      "document_type": "formal-document-or-record",
+      "sha256": "e111e9a2122b7ffe1215067dae4b00848364c4019414958ac833a96e658a2aba",
+      "bytes": 6313,
       "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
     },
     {

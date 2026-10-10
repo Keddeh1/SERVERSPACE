@@ -1,0 +1,156 @@
+{
+  "schema": "kex.substrate-rollout-acceptance.v1",
+  "document_id": "KEX-RD-SUBSTRATE-ACCEPTANCE-20261010-001",
+  "version": "0.1",
+  "status": "staged engineering record; no production sign-off",
+  "architecture_author": "Aboudy Keddeh",
+  "engineering_contributor": "Codex",
+  "publisher": "Keddeh Systems",
+  "rights_holder": "Aboudy Keddeh / Keddeh Systems",
+  "licence_profile": "reserved document rights; existing source licences preserved",
+  "classification": "owner engineering review",
+  "observed_at_utc": "2026-10-10T11:42:04.349154+00:00",
+  "requirement_source": "user deployment strategy and ServerSpace replication instructions, current reply",
+  "source_inspection": [
+    {
+      "repository": "Keddeh1/SERVERSPACE",
+      "revision": "735f5c4924ba46d7f271110e6afb1ff78ca61387",
+      "path": "colab_substrate_mount.py",
+      "sha256": "a2c0e2c98a5301d708b66b072f7cdbfa47baadb56bb74b70613472f3493a81c7",
+      "treatment": "analytical reference, not executed"
+    },
+    {
+      "repository": "Keddeh1/SERVERSPACE",
+      "revision": "735f5c4924ba46d7f271110e6afb1ff78ca61387",
+      "path": "k_cloud_substrate_master_daemon.py",
+      "sha256": "17414b23a824cd73452ab4118de70157f0e4837c287044f9b18655df03488b25",
+      "treatment": "analytical reference, not executed"
+    }
+  ],
+  "target_discovery": {
+    "hostname": null,
+    "secured_runtime_directory": null,
+    "environment_credentials_configured": false,
+    "outbound_identities_configured": false,
+    "ssh_config_present": false,
+    "inventory_scope": "current managed configuration, local deployment records, held library index, inspected ServerSpace main; no assertion about uninspected collections"
+  },
+  "criteria": [
+    {
+      "id": "R01",
+      "requirement": "Preserve supplied source and inspect before execution",
+      "status": "PASS_STAGING",
+      "evidence": "STAGING_REVIEW.json; immutable Git source archive in private VFS"
+    },
+    {
+      "id": "R02",
+      "requirement": "Replicate validated operating ServerSpace baseline",
+      "status": "BLOCKED_TARGET_BINDING",
+      "required_evidence": [
+        "actual node identity",
+        "secured runtime directory",
+        "baseline service configuration",
+        "baseline version and healthy-state receipt"
+      ]
+    },
+    {
+      "id": "R03",
+      "requirement": "Persistent shared-memory substrate and HA watchdog",
+      "status": "PARTIAL_LOCAL",
+      "observed": "bounded mmap readback, committed file state, single-node heartbeat watchdog, crash/hang recovery",
+      "unverified": [
+        "full baseline shared-memory allocator",
+        "multi-node high availability",
+        "host power-loss recovery"
+      ]
+    },
+    {
+      "id": "R04",
+      "requirement": "UDS and canonical writer only within secured ServerSpace runtime",
+      "status": "PARTIAL_LOCAL",
+      "observed": "private canary directory, locks, atomic rename, fsync, rejected unsafe paths",
+      "unverified": "actual ServerSpace designated directory binding"
+    },
+    {
+      "id": "R05",
+      "requirement": "Mining API startup withheld until bidirectional substrate handshake",
+      "status": "PARTIAL_LOCAL",
+      "observed": "generic reviewed-command gate tested before and after local handshake",
+      "unverified": [
+        "actual Mining API launch contract",
+        "real API startup and continued health behavior"
+      ]
+    },
+    {
+      "id": "R06",
+      "requirement": "State digest mathematically consistent and peer cryptographically identified",
+      "status": "PARTIAL_LOCAL",
+      "observed": "canonical SHA256/CRC32 and same-UID HMAC nonce challenges",
+      "unverified": [
+        "owner mathematical digest invariant beyond canonical integrity",
+        "enrolled production peer identity"
+      ]
+    },
+    {
+      "id": "R07",
+      "requirement": "Loss-free frame transmission over networks",
+      "status": "PARTIAL_LOCAL",
+      "observed": "100 acknowledged UDS exchanges; fragmented-frame reassembly and truncation rejection",
+      "unverified": [
+        "target network frame protocol",
+        "loss injection, acknowledgement/replay semantics and bounded-loss recovery"
+      ]
+    },
+    {
+      "id": "R08",
+      "requirement": "CRC32 alignment across all cached datasets",
+      "status": "NOT_QUALIFIED",
+      "observed": "canonical canary state CRC matches",
+      "required_evidence": [
+        "complete target cache inventory",
+        "per-dataset CRC readback and mismatch rejection"
+      ]
+    },
+    {
+      "id": "R09",
+      "requirement": "Exact readiness 7 and all assigned workers healthy within limits",
+      "status": "PARTIAL_LOCAL",
+      "observed": "authenticated canary mask 7, child recovery, 256MiB/64 descriptor fixture limits",
+      "unverified": [
+        "baseline bit meanings",
+        "complete target worker inventory and resource plan"
+      ]
+    },
+    {
+      "id": "R10",
+      "requirement": "Publication, routing, external and internal endpoint smoke tests",
+      "status": "PARTIAL_LOCAL",
+      "observed": "existing local estate startup and nine held SDK smoke checks passed",
+      "unverified": [
+        "new application publication receipt",
+        "target external routing",
+        "target internal endpoints"
+      ]
+    },
+    {
+      "id": "R11",
+      "requirement": "Unity remains context-conditioned; independent wholes never merge at local unit 1",
+      "status": "PARTIAL_LOCAL",
+      "observed": "existing complete governed-context contract reused; equal-unit distinct-municipality separation tested",
+      "unverified": [
+        "baseline unresolved numeric variable/projection representation",
+        "all relevant parent and module contexts on operating node"
+      ]
+    }
+  ],
+  "production_promotion_authorized": false,
+  "rollout_order": [
+    "retrieve and verify operating baseline",
+    "compare compatible components and preserve rollback receipts",
+    "canary on target in secured runtime",
+    "exercise actual Mining API and cache/worker inventories",
+    "verify routes and internal/external endpoints",
+    "incrementally promote with readbacks"
+  ],
+  "next_task": "Resolve ServerSpace target access and secured runtime directory from an enrolled owner binding; do not infer a production host from a brand/domain label."
+}
