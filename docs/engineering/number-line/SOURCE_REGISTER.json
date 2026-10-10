@@ -1,0 +1,37 @@
+[
+  {
+    "name": "foundational_paper_coordinate_systems_and_measurement_theory.md",
+    "sha256": "2fdec598a1ccd7cdab72cfb9cabcf632f1055e495cca7be5a8786726ab6dd72a",
+    "read_scope": "full text"
+  },
+  {
+    "name": "case_study_cross_arithmetic_lattice_and_coordinate_systems.md",
+    "sha256": "bf6d86cb25de28ead42b8b3f8a13e800b70367ae1a08d0ee32f2a243ce7155ac",
+    "read_scope": "full text"
+  },
+  {
+    "name": "universal_seed_adapter_and_sectoral_memory_architecture.md",
+    "sha256": "fe7a28073cbdf95df894be787c2187a1e510fabca819ac1f9743760497f2e48a",
+    "read_scope": "full text"
+  },
+  {
+    "name": "BRAINK_Architectural_Review.md",
+    "sha256": "44d79777686bb9c33a4ebb3b477e176ec5bd226943a04efb093ff6f204376505",
+    "read_scope": "full text"
+  },
+  {
+    "name": "case_study_empirical_systems_benchmark_and_component_registry.md",
+    "sha256": "6eb6ff4cc471b8fc9ea00969166ddbe764134b691eb92a6e8c159b291239dac0",
+    "read_scope": "full text"
+  },
+  {
+    "name": "case_study_software_engineering_and_systems_architecture.md",
+    "sha256": "7238f7bd7a0a035f3126091ada0673a98e0675919d5a6624bb33fae17d178f84",
+    "read_scope": "full text"
+  },
+  {
+    "name": "KEDDEH_ENGINEERED_COMPUTER_RUNTIME_v1.html",
+    "sha256": "f149d880d8730744b53f3cf8e44378f9eea748226b56a8fd6a563afd99663640",
+    "read_scope": "targeted machine contract, executable adapter and v69/v71 lineage/recurrence definitions"
+  }
+]

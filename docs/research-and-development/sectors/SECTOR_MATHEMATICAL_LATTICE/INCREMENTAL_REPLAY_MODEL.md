@@ -1,0 +1,7 @@
+# Arithmetic reuse with complete predecessor inspection
+
+For N sequential advances, full replay performs N(N+1)/2 arithmetic operations: one new operation per advance plus every earlier operation. The cache performs 2N−1: N new operations and N−1 first-time validations of the previously committed last event. Instrumentation at N=64 establishes 2080 versus 127. Once warmed, a read performs zero repeated arithmetic, but both approaches still read N stored predecessor rows. Sequential construction therefore retains quadratic database-read work; this is not constant-time state validation.
+
+Cache identity comprises continuation identity, registered genesis, governing policy fingerprint and exact retained event bytes. Cached predecessor pointers and results may be reused only within that identity. A zero coordinate remains a valid measured result; a missing predecessor is a typed failure, never arithmetic zero. Four-ray exact Fraction semantics are unchanged. Local cache space is O(N) with bounded admitted retention; cold replay remains O(N) computation.
+
+Topological alignment: mathematical lattice describes conserved contextual semantics and cost; systems architecture implements cache boundaries; empirical benchmarks test both; foundations retain the owner source registry and authority rules. The optimization reduces repeated interpretation within one admitted lineage rather than replacing owner contextual semantics with an unrelated scalar address model.

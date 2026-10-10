@@ -1,0 +1,9 @@
+# Verified arithmetic reuse
+
+Optional `IncrementalContinuation` extends the existing full-replay oracle, leaving the default runtime unchanged. A cache hit requires identical stored ancestor bytes, registered genesis context and the same fingerprint of all contextual authority and admitted directed transitions. Every predecessor is fetched in the current SQLite snapshot; missing, changed or cyclic ancestry cannot disappear behind a cached head. The contextual identity remains origin × ordinance × municipality × region × vector × frame × unit × revision. Scalar equality alone never admits a transition.
+
+Cached parsed events and exact Fraction results avoid repeated JSON decoding, hashing and arithmetic. New events receive complete validation. Cache publication follows complete replay; rollback removes stored rows, so later reuse still requires matching rows. Policy changes trigger full semantic revalidation. Restart and eviction perform cold replay. Four continuation caches maximum, each capped at 1 MiB of serialized event bytes; Python objects and Fraction overhead mean this is not a total RSS bound.
+
+The trusted process owns this private cache. This does not protect against arbitrary modification of Python memory, compromised host storage or forged administrative authority. SHA-256 detects changed content against retained lineage, not a separately authenticated remote principal. Shared-instance multithreaded use has not been qualified. No production caller is switched automatically.
+
+Implementation: `web-estate/sites/aboudy-keddeh/runtime/incremental_continuation.py`. Tests: adjacent `tests/test_incremental_continuation.py`. Follow-on gate: exercise this optional replay in receiver transactions, forced rollback and retries, then examine concurrent-instance behaviour before enabling any deployment.

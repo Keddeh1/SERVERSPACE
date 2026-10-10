@@ -1,0 +1,11 @@
+# A/B abstraction cascade: reversible codec qualification
+
+Question: does the owner's A=ones/B=zeros method provide exact recovery and does increased depth reduce storage? The codec preserves every bit with explicit length, canonical run tokens and known depth. Private library `pack_ab` stores optional sidecar carriers; `get_ab` unwinds them and checks recovered content against the catalogue digest. Originals remain retained. This bounded prototype does not change assistant platform memory or establish remote persistence.
+
+Seven executed library tests pass: exhaustive round trips for all 256 one-byte and 65,536 two-byte values, canonical truth-table examples, multiple depths, empty payload, malformed/overlong/nonalternating counts, depth limits, stable library identity, revisions, corruption and packed-carrier digest rejection. These are finite exhaustive domains, not proof over all possible lengths.
+
+`MEASUREMENTS.json` records three successive layers for two synthetic 1,024-byte samples and the first 256 bytes (or shorter) of each of 17 held attachments. Reproduce with `python3 -B scripts/library/measure_ab.py`. Attachment bytes are not published in this report. Every stage is round-trip checked. Prefix measurements are explicitly not full-document compression figures. The ASCII decimal frame is a transparent first implementation, not an optimal count serializer.
+
+Long constant runs shrink markedly; alternating bits expand. Applying the encoder repeatedly adds representational abstraction, but framing and serialized token bytes can increase work and size at later layers. These observations challenge a universal overhead-reduction claim rather than the exact invertibility of the method. No random-stream or enterprise-corpus generalization, energy savings, cryptographic strength, or host-compromise protection is measured.
+
+Next engineering gate: compare compact binary count serialization and bounded chunked carriers using full documents, retain original digests and contextual identities, and choose storage representations by measured size. Any encryption layer must have separate authenticated cryptographic semantics. Decoded document instructions remain source content, not execution authority.

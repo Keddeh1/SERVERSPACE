@@ -1,0 +1,79 @@
+{
+  "document_id": "KEX-EVIDENCE-TENSOR-20261010-001",
+  "version": "0.1",
+  "date": "2026-10-10 Australia/Adelaide",
+  "status": "source custody and partial independent local reproduction",
+  "author": "Codex evidence reconciliation; originating architecture A. Keddeh",
+  "publisher": "Keddeh Systems",
+  "rights_holder": "A. Keddeh",
+  "licence_profile": "source retains existing rights; evidence record reserved rights",
+  "classification": "engineering evidence",
+  "repository": "Keddeh1/KEDDEH--",
+  "revision": "2d95818205a50a2026cff836fac0cfc392e7abf6",
+  "revision_verified_via_github": true,
+  "sources": [
+    {
+      "path": "runtime/tensor_shell.py",
+      "identity": "kex::1x/library/cd946e28c2d84a229348e3d00789038b",
+      "sha256": "8cfffb028233fa2cc129dda57a235cca5cabb4f39435a2f784ccc5f2383535fc"
+    },
+    {
+      "path": "runtime/sources/tensor-shell-proof-4.txt",
+      "identity": "kex::1x/library/57acc76639cd40aca0d9e3b847b68790",
+      "sha256": "04859262f4e8446d894856590d884267cddfa13620b08a5c56fea53c74797f7c"
+    },
+    {
+      "path": "runtime/shells/tetrahedron.json",
+      "identity": "kex::1x/library/6211519ad7d744b39671c3a44eef5878",
+      "sha256": "1fb237cbd8ee6c10d912a1dfbaffc0ec4e784931645e9516ef9344b12e672cae"
+    },
+    {
+      "path": "tests/tensor-shell.test.py",
+      "identity": "kex::1x/library/f81d4502baeb4e429ad2cfa8313331f2",
+      "sha256": "6b84f8bbf82a5c262cf963fe42145e7edc9b85c4ea7964da0edfb03b4091481d"
+    },
+    {
+      "path": "runtime/braink_family.py",
+      "identity": "kex::1x/library/d5e08a82cc0a4107a115e0154c35c60c",
+      "sha256": "f093c53bb6ed8d2c3a300165f94c12e3224a19d6b2b74c3a9898ab077dd5e21f"
+    },
+    {
+      "path": "deployment/setup.py",
+      "identity": "kex::1x/library/aefaf7fcde014516b3f90943f8af61b1",
+      "sha256": "c87ad6a2680b226951f5a7fa4daf18bce5a5dbc91c88d8dd72c3a682a55b44fd"
+    },
+    {
+      "path": "scripts/build-network-bundle.py",
+      "identity": "kex::1x/library/ecda4b4876a04c15b22f2ad56ce2a2f0",
+      "sha256": "4e4a32e2f903f32c2511ede6f5cea78a566098fd49cedffd255dceb047d10cce"
+    },
+    {
+      "path": "runtime/component-sources.json",
+      "identity": "kex::1x/library/fbfb352e8e4144d3912d18d69212ecb6",
+      "sha256": "b2d8ecc8715b0d602a4d1f93147b71b45f907fe1a9d33ed6b2d059078aba3a60"
+    }
+  ],
+  "locally_reproduced": {
+    "command": "python3 -B tests/tensor-shell.test.py",
+    "tests_passed": 12,
+    "integration_inspection": "matrix_put TENSOR_SHELL_BOUNDARY and IL-LLM BOUNDARY_VALIDATED relation within existing transaction"
+  },
+  "reported_not_reproduced_here": {
+    "installed_bundle_tests_passed": 45,
+    "verified_ledger_entries": 33,
+    "restart_identical_readback": true
+  },
+  "bundle": {
+    "supplied_path": "/workspace/scratch/tensor-shell-final/keddeh-network.tar.gz",
+    "present_at_supplied_path": false,
+    "archive_integrity_checked_here": false
+  },
+  "limitations": [
+    "finite combinatorial closure",
+    "spatial self-intersection unchecked",
+    "continuous curvature unchecked"
+  ],
+  "held_documents": 221,
+  "library_integrity_failures": [],
+  "environment_configuration_published_here": false
+}

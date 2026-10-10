@@ -1,0 +1,142 @@
+{
+  "mapping": {
+    "ones": "C-K = 1-9",
+    "zeros": "L-T = 1-9"
+  },
+  "all_round_trips_passed": true,
+  "samples": [
+    {
+      "source": "synthetic-zero",
+      "scope": "synthetic complete",
+      "input_bytes": 1024,
+      "decimal_ab_bytes": 14,
+      "compact_bytes": 921
+    },
+    {
+      "source": "synthetic-alternation",
+      "scope": "synthetic complete",
+      "input_bytes": 1024,
+      "decimal_ab_bytes": 16393,
+      "compact_bytes": 8202
+    },
+    {
+      "source": "universal_seed_adapter_and_sectoral_memory_architecture.md",
+      "scope": "first 256 bytes or shorter",
+      "input_bytes": 256,
+      "decimal_ab_bytes": 2235,
+      "compact_bytes": 1123
+    },
+    {
+      "source": "implementation_plan.md",
+      "scope": "first 256 bytes or shorter",
+      "input_bytes": 256,
+      "decimal_ab_bytes": 2163,
+      "compact_bytes": 1087
+    },
+    {
+      "source": "KEX_HCI_GROWTH_RUNTIME_V2_DELIVERY (1).zip",
+      "scope": "first 256 bytes or shorter",
+      "input_bytes": 256,
+      "decimal_ab_bytes": 2041,
+      "compact_bytes": 1034
+    },
+    {
+      "source": "BRAINK_Architectural_Review.md",
+      "scope": "first 256 bytes or shorter",
+      "input_bytes": 256,
+      "decimal_ab_bytes": 2275,
+      "compact_bytes": 1143
+    },
+    {
+      "source": "KEDDEH_64x64_MEMORY_VFS.json",
+      "scope": "first 256 bytes or shorter",
+      "input_bytes": 256,
+      "decimal_ab_bytes": 1933,
+      "compact_bytes": 972
+    },
+    {
+      "source": "foundational_paper_coordinate_systems_and_measurement_theory.md",
+      "scope": "first 256 bytes or shorter",
+      "input_bytes": 256,
+      "decimal_ab_bytes": 2229,
+      "compact_bytes": 1120
+    },
+    {
+      "source": "KEDDEH_ENGINEERED_COMPUTER_RUNTIME_v1.html",
+      "scope": "first 256 bytes or shorter",
+      "input_bytes": 256,
+      "decimal_ab_bytes": 2117,
+      "compact_bytes": 1064
+    },
+    {
+      "source": "KEX_ADAPTIVE_DISTRIBUTION_ENVIRONMENT.zip",
+      "scope": "first 256 bytes or shorter",
+      "input_bytes": 256,
+      "decimal_ab_bytes": 1033,
+      "compact_bytes": 623
+    },
+    {
+      "source": "COMPLIANCE_EVIDENCE_CASE_STUDY_v0.6.0.docx",
+      "scope": "first 256 bytes or shorter",
+      "input_bytes": 256,
+      "decimal_ab_bytes": 1966,
+      "compact_bytes": 996
+    },
+    {
+      "source": "case_study_cross_arithmetic_lattice_and_coordinate_systems.md",
+      "scope": "first 256 bytes or shorter",
+      "input_bytes": 256,
+      "decimal_ab_bytes": 2173,
+      "compact_bytes": 1092
+    },
+    {
+      "source": "case_study_software_engineering_and_systems_architecture.md",
+      "scope": "first 256 bytes or shorter",
+      "input_bytes": 256,
+      "decimal_ab_bytes": 2231,
+      "compact_bytes": 1121
+    },
+    {
+      "source": "Pasted text.txt",
+      "scope": "first 256 bytes or shorter",
+      "input_bytes": 256,
+      "decimal_ab_bytes": 2131,
+      "compact_bytes": 1071
+    },
+    {
+      "source": "KEX_Legal_Process_Workstation_v0.3.0.zip",
+      "scope": "first 256 bytes or shorter",
+      "input_bytes": 256,
+      "decimal_ab_bytes": 2022,
+      "compact_bytes": 1024
+    },
+    {
+      "source": "+_foundational_paper_coordinate_systems_and_measurement_theory.md",
+      "scope": "first 256 bytes or shorter",
+      "input_bytes": 256,
+      "decimal_ab_bytes": 2229,
+      "compact_bytes": 1120
+    },
+    {
+      "source": "KEX_Legal_Process_Accountability_Service_v0.1.0.zip",
+      "scope": "first 256 bytes or shorter",
+      "input_bytes": 256,
+      "decimal_ab_bytes": 1770,
+      "compact_bytes": 925
+    },
+    {
+      "source": "case_study_empirical_systems_benchmark_and_component_registry.md",
+      "scope": "first 256 bytes or shorter",
+      "input_bytes": 256,
+      "decimal_ab_bytes": 2173,
+      "compact_bytes": 1092
+    },
+    {
+      "source": "KEX_FORWARD_REHYDRATION_RUNTIME.html",
+      "scope": "first 256 bytes or shorter",
+      "input_bytes": 256,
+      "decimal_ab_bytes": 2129,
+      "compact_bytes": 1070
+    }
+  ]
+}

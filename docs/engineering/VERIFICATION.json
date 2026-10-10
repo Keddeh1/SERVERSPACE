@@ -1,0 +1,30 @@
+{
+  "scope": "portable software adapter only",
+  "runtime_inspected_revision": "9bd3152e57d2612e40e700bc1d8e5b8a932fba45",
+  "owner_fixture_sha256": "695c7e5eaf11b9dfbd4717715146a443fb3640d0623e36ebd850f8c342ed8f77",
+  "results": {
+    "engine_conformance_checks": 15,
+    "exhaustive_one_origin_mappings": 2304,
+    "invalid_address_rejection": "passed",
+    "handler_address_metadata": "passed",
+    "es5_and_transfer_budget": "passed",
+    "python_runtime_tests": 15
+  },
+  "dom": {
+    "status": "passed",
+    "pages": 14,
+    "localLinksClicked": 262,
+    "externalActionsInspected": 4,
+    "accessibilityScans": 14,
+    "form": "fixture persisted",
+    "wrapper": "modes, queue limits, cooperative work and remote keys checked",
+    "degradedFeatures": "fetch/Worker/BigInt/WebAssembly absent",
+    "hardware32BitVerified": false,
+    "nativePublicationVerified": false,
+    "chromiumSandbox": false
+  },
+  "physical_32bit_device_verified": false,
+  "physical_100tb_ram_provisioned": false,
+  "memory_vfs_binding_implemented": false,
+  "dom_initial_attempt": "Chromium SUID sandbox launch failed; supported SITE_BROWSER_SANDBOX=0 option used for isolated local fixture with external requests blocked."
+}

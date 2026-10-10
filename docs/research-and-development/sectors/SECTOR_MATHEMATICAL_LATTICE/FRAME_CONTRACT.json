@@ -1,0 +1,45 @@
+{
+  "schema": "kex.context-delta.v1",
+  "packet_fields": [
+    "schema",
+    "continuation",
+    "base_head",
+    "target_head",
+    "target_context",
+    "events"
+  ],
+  "event_fields": [
+    "hash",
+    "body"
+  ],
+  "body_fields": [
+    "continuation",
+    "parent",
+    "sequence",
+    "context",
+    "axis",
+    "parameter",
+    "input",
+    "result"
+  ],
+  "scope": "review adapter derived from owner continuation/ray contracts and current contextual-origin requirements",
+  "invariants": [
+    "stable continuation identity across carrier placement",
+    "ordered predecessor lineage",
+    "exact signed/rational arithmetic replay",
+    "complete registered target jurisdiction",
+    "directed admitted cross-field transitions",
+    "atomic event/head update",
+    "retry validates packet against committed lineage",
+    "same scalar is not identity equivalence"
+  ],
+  "representation": "canonical JSON plus SHA-256 integrity references; not a new authentication scheme",
+  "local_budgets": {
+    "events_per_delta": 128,
+    "encoded_packet_bytes": 262144
+  },
+  "source_references": [
+    "../../../engineering/number-line/README.md",
+    "../../../engineering/ONE_ORIGIN.md"
+  ]
+}

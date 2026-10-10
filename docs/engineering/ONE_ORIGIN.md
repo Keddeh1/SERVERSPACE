@@ -1,0 +1,9 @@
+# One-origin address contract
+
+Owner P03 source (`tests/fixtures/p03-reference.js`, loader): nine MRAM banks, each 256 words; bank starts at 1 and storage uses `MRAM[bank-1][start+i]`. KEXE-1 header entry and loader start are offsets equal to zero. Source line numbers and X1…X9 labels use positive ordinals. These are distinct units.
+
+The portable engine now exposes checked `originOffset(address, capacity)`, `originAddress(offset, capacity)` and `memoryLocation(bank, address)`. Logical bank/word coordinates are 1…9 and 1…256. Handler context adds `instruction_address` and `address_origin: 1`; existing `instruction` remains an offset for compatibility. No checksum format, opcode, serialized entry or memory allocation is changed. Conversion occurs once at the named boundary; internal JavaScript arrays retain native indexing.
+
+Tests exhaust all 2,304 bank/word mappings; reject zero, negatives, fractions, strings, null, NaN, infinity and overflow; exercise actual handler contexts; preserve exact owner compiler/assembler fixture conformance. This is bounded software-address compatibility, not an allocator, physical 100 TB provision or hardware verification.
+
+Latest owner runtime inspected: `9bd3152e57d2612e40e700bc1d8e5b8a932fba45`. `src/keddeh_namespace/logical_vfs.py` implements canonical relative paths, SHA-256 objects and SQLite version journal. A logical array address cannot stand in for those identities. Before adding memory/VFS materialisation, require a binding carrying tenant/service, bank, one-origin word address, object path, version, digest, byte length and generation. Validate capacity and tenant admission, reject alias/stale generation, verify digest after read and retain journal receipt. Binding implementation and cross-process crash qualification remain pending, not asserted by this adapter.

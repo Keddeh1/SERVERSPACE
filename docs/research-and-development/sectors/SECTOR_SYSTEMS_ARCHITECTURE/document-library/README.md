@@ -1,0 +1,11 @@
+# Private working VFS document library
+
+Persistent local carrier: `/workspace/keddeh-private-vfs-library`. Originals and catalogue are private workspace files, outside Git. The library holds 17 supplied attachments and the 126 currently registered repository research/implementation artefacts. It contains complete bytes, not only references. Availability survives original source-file removal and process restart. Persistence across replacement or deletion of this workspace requires an independently provisioned backup; none is claimed.
+
+`python3 scripts/library/vfs_library.py search coordinate` searches title, source and sector metadata. `get LOGICAL_ID --output /tmp/paper-copy.md` retrieves verified bytes without overwriting an existing file. `verify` checks every retained revision. `add PATH --sector SECTOR_FOUNDATIONS --source PROVIDER_URI --provenance DESCRIPTION` acquires another document. Logical identity is assigned once per source binding and retained across revisions; hashes identify carrier content, not contextual authority. Historical bytes and revision digests are retained. Sector assignment organizes research and does not establish source truth or admission into an execution jurisdiction.
+
+Acquisition uses an fsynced private blob and SQLite FULL transaction, with exact SHA-256 verification on retrieval. Catalogue loss, compromised host or coordinated catalogue/blob substitution are outside this local integrity guarantee. Provider authentication and signed provenance are not implemented. Search is metadata search, not automatic semantic understanding. Archives remain retained originals, not executed or automatically trusted instructions.
+
+Two executed tests establish stable identity across revisions, retrieval after source deletion and catalogue reopen, historical retention, and corruption rejection. Initial acquisition integrity verification: 143 documents, zero failures.
+
+Coverage rules: held = bytes acquired and verified; identified but unacquired = a specific source binding known without bytes; not inspected = collection inventory unknown; confirmed missing = an expected inventory item reconciled against an inspected authoritative collection. Google Drive is not inspected. No particular Drive document is asserted missing. A local library cannot reveal unknown documents in an uninspected collection.

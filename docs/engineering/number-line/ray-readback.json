@@ -1,0 +1,27 @@
+{
+  "scope": "exact arithmetic evaluation of formulas defined in supplied CAA paper; not original generator execution",
+  "inverse_pair_checks": 256,
+  "zero_measurement": {
+    "k": 1,
+    "values": {
+      "+X": "2",
+      "-X": "0",
+      "+Y": "1",
+      "-Y": "1"
+    }
+  },
+  "k5": {
+    "k": 5,
+    "values": {
+      "+X": "6",
+      "-X": "-4",
+      "+Y": "5",
+      "-Y": "1/5"
+    }
+  },
+  "cross_ray_equal_scalar": {
+    "east_k4": "5",
+    "north_k5": "5",
+    "axis_identity_required": true
+  }
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "id": "iea",
+    "url": "https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "doe",
+    "url": "https://www.energy.gov/articles/doe-releases-new-report-evaluating-increase-electricity-demand-data-centers",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "localfirst",
+    "url": "https://www.inkandswitch.com/essay/local-first/",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "sqlite",
+    "url": "https://sqlite.org/wasm/doc/trunk/index.md",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "v86",
+    "url": "https://github.com/copy/v86",
+    "bytes": 367545,
+    "sha256": "017002251ba11043ebfce6d48c87ab0877924d52eb5e1d07b76c5b4b0c872ed4",
+    "retrieved": true
+  },
+  {
+    "id": "storage",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Storage_API/Storage_quotas_and_eviction_criteria",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "mdn-storage",
+    "url": "https://github.com/mdn/content/blob/HEAD/files/en-us/web/api/storage_api/storage_quotas_and_eviction_criteria/index.md",
+    "sha256": "0b6662b2fe059251bd33dc3bd96753204f848b58153f9d193838a9b166d92f67",
+    "retrieved": true,
+    "source_type": "official project repository",
+    "git_blob_sha": "361c33ef6e39665c25caa5111a4925de1db4dafc"
+  },
+  {
+    "id": "v86-readme",
+    "url": "https://github.com/copy/v86/blob/HEAD/Readme.md",
+    "sha256": "3b580d883b88ad6c22e00dd74bafed216aa44eed134690541770ab5a183b6c16",
+    "retrieved": true,
+    "source_type": "official project repository",
+    "git_blob_sha": "e8c7822894571409f6987ce764f6d3a149daad8e"
+  },
+  {
+    "id": "sqlite-wasm",
+    "url": "https://github.com/sqlite/sqlite/blob/HEAD/ext/wasm/README.md",
+    "sha256": "1df1cde6e0820aec615b85a40306a9da2d6d20122d3befa6296464cb8a9af4fd",
+    "retrieved": true,
+    "source_type": "official project repository",
+    "git_blob_sha": "48a2537c660fe4881c655258325b58ee880438c9"
+  },
+  {
+    "id": "automerge",
+    "url": "https://github.com/automerge/automerge/blob/main/README.md",
+    "git_blob_sha": "afffbf5a5854d5e34269c272ff3ef015b19b71fe",
+    "sha256": "09f34f7a71708a1a0db593301525c34499a9838198de24add914c0e7773dd9eb",
+    "retrieved": true
+  },
+  {
+    "id": "electric",
+    "url": "https://github.com/electric-sql/electric/blob/main/README.md",
+    "git_blob_sha": "dc1ea7741c95d2e4e8e5da4f3cc4c5fa9668e977",
+    "sha256": "ad8520ad7b034a7f4dde779a0ae5c59664301501dc60a1095ae925427c4ea246",
+    "retrieved": true
+  },
+  {
+    "id": "user-request",
+    "name": "Pasted text.txt",
+    "sha256": "ee14061ea3d6e18287114d146c5f5ae36f2796d4c28ee93d36327ba96dfbc43b",
+    "source_type": "user request plus quoted prior conversation; quoted assistant assertions not independent measurements"
+  }
+]
