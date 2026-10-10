@@ -1,0 +1,18 @@
+test_api_command_withheld_until_handshake (test_substrate_canary.Qualification.test_api_command_withheld_until_handshake) ... ok
+test_bidirectional_readiness_and_checksums (test_substrate_canary.Qualification.test_bidirectional_readiness_and_checksums) ... ok
+test_concurrent_canonical_writers (test_substrate_canary.Qualification.test_concurrent_canonical_writers) ... ok
+test_corrupted_state_blocks_handshake (test_substrate_canary.Qualification.test_corrupted_state_blocks_handshake) ... ok
+test_equal_local_unity_keeps_contexts_distinct (test_substrate_canary.Qualification.test_equal_local_unity_keeps_contexts_distinct) ... ok
+test_exclusive_substrate_owner (test_substrate_canary.Qualification.test_exclusive_substrate_owner) ... ok
+test_foreign_secret_cannot_complete (test_substrate_canary.Qualification.test_foreign_secret_cannot_complete) ... ok
+test_fragmented_frames_are_reassembled (test_substrate_canary.Qualification.test_fragmented_frames_are_reassembled) ... ok
+test_socket_and_state_stay_private (test_substrate_canary.Qualification.test_socket_and_state_stay_private) ... ok
+test_truncation_and_oversize_rejected (test_substrate_canary.Qualification.test_truncation_and_oversize_rejected) ... ok
+test_unsafe_directory_and_symlink_rejected (test_substrate_canary.Qualification.test_unsafe_directory_and_symlink_rejected) ... ok
+test_watchdog_recovers_killed_and_hung_worker_with_identical_state (test_substrate_canary.Qualification.test_watchdog_recovers_killed_and_hung_worker_with_identical_state) ... ok
+test_worker_resource_limits_and_repeated_acknowledgements (test_substrate_canary.Qualification.test_worker_resource_limits_and_repeated_acknowledgements) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 9.695s
+
+OK

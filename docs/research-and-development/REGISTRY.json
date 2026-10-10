@@ -17,7 +17,7 @@
     "scripts/engineering",
     "scripts/planning"
   ],
-  "indexed_artefacts": 158,
+  "indexed_artefacts": 170,
   "artefacts": [
     {
       "path": "AGENTS.md",
@@ -852,6 +852,78 @@
       "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
     },
     {
+      "path": "docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/substrate-bootstrap/QUALIFICATION.json",
+      "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
+      "document_type": "formal-document-or-record",
+      "sha256": "e588794b571a8d6d28d8fb2acc398a3e695d726448030e4ee98d79cb9fd93a57",
+      "bytes": 1096,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
+      "path": "docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/substrate-bootstrap/README.md",
+      "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
+      "document_type": "formal-document-or-record",
+      "sha256": "a347cd58ec0a94e82aea9ac08eff22492c14b54b17671303c6286b2579114a08",
+      "bytes": 3236,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
+      "path": "docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/substrate-bootstrap/REPORT.html",
+      "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
+      "document_type": "formal-document-or-record",
+      "sha256": "d049bca3e127ae37b6dcc4ed9584bf02e7e2c1e720d030be37aa74be2b49065a",
+      "bytes": 7941,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
+      "path": "docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/substrate-bootstrap/REPORT.md",
+      "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
+      "document_type": "formal-document-or-record",
+      "sha256": "8376a54c88335dd6831196f8e0563ad030196a62218213f057e67ee2eefa7d0c",
+      "bytes": 6668,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
+      "path": "docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/substrate-bootstrap/REPORT.pdf",
+      "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
+      "document_type": "formal-document-or-record",
+      "sha256": "9718eb34983dbed6857af8efd07bbdfa0d8ac01fffd0f78c647f1afbeb91aba0",
+      "bytes": 42575,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
+      "path": "docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/substrate-bootstrap/REPORT_PAGE_1.png",
+      "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
+      "document_type": "formal-document-or-record",
+      "sha256": "8bd4db2d229fec4e041f3761087d455a1d85e0d1ceabb1c69b14b393e7dc67eb",
+      "bytes": 122736,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
+      "path": "docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/substrate-bootstrap/REPORT_PAGE_2.png",
+      "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
+      "document_type": "formal-document-or-record",
+      "sha256": "71de268d58e460bdda2758273559020d222867f6ff0b851705a060bd57935934",
+      "bytes": 103232,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
+      "path": "docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/substrate-bootstrap/REPORT_PAGE_3.png",
+      "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
+      "document_type": "formal-document-or-record",
+      "sha256": "bc8c0bdbe1e5acdaff93fdd43f4119d6d0165da45041d5147189168569cc0755",
+      "bytes": 76477,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
+      "path": "docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/substrate-bootstrap/STAGING_REVIEW.json",
+      "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
+      "document_type": "formal-document-or-record",
+      "sha256": "4d14b07ae60e121dc5d9090acee5d81a11972beed7eca596e00288960c03b429",
+      "bytes": 39583,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
       "path": "scripts/analysis/analyse_incremental_replay.py",
       "primary_sector": "SECTOR_EMPIRICAL_BENCHMARKS",
       "document_type": "implementation-or-test",
@@ -916,6 +988,30 @@
       "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
     },
     {
+      "path": "scripts/engineering/start_substrate_canary.py",
+      "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
+      "document_type": "implementation-or-test",
+      "sha256": "3af52416bda0acc0e0973bfa203087b7f705d208fdf0568260ddb48f31dd6eae",
+      "bytes": 2003,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
+      "path": "scripts/engineering/substrate_canary.py",
+      "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
+      "document_type": "implementation-or-test",
+      "sha256": "9f3c000b5e22ea81ec08efeb24c2aa12d3005da6b75900623ed81b126e115fad",
+      "bytes": 11945,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
+      "path": "scripts/engineering/test_substrate_canary.py",
+      "primary_sector": "SECTOR_EMPIRICAL_BENCHMARKS",
+      "document_type": "implementation-or-test",
+      "sha256": "84c0835731c7e9ea429f39e86efc11f51f5f167e44a0a2ef758907cd197a4054",
+      "bytes": 7421,
+      "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
+    },
+    {
       "path": "scripts/library/ab_codec.py",
       "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
       "document_type": "implementation-or-test",
@@ -941,7 +1037,7 @@
     },
     {
       "path": "scripts/library/test_ab_codec.py",
-      "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
+      "primary_sector": "SECTOR_EMPIRICAL_BENCHMARKS",
       "document_type": "implementation-or-test",
       "sha256": "6e735c3a0e011cc5b789fcef6981ae43d3991501509a0b66350b18b52bca4445",
       "bytes": 1103,
@@ -949,7 +1045,7 @@
     },
     {
       "path": "scripts/library/test_compact_ab.py",
-      "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
+      "primary_sector": "SECTOR_EMPIRICAL_BENCHMARKS",
       "document_type": "implementation-or-test",
       "sha256": "3f65763b602ae5ab8eb94a42dbbc9f88be99ac541f19016f5ce5964fdae62fd1",
       "bytes": 983,
@@ -957,7 +1053,7 @@
     },
     {
       "path": "scripts/library/test_vfs_library.py",
-      "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
+      "primary_sector": "SECTOR_EMPIRICAL_BENCHMARKS",
       "document_type": "implementation-or-test",
       "sha256": "1712faca22b89043ea458367145c67528854548cbb21d31a914b769e569e4313",
       "bytes": 1634,
@@ -1007,8 +1103,8 @@
       "path": "scripts/research-and-development/index_research.py",
       "primary_sector": "SECTOR_FOUNDATIONS",
       "document_type": "implementation-or-test",
-      "sha256": "8a5b26ccff5c3f8b4ea5e37d11af134c637693217bfff877375c8bfd218c9371",
-      "bytes": 3526,
+      "sha256": "4d5adfc9329447b862cfa8b733359f6f6dfa2efd0814ee6aa62d9709c17de206",
+      "bytes": 3554,
       "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
     },
     {

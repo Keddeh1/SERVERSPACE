@@ -1,0 +1,27 @@
+{
+  "scope": "local Linux bootstrap adapter, not operating ServerSpace baseline",
+  "tests": 13,
+  "outcome": "PASS",
+  "test_log_sha256": "e24f58696ef78437b0f23f27c8fbf23a7cfc05b500cdaa36a1f8d1847d83b0cd",
+  "canary": {
+    "scope": "isolated local qualification canary",
+    "runtime": "/workspace/.keddeh-environment/substrate-canary",
+    "crc32": 1642610228,
+    "nonce": "31134c9b24fb9c8ebdfe7084e0e9dcdf76911e936ab03a71a4a2ed1b34314483",
+    "server_nonce": "364c662214470ff80e75abc4cd004248a24f896c36a92a400d238b48d9127a9a",
+    "state_digest": "5590fdd8cea4ce1135add15bb1cbbed9096173a1541db4766c114ebb8b6b7dd6",
+    "ready_mask": 7,
+    "peer_pid": 2670,
+    "authenticated": true
+  },
+  "repeat_pid_unchanged": true,
+  "worker_limits": {
+    "address_space_bytes": 268435456,
+    "file_descriptors": 64
+  },
+  "acknowledged_handshakes_tested": 100,
+  "live_remote_node_verified": false,
+  "mining_api_deployed": false,
+  "public_site_published": false,
+  "peer_security": "local same-UID plus HMAC-SHA256 possession of private 256-bit key; not independently enrolled production peer"
+}
