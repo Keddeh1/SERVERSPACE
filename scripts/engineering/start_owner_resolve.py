@@ -36,8 +36,26 @@ def owners(command):
 
 
 def prepare():
-    manifest = json.loads((STAGING/'source-manifest.json').read_text())
+    custody = Path(__file__).resolve().parents[2]/'docs/research-and-development/sectors/SECTOR_SYSTEMS_ARCHITECTURE/owner-resolve-sdk/SOURCE_CUSTODY.json'
+    manifest = json.loads(custody.read_text())
     if manifest['commit'] != PIN: raise ValueError('owner source revision differs')
+    # Held source is the first recovery carrier; do not require a fresh network
+    # download or reinterpret a missing workspace path as a missing document.
+    sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'library'))
+    from vfs_library import Library
+    library = Library('/workspace/keddeh-private-vfs-library')
+    try:
+        held = {row['source']:row['identity'] for row in library.records()}
+        for row in manifest['files']:
+            source = STAGING/'pinned'/row['path']
+            if not source.exists() and not source.is_symlink():
+                key = 'github://Keddeh1/BRAINK-BETA-TEST/'+PIN+'/'+row['path']
+                raw = library.get(held[key])
+                if hashlib.sha256(raw).hexdigest() != row['sha256']:
+                    raise ValueError('held source differs from pinned custody')
+                source.parent.mkdir(parents=True,exist_ok=True)
+                source.write_bytes(raw)
+    finally: library.close()
     for row in manifest['files']:
         source = STAGING/'pinned'/row['path']
         if source.is_symlink() or hashlib.sha256(source.read_bytes()).hexdigest() != row['sha256']:

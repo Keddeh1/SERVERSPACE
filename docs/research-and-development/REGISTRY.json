@@ -1119,8 +1119,8 @@
       "path": "scripts/engineering/start_owner_resolve.py",
       "primary_sector": "SECTOR_SYSTEMS_ARCHITECTURE",
       "document_type": "implementation-or-test",
-      "sha256": "28200326bebe9c827f98b0f69d1ca580b88df79614a9f6c2ed43192145917ad7",
-      "bytes": 9245,
+      "sha256": "5bf14007bfc996b8f5e56b804adc9b427cf8c66ab634928acbaf929943263659",
+      "bytes": 10350,
       "evidence_rule": "Consult source scope/result; filing alone confers no qualification."
     },
     {
